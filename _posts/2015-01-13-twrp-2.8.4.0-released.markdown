@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TWRP 2.8.4.0 Released"
+date:   2015-01-13 10:23:32
+categories: site update
+---
+
+TWRP 2.8.4.0 is out now for all currently supported devices.
+
+What's new in 2.8.4.0:
+
+  * Add flashing of boot and recovery images via the TWRP GUI (Find the Images button on the Install page)
+  * Fix some MTP related crashes and bugs
+  * Eliminate TWRP toggling USB IDs during boot if MTP is enabled
+  * Fix various adb sideload issues
+  * Improve threading of actions
+  * Eliminate separate thread for screen timeout
+  * Update libblkid to 2.25.0
+  * Use power button as back button on watch themes for easier navigation
+  * Add mutex locking to data manager
+  * Improve custom theme handling on encrypted devices
+  * Allow the stock theme to be offset by build flags so we can center a lower res theme on a higher res screen especially for watches with round screens
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.

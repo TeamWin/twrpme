@@ -1,0 +1,7 @@
+{% if page.ddof %}
+<div class='page-heading'>dd Install Method (Requires Root):</div>
+<hr />
+<p class="text">Download the latest image file (.img) from the download link above. Place it in the root of your /sdcard folder and rename it to twrp.img. Run the following commands via adb shell or a terminal emulator app:</p>
+<p class="text">su</p>
+<p class="text">dd if=/sdcard/twrp.img of={{ page.ddof }}</p>
+{% endif %}

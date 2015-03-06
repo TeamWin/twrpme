@@ -1,0 +1,17 @@
+---
+layout: page
+title: FAQ
+permalink: /FAQ/
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.faq %}
+      <p>
+        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </p>
+    {% endfor %}
+  </ul>
+
+</div>

@@ -1,0 +1,55 @@
+---
+layout: page
+title: Contact Us
+permalink: /contactus/
+---
+<script type="text/javascript">
+function validateForm() {
+	emailre = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	if (document.emailform.fname.value == "") {
+		alert("Please provide your first name.");
+		document.emailform.fname.focus();
+		return false;
+	}
+	if (document.emailform.lname.value == "") {
+		alert("Please provide your last name.");
+		document.emailform.lname.focus();
+		return false;
+	}
+	if (document.emailform.email.value == "" || !emailre.test(document.emailform.email.value)) {
+		alert("Please provide a valid email.");
+		document.emailform.email.focus();
+		return false;
+	}
+	if (document.emailform.subject.value == "") {
+		alert("Please provide a subject line.");
+		document.emailform.subject.focus();
+		return false;
+	}
+	if (document.emailform.emailtext.value == "") {
+		alert("Please provide email text.");
+		document.emailform.emailtext.focus();
+		return false;
+	}
+	return true;
+}
+</script>
+
+<div class="home">
+<p class="text">Less than 1% of emails will receive a reply. The vast majority of emails that we receive could be answered by <a href="../FAQ/index.html">reading the FAQ</a> or searching on <a href="http://forum.xda-developers.com/">xda-developers forums</a> for the answer.</p>
+<p class="text">If you have truly found a bug, post it in our <a href="https://github.com/TeamWin/Team-Win-Recovery-Project/issues">Github issues log</a> instead of sending an email so we can better track the bug and fix it.</p>
+<p class="text">If you are a company interested in a partnership or a developer who is interested in porting or working on TWRP, you are the 1% who will likely get a reply. Thanks for your consideration.</p>
+<form action="/contactus/submit.php" onSubmit="return validateForm();" method="POST" id="emailform" name="emailform">
+First Name:<br/>
+<input type="text" name="fname" id="fname"/><br/>
+Last Name:<br/>
+<input type="text" name="lname" id="lname"/><br/>
+Email:<br/>
+<input type="text" name="email" id="email"/><br/>
+Subject:<br/>
+<input type="text" name="subject" id="subject"/><br/>
+Message:<br/>
+<textarea rows="10" cols="50" name="emailtext" id="emailtext" form="emailform"></textarea><br/>
+<input type="submit" value="Submit"/>
+</form>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TWRP 2.8.2.0 Released"
+date:   2014-11-20 09:15:42
+categories: site update
+---
+
+TWRP 2.8.2.0 is out now, but only for Nexus devices.
+
+What's new in 2.8.2.0:
+
+  * MTP fixes and improvements - you can now copy zips to the root of storage - thanks to _that
+  * Pull in all changes from Android 5.0 lollipop into TWRP
+  * Add decrypt support for Android 5.0 lollipop encrypted partitions including automatic decrypt when the default_password is in use
+  * Revert some changes to exFAT that were breaking exFAT support on some devices
+  * Other minor fixes and updates
+
+Note: At this time we do not have a GUI representation for pattern unlock. You can still decrypt patterns though by translating the pattern dots to numbers. The pattern dots correspond to numbers in the following pattern:
+<p>1 2 3</p>
+<p>4 5 6</p>
+<p>7 8 9</p>
+
+So an upper-case L would translate to a password of 14789 entered on the keyboard. Eventually we plan to add a proper pattern unlock to TWRP but it is a relatively low priority at this point.
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.

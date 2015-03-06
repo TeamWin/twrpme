@@ -1,0 +1,12 @@
+---
+layout: none
+---
+[
+    {% for device in site.devices %}
+       {
+         "title"    : "{{ device.title | escape }} ({{ device.codename }})",
+         "desc"     : "TWRP for {{ device.title | escape }}",
+         "url"      : "{{ device.url }}"
+       } {% if forloop.last %}{% else %},{% endif %}
+   {% endfor %}
+]

@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "TWRP 2.8.3.0 Released"
+date:   2014-12-22 11:19:42
+categories: site update
+---
+
+TWRP 2.8.3.0 is out now for all currently supported devices.
+
+What's new in 2.8.3.0:
+
+  * MTP fixes and improvements - you can now copy zips to the root of storage - thanks to _that
+  * MTP will now tell the host PC that storage is removed instead of disabling MTP completely
+  * MTP will now report the correct max file size based on the file system in use to the host PC (may fix transfer of large files)
+  * Update and improve fix permissions and make fixing contexts optional
+  * Update SuperSU in TWRP to 2.40 and update install process
+  * Make TWRP work properly on AArch64 (Nexus 9 is now built in true 64-bit binaries and libraries)
+  * Attempt to set correct permissions and contexts on all files placed in storage so backups will show in Android
+  * Fix kernel panic during MTP start on some devices
+  * Support unicode fonts on devices with True Type Font support
+  * Fix slider value not showing sometimes (vibration settings page)
+  * Toggle MTP off during adb sideload to set correct USB IDs
+  * Reduce library requirements for 5.0 L decrypt
+  * Other minor fixes and improvements
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.

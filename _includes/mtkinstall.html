@@ -1,0 +1,5 @@
+{% if page.mtkchipset %}
+<div class='page-heading'>MTK Flash Tool Install Method (No Root Required):</div>
+<hr />
+<p class="text">You will need a copy of the factory ROM for the device including the scatter file. You will also need to download a proper MTK Flash Tool version for the chipset of this device ({{ page.mtkchipset }}) and install the VCOM driver for MTK devices. Download the latest image file (.img) from the download link above and rename it to twrp.img and copy it into the same folder as the factory ROM. Open up the MTK flash tool and use the scatter loading button to select the scatter file for this device. Uncheck all of the boxes for all other partitions except for the RECOVERY partition. Click on the folder/filename path for RECOVERY and browse to and select the twrp.img file. Click on the Download button in the MTK Flash tool. Power off your device completely. Plug the device into the computer and wait for it to flash. If it fails to flash the first time you may have to unplug the phone and click Download again. Try this a few times. If it still doesn't work, try a different USB port and USB cable.</p>
+{% endif %}

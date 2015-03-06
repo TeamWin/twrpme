@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TWRP 2.8.5.0 Released"
+date:   2015-02-12 08:44:12
+categories: site update
+version: 2.8.5.0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Scale the GUI - TWRP can read the theme's resolution and scale it up or down to fit the theme to your screen's resolution
+  * Backups can now be cancelled while the backup is in progress (does not include restore because we don't want to leave your device in a bad state)
+  * Improve thread handling and move input handling into the main rendering thread to improve stability
+  * Make MTP work even if unplugged and plugged back in
+  * Unify scrollable list code and make kinetic scrolling feel more natural
+  * Fix handling of mapped zip files for OTA updates (CM12 updater)
+  * USB keyboards should now work on all devices that support USB host mode via a USB OTG cable
+  * Other small fixes and improvements
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.

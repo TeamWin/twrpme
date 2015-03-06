@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+<div class='page-heading'>Search for TWRP for your device here:</div>
+<hr />
+<script src="/js/jekyll-search.js"></script>
+<input type="text" id="search-input" placeholder="Search..">
+<div id="results"></div>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>  
+    <script type="text/javascript">
+      SimpleJekyllSearch.init({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results'),
+        dataSource: 'http://twrp.me/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        fuzzy: false,
+      })
+    </script>
