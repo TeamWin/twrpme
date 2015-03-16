@@ -1,5 +1,8 @@
-- description: Techerrata in Germany
+- description: Primary (Recommended)
+  baserul: http://dl.twrp.me/
+
+- description: Techerrata in Germany (may be out of date)
   baseurl: http://techerrata.com/browse/twrp2/
 
-- description: Goo.im
+- description: Goo.im (may be out of date)
   baseurl: https://goo.im/devs/OpenRecovery/
