@@ -1,5 +1,5 @@
 - description: Primary (Recommended)
-  baserul: http://dl.twrp.me/
+  baseurl: http://dl.twrp.me/
 
 - description: Techerrata in Germany (may be out of date)
   baseurl: http://techerrata.com/browse/twrp2/
