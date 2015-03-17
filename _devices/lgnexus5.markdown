@@ -17,7 +17,28 @@ xdathread: "http://forum.xda-developers.com/google-nexus-5/orig-development/reco
 
 {% include appinstall.html %}
 
-{% include download.html %}
+<div class='page-heading'>Download Links:</div>
+<hr />
+<p class="text">Normal (recommended):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}hammerhead">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">hammerheadcaf (use only if you know this is what you need):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}hammerheadcaf">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% include twrpinstall.html %}
 
