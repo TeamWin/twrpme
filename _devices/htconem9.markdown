@@ -11,6 +11,7 @@ devicetree: "https://github.com/teamwin/android_device_htc_hima"
 ---
 
 {% include disclaimer.html %}
+NOTE: Installing TWRP can break your ability to receive updates from HTC.
 
 {% include supportstatus.html %}
 
