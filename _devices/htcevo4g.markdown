@@ -8,6 +8,7 @@ supportstatus: Active
 maintainer: CaptainThrowback
 oem: HTC
 devicetree: "https://github.com/TeamWin/android_device_htc_supersonic"
+xdathread: "http://forum.xda-developers.com/showthread.php?t=3060199"
 ---
 
 {% include disclaimer.html %}
