@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy S4 Qualcomm"
+title:  "Samsung Galaxy S5 Qualcomm"
 codename: klte
 downloadfolder: klte
 oldurl: http://teamw.in/project/twrp2/229
