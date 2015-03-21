@@ -8,6 +8,7 @@ maintainer: CaptainThrowback
 oem: HTC
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_htc_e8"
+xdathread: "http://forum.xda-developers.com/showthread.php?t=3060188"
 ---
 
 {% include disclaimer.html %}
