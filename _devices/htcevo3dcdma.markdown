@@ -4,18 +4,15 @@ title:  "HTC EVO 3D CDMA 4G WiMAX"
 codename: shooter
 downloadfolder: shooter
 oldurl: http://teamw.in/project/twrp2/67
-supportstatus: No longer updated
-maintainer: None
+supportstatus: Active
+maintainer: CaptainThrowback
 oem: HTC
-devicetree: https://github.com/TeamWin/device_htc_shooter
-xdathread: "http://forum.xda-developers.com/showthread.php?t=1400614"
+devicetree: https://github.com/TeamWin/android_device_htc_shooter
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-
-{% include appinstall.html %}
 
 {% include download.html %}
 
