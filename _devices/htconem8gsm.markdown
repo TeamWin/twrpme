@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "HTC One m8 GSM"
+title:  "HTC One M8 All Variants"
 codename: m8
 downloadfolder: m8
 oldurl: http://teamw.in/project/twrp2/225
@@ -15,6 +15,9 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2717932"
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+[Sprint support thread on xda-developers](http://forum.xda-developers.com/showthread.php?t=2717932)
+
+[Verizon support thread on xda-developers](http://forum.xda-developers.com/showthread.php?t=2717932)
 
 {% include appinstall.html %}
 
