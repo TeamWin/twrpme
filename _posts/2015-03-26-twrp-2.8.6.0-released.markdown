@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "TWRP 2.8.6.0 Released"
+date:   2015-03-26 11:59:18
+categories: site update
+version: 2.8.6.0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Fix daylight savings time rules for USA and Europe (_that)
+  * Allow mulitple overlays for popup boxes (Dees_Troy)
+  * Add pattern style password entry for decrypt (Tassadar)
+  * Keyboard improvements (_that)
+  * Update AOSP base to 5.1 (Dees_Troy)
+  * Reduce theme count to 5 and rely on scaling (Dees_Troy)
+  * Various scaling improvements (Dees_Troy)
+  * Improved handling of resources in the GUI (_that)
+  * Make scroll bar size proportional to list size (_that)
+  * Allow scoll lists to render without a header (_that)
+  * Make console scroll per pixel with kinetic scrolling (_that)
+  * Support styles in XML to reduce XML size and improve consistentcy (Dees_Troy)
+  * Various other fixes and improvements (mdmower, bigbiff, codelover, etc)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
