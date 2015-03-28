@@ -2,12 +2,12 @@
 layout: device
 title:  "BQ Aquaris E5 4G"
 codename: vegetalte
-downloadfolder: aquarise5
+downloadfolder: vegetalte
 oldurl: http://teamw.in/project/twrp2/274
 supportstatus: Current
 maintainer: Kra1o5
 oem: BQ
-devicetree: https://github.com/TeamWin/android_device_bq_aquarise5
+devicetree: https://github.com/TeamWin/android_device_bq_vegetalte
 ---
 
 {% include disclaimer.html %}
