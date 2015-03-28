@@ -4,10 +4,11 @@ title:  "HTC One M9"
 codename: hima
 downloadfolder: hima
 supportstatus: Current
-maintainer: None
+maintainer: CaptainThrowback
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/teamwin/android_device_htc_hima"
+xdathread: "http://forum.xda-developers.com/one-m9/orig-development/recovery-twrp-touch-recovery-t3066720"
 ---
 
 {% include disclaimer.html %}
