@@ -5,14 +5,15 @@ codename: jewel
 downloadfolder: jewel
 oldurl: http://teamw.in/project/twrp2/98
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: Dees_Troy, CaptainThrowback
 oem: HTC
-devicetree: https://github.com/TeamWin/device_htc_jewel
-xdathread: "http://forum.xda-developers.com/showthread.php?t=1675738"
+devicetree: https://github.com/TeamWin/android_device_htc_jewel/tree/android-5.0
+xdathread: "http://forum.xda-developers.com/evo-4g-lte-sprint/orig-development/recovery-twrp-touch-recovery-t3068193"
 ddof: "/dev/block/mmcblk0p22"
 ---
 
 {% include disclaimer.html %}
+NOTE: As of TWRP 2.8.6.0, both partition layouts for Jewel are supported by the official TWRP!
 
 {% include supportstatus.html %}
 
