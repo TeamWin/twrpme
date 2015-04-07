@@ -1,8 +1,8 @@
 ---
 layout: device
 title:  "HTC One Mini"
-codename: t4ul
-downloadfolder: t4ul
+codename: m4ul
+downloadfolder: m4ul
 oldurl: http://teamw.in/project/twrp2/216
 supportstatus: Current
 maintainer: None
