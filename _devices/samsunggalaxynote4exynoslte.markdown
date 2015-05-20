@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 4 Exynos"
+title:  "Samsung Galaxy Note 4 Exynos LTE"
 codename: treltexx
 downloadfolder: treltexx
 oldurl: http://teamw.in/project/twrp2/273
