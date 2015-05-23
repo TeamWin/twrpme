@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Note 4 Qualcomm"
 codename: trlte
 oldurl: http://teamw.in/project/twrp2/266
 supportstatus: Current
-maintainer: None
+maintainer: bigbiff
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility-twrp-2-8-1-x-teamwin-t2956011"
@@ -73,6 +73,16 @@ xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility
 {% for mirror in site.data.mirrors %}
   <li>
     <a href="{{ mirror.baseurl }}trltevzw">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">US Celluar:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}trlteusc">
       {{ mirror.description }}
     </a>
   </li>
