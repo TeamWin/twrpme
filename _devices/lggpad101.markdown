@@ -3,7 +3,7 @@ layout: device
 title:  "LG G Pad 10.1"
 codename: e9wifi
 downloadfolder: e9wifi
-supportstatus: Dark_Shadow
+supportstatus: Dark_Nightmare
 maintainer: None
 oem: LG
 devicetree: https://github.com/TeamWin/android_device_lge_e9wifi
