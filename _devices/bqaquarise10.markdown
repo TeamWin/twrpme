@@ -18,5 +18,3 @@ devicetree: https://github.com/TeamWin/android_device_bq_kaito_wifi
 {% include download.html %}
 
 {% include twrpinstall.html %}
-
-{% include fastbootinstall.html %}
