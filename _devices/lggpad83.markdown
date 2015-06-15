@@ -5,7 +5,7 @@ codename: v500
 downloadfolder: v500
 oldurl: http://teamw.in/project/twrp2/213
 supportstatus: Current
-maintainer: None
+maintainer: fefifofum
 oem: LG
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
