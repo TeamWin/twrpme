@@ -1,8 +1,8 @@
 ---
 layout: device
-title:  "LG G Pad 8.3 Google Edition"
-codename: awifi
-downloadfolder: awifi
+title:  "LG G Pad 8.3 (v500, v510, awifi, palman)"
+codename: v500
+downloadfolder: v500
 oldurl: http://teamw.in/project/twrp2/213
 supportstatus: Current
 maintainer: None
@@ -14,12 +14,34 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 
 {% include supportstatus.html %}
 
-{% include appinstall.html %}
+<div class='page-heading'>Download Links:</div>
+<hr />
+<p class="text">Regular v500 / awifi:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}v500">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Google Edition v510 / palman:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}v510">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
-{% include download.html %}
+{% include appinstall.html %}
 
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
 
 {% include fastbootinstall.html %}
+Note: Fastboot install is for Google Edition only.
