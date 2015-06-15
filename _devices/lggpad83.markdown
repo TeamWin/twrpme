@@ -30,7 +30,7 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}v510">
+    <a href="{{ mirror.baseurl }}palman">
       {{ mirror.description }}
     </a>
   </li>
