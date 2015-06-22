@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "TWRP 2.8.7.0 Released"
+date:   2015-06-22 20:37:42
+categories: site update
+version: 2.8.7.0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Initial ground work for software drawn keyboard (_that)
+  * Fix handling of wiping internal storage on datamedia devices (xuefer)
+  * Allow DataManager to set and read values from the system properties (xuefer)
+  * Fix crash when taking screenshots on arm64 devices (xuefer)
+  * Fix error message after an ORS script completes (Dees_Troy)
+  * Fix crashes / error when creating encrypted backups (_that, Dees_Troy)
+  * Add system read only option -- more details below (Dees_Troy)
+  * Add resize2fs and GUI option to run resize2fs (Dees_Troy)
+  * Fix crash loop caused by empty lines in AOSP recovery command file (_that)
+  * Prevent duplicate page overlays such as multiple lock screens (mdmower)
+
+System read only option: Devices that ship with 5.0 and higher as their initial OS are using block level OTA updates. With this style of OTA update, the update script checks to see if the system partition has ever been mounted read/write. Further, the script also usually runs an SHA sum of the entire system partition to detect if any changes have been made. If any changes have been made, the OTA update will refuse to install. Since not all OEMs and devices have factory images available, we have created a new feature in TWRP that detects if the system partition has ever been mounted read/write. If not, you will be prompted asking if you want TWRP to mount system as read/write. If you choose not to allow TWRP to mount as read/write, TWRP won't prompt to install SuperSU and TWRP won't try to patch the stock ROM to prevent TWRP from being replaced by stock recovery. The goal of this option is to hopefully allow the user to make a raw system image backup that they can use to get back to a state where they can take OTA updates again.
+
+resize2fs feature: On some devices like the Nexus 6, the factory images include a userdata image that is the proper size only for the 32GB units. If you flash the factory image to a 64GB Nexus 6, the data partition will appear as if it only has the free space of a 32GB device. Using the resize2fs option, TWRP can resize your data partition to take up the full space available. The resize2fs may also be useful to resize system partitions on devices where custom ROM system images don't take up the full partition space. Lastly, resize2fs may be useful in some cases to reserve the proper space at the end of a data partition for a full disk encryption key, should your partition be formatted incorrectly for some reason.
+
+This new version also marks our first set of full builds using our new jenkins build server. You can track the progress of builds at https://jenkins.twrp.me and we have taken additional steps to make it easier for device maintainers to step up and submit patches to our gerrit server at https://gerrit.twrp.me to help us keep devices up to date and working.
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
