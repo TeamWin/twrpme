@@ -4,8 +4,8 @@ title:  "Huawei Y300"
 codename: u8833
 downloadfolder: u8833
 oldurl: http://teamw.in/project/twrp2/166
-supportstatus: Current
-maintainer: Kra1o5
+supportstatus: No Longer Updated
+maintainer: None
 oem: Huawei
 devicetree: https://github.com/TeamWin/android_device_huawei_u8833
 ---
