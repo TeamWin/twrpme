@@ -13,6 +13,8 @@ devicetree: https://github.com/TeamWin/android_device_bq_puar
 
 {% include supportstatus.html %}
 
+{% include mtkinstall.html %}
+
 {% include appinstall.html %}
 
 {% include download.html %}
