@@ -5,7 +5,7 @@ codename: quincyatt
 downloadfolder: quincyatt
 oldurl: http://teamw.in/project/twrp2/96
 supportstatus: Current
-maintainer: None
+maintainer: javelinanddart
 oem: Samsung
 ddof: "/dev/block/mmcblk0p22"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1647575"

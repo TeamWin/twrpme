@@ -5,7 +5,7 @@ codename: quincytmo
 downloadfolder: quincytmo
 oldurl: http://teamw.in/project/twrp2/113
 supportstatus: Current
-maintainer: None
+maintainer: javelinanddart
 oem: Samsung
 ddof: "/dev/block/mmcblk0p22"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1864048"

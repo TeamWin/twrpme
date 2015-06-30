@@ -5,9 +5,9 @@ codename: hercules
 downloadfolder: hercules
 oldurl: http://teamw.in/project/twrp2/101
 supportstatus: Current
-maintainer: None
+maintainer: javelinanddart
 oem: Samsung
-devicetree: https://github.com/TeamWin/device_samsung_hercules
+devicetree: https://github.com/TeamWin/android_device_samsung_hercules
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1768742"
 ---
 
