@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Note 4 Edge (Verizon)"
 codename: tbltevzw
-downloadfolder: tbltevze
+downloadfolder: tbltevzw
 supportstatus: Current
 maintainer: mickey387
 oem: Samsung
