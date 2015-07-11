@@ -13,7 +13,6 @@ xdathread: "http://forum.xda-developers.com/nexus-player/orig-development/recove
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-Note: You will need a USB OTG cable and a USB mouse to navigate TWRP on the Nexus Player. The graphics are a bit laggy because pixelflinger is not very well optimized for x86.
 
 {% include appinstall.html %}
 
