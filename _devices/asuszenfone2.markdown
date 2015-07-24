@@ -1,12 +1,12 @@
 ---
 layout: device
 title:  "Asus ZenFone 2"
-codename: fhd
-downloadfolder: fhd
+codename: Z00A
+downloadfolder: Z00A
 supportstatus: Current
 maintainer: Dees_Troy or bigbiff
 oem: Asus
-devicetree: https://github.com/teamwin/android_device_asus_fhd
+devicetree: https://github.com/teamwin/android_device_asus_Z00A
 ddof: /dev/block/by-name/recovery
 ---
 
