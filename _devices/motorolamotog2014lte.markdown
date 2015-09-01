@@ -1,9 +1,8 @@
 ---
 layout: device
-title:  "Motorola Moto G 2014"
-codename: titan
-downloadfolder: titan
-oldurl: http://teamw.in/project/twrp2/275
+title:  "Motorola Moto G 2014 LTE"
+codename: thea
+downloadfolder: thea
 supportstatus: Current
 maintainer: luca020400
 oem: Motorola
