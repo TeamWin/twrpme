@@ -13,7 +13,7 @@ What's new in {{ page.version }}:
   * Initial ground work for software drawn keyboard (_that)
   * Fix handling of wiping internal storage on datamedia devices (xuefer)
   * Allow DataManager to set and read values from the system properties (xuefer)
-  * Fix crash when taking screenshots on arm64 devices (xuefer)
+  * Fix crash when taking screenshots on arm64 devices
   * Fix error message after an ORS script completes (Dees_Troy)
   * Fix crashes / error when creating encrypted backups (_that, Dees_Troy)
   * Add system read only option -- more details below (Dees_Troy)

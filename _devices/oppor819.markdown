@@ -1,8 +1,8 @@
 ---
 layout: device
 title:  "Oppo R819"
-codename: n3
-downloadfolder: n3
+codename: R819
+downloadfolder: R819
 oldurl: http://teamw.in/project/twrp2/209
 supportstatus: Current
 maintainer: Dees_Troy
