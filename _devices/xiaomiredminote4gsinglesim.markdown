@@ -1,22 +1,21 @@
 ---
 layout: device
-title:  "BQ Aquaris M4.5"
-codename: dende
-downloadfolder: dende
+title:  "Xiaomi Redmi Note 4G (Single SIM)"
+codename: dior
+downloadfolder: dior
 supportstatus: Current
-maintainer: Kra1o5
-oem: BQ
-devicetree: https://github.com/TeamWin/android_device_bq_dende
+maintainer: myhellonearth
+oem: Xiaomi
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
 
-{% include mtkinstall.html %}
-
 {% include appinstall.html %}
 
 {% include download.html %}
 
 {% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}

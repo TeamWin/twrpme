@@ -6,7 +6,7 @@ downloadfolder: bullhead
 supportstatus: Current
 maintainer: None
 oem: LG
-devicetree: https://github.com/omnirom/android_device_lge_bullhead
+devicetree: https://github.com/TeamWin/android_device_lge_bullhead
 ---
 
 {% include disclaimer.html %}
