@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Huawei Nexus 6P"
-codename: angler
-downloadfolder: angler
+title:  "Huawei G8"
+codename: p8
+downloadfolder: rio
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: eloygomez
 oem: Huawei
-devicetree: https://github.com/TeamWin/android_device_lge_angler
+devicetree: https://github.com/TeamWin/android_device_huawei_rio
 ---
 
 {% include disclaimer.html %}
