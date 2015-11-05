@@ -1,7 +1,7 @@
 ---
 layout: device
 title:  "Huawei G8"
-codename: p8
+codename: rio
 downloadfolder: rio
 supportstatus: Current
 maintainer: eloygomez
