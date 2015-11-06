@@ -4,7 +4,7 @@ title:  "LG Nexus 5X"
 codename: bullhead
 downloadfolder: bullhead
 supportstatus: Current
-maintainer: None
+maintainer: Dees_Troy
 oem: LG
 devicetree: https://github.com/TeamWin/android_device_lge_bullhead
 ---
@@ -12,7 +12,7 @@ devicetree: https://github.com/TeamWin/android_device_lge_bullhead
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-NOTE: Decrypting data is not currently supported on the Nexus 5X. We do not have the money to buy one at the moment. Feel free to donate some money to help buy one if decrypting data is something you would like to see. Otherwise, you can format data and find and install a boot image with forceencrypt disabled and use TWRP as normal.
+NOTE: Decrypting data does not work if you fastboot boot the recovery image. Decrypt works if you flash the recovery and boot it like normal. If you do not know what this means, you can ignore this note.
 
 {% include appinstall.html %}
 
