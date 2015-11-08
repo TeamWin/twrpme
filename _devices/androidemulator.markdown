@@ -1,4 +1,4 @@
----
+Samsung---
 layout: device
 title:  "Android Emulator"
 codename: twrp
