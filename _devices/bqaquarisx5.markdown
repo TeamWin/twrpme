@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "BQ Aquaris X5"
+title:  "BQ Aquaris X5 (piccolometal/paella)"
 codename: piccolometal
 downloadfolder: piccolometal
 supportstatus: Current
