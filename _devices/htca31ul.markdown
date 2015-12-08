@@ -6,7 +6,7 @@ downloadfolder: a31ul
 supportstatus: current
 maintainer: PatrikKT
 oem: HTC
-devicetree: https://github.com/TeamWin/android_device_htc_a31url
+devicetree: https://github.com/TeamWin/android_device_htc_a31ul
 xdathread: ""
 ---
 
