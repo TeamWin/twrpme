@@ -6,7 +6,7 @@ downloadfolder: angler
 supportstatus: Current
 maintainer: Dees_Troy
 oem: Huawei
-devicetree: https://github.com/TeamWin/android_device_lge_angler
+devicetree: https://github.com/TeamWin/android_device_huawei_angler
 ---
 
 {% include disclaimer.html %}
