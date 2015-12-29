@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "HTC Desire 510 EU"" 
+title:  "HTC Desire 510 EU"
 codename: a11ul
 downloadfolder: a11ul
 supportstatus: current
