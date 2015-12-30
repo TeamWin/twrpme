@@ -6,7 +6,7 @@ downloadfolder: b8080f
 supportstatus: Current
 maintainer: KHendrik
 oem: Lenovo
-devicetree: https://github.com/omnirom/android_device_lenovo_b8080f
+devicetree: https://github.com/teamwin/android_device_lenovo_b8080f
 ---
 
 {% include disclaimer.html %}
