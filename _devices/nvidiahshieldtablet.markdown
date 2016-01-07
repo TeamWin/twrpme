@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "NVidia Shield Tablet"
+title:  "Original NVidia Shield Tablet"
 codename: shieldtablet
 downloadfolder: shieldtablet
 supportstatus: Current
