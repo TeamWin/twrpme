@@ -10,8 +10,8 @@ github_username: TeamWin
 
 # Build settings
 markdown: kramdown
-keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php]
-exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php]
+keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php, adbbackup]
+exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php, adbbackup]
 
 collections:
   devices:
