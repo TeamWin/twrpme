@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "TWRP 3.0.0-0 Released"
+date:   2016-02-05 14:21:42
+categories: site update
+version: 3.0.0-0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Completely new theme - Much more modern and much nicer looking (by z31s1g)
+  * True Terminal Emulator - Includes arrow keys, tab and tab completion, etc. (by _that)
+  * Language translation - It won't be perfect and especially some languages that require large font files like Chinese & Japanese won't be availble on most devices. Also some languages may only be partially translated at this time. Feel free to submit more translations to OmniROM's Gerrit. (mostly by Dees_Troy)
+  * Flashing of sparse images - On select devices you will be able to flash some parts of factory images via the TWRP GUI (by HashBang173)
+  * Adopted storage support for select devices - TWRP can now decrypt adopted storage partitions from Marshmallow
+  * Reworked graphics to bring us more up to date with AOSP - includes support for adf and drm graphics (by Dees_Troy)
+  * SuperSU prompt will no longer display if a Marshmallow ROM is installed
+  * Update exfat, exfat fuse, dosfstools (by mdmower)
+  * Update AOSP base to 6.0
+  * A huge laundry list of other minor fixes and tweaks
+
+WARNING: This is our first release in a long time. We have a lot of new and somewhat aggressive changes in this new release. The changes to the graphics back-end may cause some devices to not boot up properly or have other display-related issues. If you are not in a position to reflash an older build of TWRP, then wait until you are or at least wait until others have tried the new version for your specific device. You don't want to end up with a non-working recovery and have to wait several hours or days to get to a computer to be able to fix it.
+
+Notes for themers: In addition to the udpated theme, we have introduced a theme version variable to the TWRP theme system. If the theme version does not match the version that TWRP expects, TWRP will reject the custom theme and load its stock theme. This change will ensure that people who update TWRP without updating their theme will still have a workable recovery. We have removed libjpeg support. The stock theme was only using a jpeg image for the splash / curtain. This change means that any custom themes will no longer be able to use jpeg images. It also means that tools used to repack recovery images with a different curtain / splash will need to be updated to use the new method.
+
+Version number notes: For a while we've been using a 4 digit version number and reserved the 4th digit for device-specific updates. For instance, we find and fix a device-specific issue like decryption of data on Nexus 5, we would release that as a 2.8.7.1. After a while, some people would start asking where 2.8.7.1 was for other devices. So, going forward we have decided to change the numbering scheme to 3.0.0-2, etc. Our hope is that this version numbering scheme will more clearly identify that the 4th digit does not indicate a version change for the code base.
+
+We need your help! The bulk of TWRP work is done by 3 people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
