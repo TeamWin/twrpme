@@ -1,9 +1,8 @@
 ---
 layout: device
-title:  "Motorola Moto G 2013"
-codename: falcon
-downloadfolder: falcom
-oldurl: http://teamw.in/project/twrp2/233
+title:  "Motorola Moto G 2013 LTE"
+codename: peregrine
+downloadfolder: peregrine
 supportstatus: Current
 maintainer: luca020400
 oem: Motorola
