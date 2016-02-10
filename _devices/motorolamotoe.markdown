@@ -4,8 +4,8 @@ title:  "Motorola Moto E"
 codename: condor
 downloadfolder: condor
 oldurl: http://teamw.in/project/twrp2/235
-supportstatus: No Longer Updated
-maintainer: None
+supportstatus: Current
+maintainer: magdeoz
 oem: Motorola
 ---
 
