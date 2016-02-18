@@ -1,11 +1,11 @@
 ---
 layout: device
 title:  "Motorola Photon Q"
-codename: asanti
+codename: asanti_c
 downloadfolder: asanti
 oldurl: http://teamw.in/project/twrp2/137
-supportstatus: No Longer Updated
-maintainer: None
+supportstatus: Current
+maintainer: arrrghhh
 oem: Motorola
 ---
 
