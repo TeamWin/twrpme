@@ -3,10 +3,10 @@ layout: device
 title:  "Allview X2 Soul Xtreme"
 codename: x2xtreme
 downloadfolder: x2xtreme
-supportstatus: bemolxd
-maintainer: None
+supportstatus: Current
+maintainer: bemolxd
 oem: Allview
-devicetree: https://github.com/omnirom/android_device_allview_x2xtreme
+devicetree: https://github.com/teamwin/android_device_allview_x2xtreme
 ---
 
 {% include disclaimer.html %}
