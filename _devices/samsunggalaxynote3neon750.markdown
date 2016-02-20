@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 3 Neo 3G only N750"
+title:  "Samsung Galaxy Note 3 Neo N750"
 codename: hl3g
 downloadfolder: hl3g
 supportstatus: Current
