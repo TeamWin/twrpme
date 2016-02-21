@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: bemolxd
 oem: Allview
 devicetree: https://github.com/teamwin/android_device_allview_x2xtreme
+xdathread: "http://forum.xda-developers.com/pure-xl/development/twrp-3-0-0-unofficial-twrp-x2-xtreme-t3309540"
 ---
 
 {% include disclaimer.html %}
