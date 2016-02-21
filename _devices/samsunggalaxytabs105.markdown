@@ -1,14 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab S 10.5"
-codename: chagallwifi
-downloadfolder: chagallwifi
+title:  "Samsung Galaxy Tab S 10.5 WIFI/LTE"
+codename: chagallxx
+downloadfolder: chagallxx
 oldurl: http://teamw.in/project/twrp2/239
 supportstatus: Current
-maintainer: None
+maintainer: Deadman96385
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin/android_device_samsung_chagallwifi"
+devicetree: "https://github.com/TeamWin/android_device_samsung_chagallxx"
 xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recovery-twrp-2-7-1-0-touch-recovery-t2817100"
 ---
 

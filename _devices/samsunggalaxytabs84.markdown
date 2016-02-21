@@ -1,14 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab S 8.4"
-codename: klimtwifi
-downloadfolder: klimtwifi
+title:  "Samsung Galaxy Tab S 8.4 WIFI/LTE"
+codename: klimtxx
+downloadfolder: klimtxx
 oldurl: http://teamw.in/project/twrp2/238
 supportstatus: Current
-maintainer: None
+maintainer: Deadman96385
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin/android_device_samsung_klimtwifi"
+devicetree: "https://github.com/TeamWin/android_device_samsung_klimtxx"
 xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recovery-twrp-2-7-1-0-touch-recovery-t2817100"
 ---
 
