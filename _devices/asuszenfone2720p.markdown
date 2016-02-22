@@ -1,10 +1,10 @@
 ---
 layout: device
-title:  "Asus ZenFone 2 1080p"
-codename: Z00A
-downloadfolder: Z00A
+title:  "Asus ZenFone 2 720p"
+codename: Z008
+downloadfolder: Z008
 supportstatus: Current
-maintainer: Dees_Troy or bigbiff
+maintainer: jrior001
 oem: Asus
 devicetree: https://github.com/teamwin/android_device_asus_zenfone2
 ddof: /dev/block/by-name/recovery
