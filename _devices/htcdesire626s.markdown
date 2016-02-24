@@ -1,13 +1,12 @@
 ---
 layout: device
-title:  "Samsung Nexus S"
-codename: crespo
-downloadfolder: crespo
-oldurl: http://teamw.in/project/twrp2/44
-supportstatus: No longer updated
+title:  "HTC Desire 626s"
+codename: a32e
+downloadfolder: a32e
+supportstatus: Current
 maintainer: None
-oem: Samsung
-devicetree: "https://github.com/TeamWin/device_samsung_crespo"
+oem: HTC
+ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
 
 {% include disclaimer.html %}
@@ -21,3 +20,5 @@ devicetree: "https://github.com/TeamWin/device_samsung_crespo"
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% include ddinstall.html %}

@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Nexus (Verizon)"
 codename: toro
 downloadfolder: toro
 oldurl: http://teamw.in/project/twrp2/89
-supportstatus: Current
+supportstatus: No longer updated
 maintainer: None
 oem: Samsung
 devicetree: https://github.com/TeamWin/device_samsung_toro

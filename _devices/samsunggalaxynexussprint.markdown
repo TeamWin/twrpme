@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Nexus (Sprint)"
 codename: toroplus
 downloadfolder: toroplus
 oldurl: http://teamw.in/project/twrp2/92
-supportstatus: Current
+supportstatus: No longer updated
 maintainer: None
 oem: Samsung
 devicetree: https://github.com/TeamWin/device_samsung_toroplus

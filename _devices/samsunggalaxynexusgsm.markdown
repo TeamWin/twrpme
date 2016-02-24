@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Nexus (GSM)"
 codename: maguro
 downloadfolder: maguro
 oldurl: http://teamw.in/project/twrp2/90
-supportstatus: Current
+supportstatus: No longer updated
 maintainer: None
 oem: Samsung
 devicetree: https://github.com/TeamWin/device_samsung_maguro
