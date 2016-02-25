@@ -7,8 +7,8 @@ supportstatus: Current
 maintainer: cleverior.ipul
 oem: Samsung
 ddof: "/dev/block/mmcblk0p12"
-devicetree: "https://github.com/TeamWin/device_samsung_vivalto3gvn"
-xdathread: "http://forum.xda-developers.com/ace-4/development/recovery-twrp-recovery-2-8-5-0-samsung-t3038601"
+devicetree: "https://github.com/TeamWin/android_device_samsung_vivalto3gvn"
+xdathread: "http://forum.xda-developers.com/ace-4/development/recovery-twrp-3-0-0-0-samsung-galaxy-t3311593"
 ---
 
 {% include disclaimer.html %}
