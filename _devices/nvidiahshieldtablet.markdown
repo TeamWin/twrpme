@@ -13,6 +13,10 @@ devicetree: https://github.com/TeamWin/android_device_nvidia_shieldtablet
 
 {% include supportstatus.html %}
 
+<div class='page-heading'>Notes:</div>
+<hr />
+<p class="text">All current version are for the 'L' bootloader ONLY!!</p>
+
 {% include appinstall.html %}
 
 {% include download.html %}
