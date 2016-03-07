@@ -1,11 +1,11 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab S 8.4"
+title:  "Samsung Galaxy Tab S 8.4 Wi-Fi"
 codename: klimtwifi
 downloadfolder: klimtwifi
 oldurl: http://teamw.in/project/twrp2/238
 supportstatus: Current
-maintainer: None
+maintainer: deadman96385
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_klimtwifi"

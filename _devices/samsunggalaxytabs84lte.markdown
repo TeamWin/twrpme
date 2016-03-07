@@ -1,14 +1,13 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab S 10.5 Wi-Fi"
-codename: chagallwifi
-downloadfolder: chagallwifi
-oldurl: http://teamw.in/project/twrp2/239
+title:  "Samsung Galaxy Tab S 8.4 LTE"
+codename: klimtlte
+downloadfolder: klimtlte
 supportstatus: Current
 maintainer: deadman96385
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin/android_device_samsung_chagallwifi"
+devicetree: "https://github.com/TeamWin/android_device_samsung_klimtlte"
 xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recovery-twrp-2-7-1-0-touch-recovery-t2817100"
 ---
 
