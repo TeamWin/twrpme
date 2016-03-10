@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab A 8.0 LTE"
+title:  "Samsung Galaxy Tab A 8.0 LTE SM-A800i"
 codename: a8hplte
 downloadfolder: a8hplte
 supportstatus: Current
