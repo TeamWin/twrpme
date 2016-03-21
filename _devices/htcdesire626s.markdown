@@ -4,7 +4,7 @@ title:  "HTC Desire 626s"
 codename: a32e
 downloadfolder: a32e
 supportstatus: Current
-maintainer: None
+maintainer: CaptainThrowback
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
