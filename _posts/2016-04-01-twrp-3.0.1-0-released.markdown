@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "TWRP 3.0.1-0 Released"
+date:   2016-04-01 14:21:42
+categories: site update
+version: 3.0.1-0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * support new CM 13.0 pattern encryption (sultanqasim)
+  * fix slow flashing issue due to modprobe (present on only some devices) (#twrp)
+  * libtar updated to latest upstream and fixes (jcadduono)
+  * fixes for loading custom themes (_that)
+  * TWRP will now detect and install TWRP themes automatically through the normal zip install process (Dees_Troy)
+  * translation updates - added Italian, Czech and Polish and significant updates to Dutch
+  * progress bar improvements - progress bar updates during image flashing and better tracks progress during file system backups (tar) (Dees_Troy)
+  * fix input box text display (Dees_Troy)
+  * reboot option after zip install complete (bigbiff)
+  * other mostly invisible bug fixes and improvements
+
+We need your help! The bulk of TWRP work is done by 3 people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
