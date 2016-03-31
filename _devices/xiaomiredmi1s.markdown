@@ -1,11 +1,11 @@
 ---
 layout: device
-title:  "Xiaomi Redmi 1s"
+title:  "Xiaomi Redmi 1S"
 codename: armani
 downloadfolder: armani
 oldurl: http://teamw.in/project/twrp2/241
 supportstatus: Current
-maintainer: Kra1o5
+maintainer: fefifofum
 oem: Xiaomi
 ---
 
