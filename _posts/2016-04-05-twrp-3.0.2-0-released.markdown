@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "TWRP 3.0.2-0 Released"
+date:   2016-04-05 14:21:42
+categories: site update
+version: 3.0.2-0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Fix a bug with the input box that affected masked inputs (passwords). This fixes decrypt of full device encryption on devices that support decrypt. This bug also impacts encrypted backups. Users are highly encouraged to stop using 3.0.1 if you use encrypted backups or if you need decrypt of data in TWRP.
+  * Add Greek translation to some builds.
+
+We need your help! The bulk of TWRP work is done by 3 people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
