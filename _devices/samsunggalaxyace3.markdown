@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Ace 3"
 codename: loganreltexx
 downloadfolder: loganreltexx
 supportstatus: Current
-maintainer: None
+maintainer: Kotzir
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
