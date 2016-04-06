@@ -13,6 +13,8 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 
 {% include supportstatus.html %}
 
+{% include dmverity.html %}
+
 {% include appinstall.html %}
 
 {% include download.html %}
