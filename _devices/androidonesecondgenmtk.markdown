@@ -6,6 +6,8 @@ downloadfolder: seedmtk
 supportstatus: Current
 maintainer: MSF-Jarvis
 oem: Google
+devicetree: https://github.com/MSF-Jarvis/android_device_google_seedmtk
+xdathread: http://forum.xda-developers.com/crossdevice-dev/android-one-secondgeneration-crossdevice-original-android-development/recovery-twrp-t3353364
 ---
 
 {% include disclaimer.html %}
