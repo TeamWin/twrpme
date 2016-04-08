@@ -1,22 +1,96 @@
 ---
 layout: device
-title:  "Samsung Galaxy S6 Edge Plus GSM"
+title: "Samsung Galaxy S6 edge+"
 codename: zenlte
 downloadfolder: zenlte
 supportstatus: Current
-maintainer: None
+maintainer: "jcadduono"
 oem: Samsung
 ddof: "/dev/block/platform/15570000.ufs/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin/android_device_samsung_zenlte"
+devicetree: "https://github.com/TeamWin?utf8=%E2%9C%93&query=android_device_samsung_zenlte"
+xdathread: "http://forum.xda-developers.com/s6-edge-plus/orig-development/recovery-official-twrp-galaxy-s6-edge-t3354492"
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
 
+{% include dmverity.html %}
+
 {% include appinstall.html %}
 
-{% include download.html %}
+<div class='page-heading'>Download Links:</div>
+<hr />
+<p class="text">International GSM (SM-G928F, SM-G928I, SM-G928G):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenlte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Canada (SM-G928W8):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenltecan">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">T-Mobile (SM-G928T):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenltetmo">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Sprint (SM-G928P):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenltespr">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">US Cellular (SM-G928R4):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenlteusc">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">China &amp; China Duos (SM-G9280, SM-G9287):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenltezt">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Korea (SM-G928K, SM-G928L, SM-G928S):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}zenlteskt">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% include twrpinstall.html %}
 
