@@ -3,6 +3,7 @@ layout: post
 title:  "TWRP 2.8.2.0 Released"
 date:   2014-11-20 09:15:42
 categories: site update
+author: Ethan Y(Dees-Troy)
 ---
 
 TWRP 2.8.2.0 is out now, but only for Nexus devices.

@@ -3,6 +3,7 @@ layout: post
 title:  "TWRP 2.8.4.0 Released"
 date:   2015-01-13 10:23:32
 categories: site update
+author: Ethan Y(Dees-Troy)
 ---
 
 TWRP 2.8.4.0 is out now for all currently supported devices.

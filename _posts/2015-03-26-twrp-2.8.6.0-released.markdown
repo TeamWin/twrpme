@@ -4,6 +4,7 @@ title:  "TWRP 2.8.6.0 Released"
 date:   2015-03-26 11:59:18
 categories: site update
 version: 2.8.6.0
+author: Ethan Y(Dees-Troy)
 ---
 
 TWRP {{ page.version }} is out now for all currently supported devices.
