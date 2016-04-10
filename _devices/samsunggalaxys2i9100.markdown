@@ -8,6 +8,7 @@ maintainer: arnab
 oem: Samsung
 ddof: "/dev/block/mmcblk0p6"
 xdathread: "http://forum.xda-developers.com/galaxy-s2/development-derivatives/recovery-twrp-3-0-0-0-t3330457"
+devicetree: "https://github.com/TeamWin/android_device_samsung_i9100"
 ---
 
 {% include disclaimer.html %}
@@ -43,6 +44,6 @@ NOTE: The i9100 does not support a separately bootable recovery partition. To in
 <p class="text">Download the latest TWRP file from the download link above</p>
 <p class="text">Load the img image under 'File'</p>
 <p class="text">Now click on 'Start'</p>
-<p class="text">The lzo image will get flashed in '/dev/block/mmcblk0p6' partition under mountpoint '/recovery'</p>
+<p class="text">The image will get flashed in '/dev/block/mmcblk0p6' partition under mountpoint '/recovery'</p>
 <p class="text">Device will automatically restart when flashing is complete</p>
 </html>
