@@ -4,7 +4,6 @@ title:  "TWRP 3.0.0-0 Released"
 date:   2016-02-05 14:21:42
 categories: site update
 version: 3.0.0-0
-author: Ethan Y(Dees-Troy)
 ---
 
 TWRP {{ page.version }} is out now for all currently supported devices.
