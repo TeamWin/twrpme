@@ -2,7 +2,7 @@
 layout: device
 title:  "Zuk Z1"
 codename: ham
-downloadfolder: ham
+downloadfolder: Z1
 supportstatus: Current
 maintainer: juliusssssmiui
 oem: Zuk
