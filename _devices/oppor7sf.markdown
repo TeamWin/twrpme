@@ -4,7 +4,7 @@ title:  "Oppo R7sf"
 codename: r7sf
 downloadfolder: r7sf
 supportstatus: Current
-maintainer: Celoxcis
+maintainer: Celoxocis
 oem: Oppo
 devicetree: https://github.com/TeamWin/android_device_oppo_r7sf
 ---
