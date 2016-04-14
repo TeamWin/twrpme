@@ -3,10 +3,10 @@ layout: device
 title:  "Android One"
 codename: sprout
 downloadfolder: sprout
-oldurl: http://teamw.in/project/twrp2/268
 supportstatus: Current
-maintainer: varunchitre15
-oem: Various MediaTek
+maintainer: Anik khan (Anik1199)
+oem: Google
+devicetree: https://github.com/TeamWin/android_device_google_sprout
 ---
 
 {% include disclaimer.html %}
@@ -20,3 +20,4 @@ oem: Various MediaTek
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
