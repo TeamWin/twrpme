@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Android One Second Generation MTK"
-codename: seedmtk
-downloadfolder: seedmtk
+title:  "LAVA Pixelv1"
+codename: Pixelv1_sprout
+downloadfolder: Pixelv1_sprout
 supportstatus: Current
-maintainer: MSF-Jarvis
-oem: Google
-devicetree: https://github.com/TeamWin/android_device_google_seedmtk
+maintainer: MSF Jarvis
+oem: LAVA
+devicetree: https://github.com/TeamWin/android_device_google_pixelv1_sprout
 xdathread: http://forum.xda-developers.com/crossdevice-dev/android-one-secondgeneration-crossdevice-original-android-development/recovery-twrp-t3353364
 ---
 
