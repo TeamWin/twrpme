@@ -4,7 +4,7 @@ title:  "NVidia Shield Tablet"
 codename: shieldtablet
 downloadfolder: shieldtablet
 supportstatus: Current
-maintainer: lj50036
+maintainer:
 oem: NVidia
 devicetree: https://github.com/TeamWin/android_device_nvidia_shieldtablet
 ---
