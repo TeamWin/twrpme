@@ -7,7 +7,7 @@ oldurl: http://teamw.in/project/twrp2/103
 supportstatus: Current
 maintainer: Dees_Troy
 oem: Asus
-devicetree: https://github.com/omnirom/android_device_lge_grouper
+devicetree: https://github.com/omnirom/android_device_asus_grouper
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1779092"
 ---
 
