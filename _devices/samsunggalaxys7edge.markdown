@@ -1,6 +1,6 @@
 ---
 layout: device
-title: "Samsung Galaxy S7 Edge (Exynos)"
+title: "Samsung Galaxy S7 edge (Exynos)"
 codename: hero2lte
 downloadfolder: hero2lte
 supportstatus: Current
@@ -15,13 +15,32 @@ ddof: "/dev/block/platform/155a0000.ufs/by-name/RECOVERY"
 
 {% include supportstatus.html %}
 
-<p class="text">Supported Models: SM-G935F, SM-G935FD, SM-G935X, SM-G935W8</p>
-
 {% include dmverity.html %}
 
 {% include appinstall.html %}
 
-{% include download.html %}
+<div class='page-heading'>Download Links:</div>
+<hr />
+<p class="text">International &amp; Canada (SM-G935F, SM-G935FD, SM-G935X, SM-G935W8):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}hero2lte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Korea (SM-G935K, SM-G935L, SM-G935S):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}hero2ltekor">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% include twrpinstall.html %}
 
