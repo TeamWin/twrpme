@@ -15,13 +15,32 @@ ddof: "/dev/block/platform/155a0000.ufs/by-name/RECOVERY"
 
 {% include supportstatus.html %}
 
-<p class="text">Supported Models: SM-G930F, SM-G930FD, SM-G930X, SM-G930W8</p>
-
 {% include dmverity.html %}
 
 {% include appinstall.html %}
 
-{% include download.html %}
+<div class='page-heading'>Download Links:</div>
+<hr />
+<p class="text">International &amp; Canada (SM-G930F, SM-G930FD, SM-G930X, SM-G930W8):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}herolte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Korea (SM-G930K, SM-G930L, SM-G930S):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}heroltekor">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% include twrpinstall.html %}
 
