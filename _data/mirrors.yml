@@ -1,2 +1,5 @@
 - description: Primary (Recommended)
   baseurl: https://dl.twrp.me/
+
+- description: idleKernel.com (Testing)
+  baseurl: https://idlekernel.com/twrp/
