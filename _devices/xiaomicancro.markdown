@@ -1,11 +1,11 @@
 ---
 layout: device
-title:  "Xiaomi Mi 3"
+title:  "Xiaomi Mi 3w / Mi 4"
 codename: cancro
 downloadfolder: cancro
 oldurl: http://teamw.in/project/twrp2/288
 supportstatus: Current
-maintainer: None
+maintainer: jrizzoli
 oem: Xiaomi
 ---
 
