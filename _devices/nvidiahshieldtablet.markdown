@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: webgeek1234
 oem: NVidia
 devicetree: https://github.com/TeamWin/android_device_nvidia_shieldtablet
+ddof: "/dev/block/platform/sdhci-tegra.3/by-name/SOS"
 ---
 
 {% include disclaimer.html %}
@@ -15,7 +16,7 @@ devicetree: https://github.com/TeamWin/android_device_nvidia_shieldtablet
 
 <div class='page-heading'>Notes:</div>
 <hr />
-<p class="text">All current version are for the 'L' bootloader ONLY!!</p>
+<p class="text">Releases 3.0.2-0 and before are for the 'L' bootloader only. Later versions work on all models and bootloaders.</p>
 
 {% include appinstall.html %}
 
