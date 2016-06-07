@@ -5,10 +5,10 @@ codename: mint
 downloadfolder: mint
 oldurl: http://teamw.in/project/twrp2/143
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: AdrianDC
 oem: Sony
-xdathread: "http://forum.xda-developers.com/showthread.php?t=2115726"
-ddof: /dev/block/mmcblk0p11
+xdathread: "http://forum.xda-developers.com/showthread.php?t=t3319588"
+ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
 
 {% include disclaimer.html %}
