@@ -32,5 +32,3 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1615990"
 <p class="text">adb reboot bootloader</p>
 <p class="text">You should now be in fastboot mode. Download the correct blob file and copy the file into the same folder as your adb and fastboot binaries. Rename the image to twrp.blob and type:</p>
 <p class="text">fastboot -i 0x0b05 flash staging twrp.img<p></p>fastboot reboot</p>
-
-
