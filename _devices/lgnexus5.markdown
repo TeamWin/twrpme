@@ -43,3 +43,5 @@ xdathread: "http://forum.xda-developers.com/google-nexus-5/orig-development/reco
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_lge_hammerhead%}

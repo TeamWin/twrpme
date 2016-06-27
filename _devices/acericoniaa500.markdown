@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1592677"
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_acer_picasso%}

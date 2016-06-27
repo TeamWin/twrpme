@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/galaxy-nexus/sprint-develop/recovery
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_toroplus%}

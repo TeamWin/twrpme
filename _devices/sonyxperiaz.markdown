@@ -6,6 +6,7 @@ downloadfolder: yuga
 oldurl: http://teamw.in/project/twrp2/187
 supportstatus: Current
 maintainer: Dees_Troy
+devicetree: https://github.com/TeamWin/android_device_sony_yuga.git
 oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
@@ -23,3 +24,5 @@ ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_sony_yuga.git%}

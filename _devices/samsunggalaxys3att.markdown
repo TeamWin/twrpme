@@ -24,3 +24,5 @@ devicetree: "https://github.com/TeamWin/device_samsung_d2att"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_d2att%}

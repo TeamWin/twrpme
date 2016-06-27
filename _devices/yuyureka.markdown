@@ -6,6 +6,7 @@ downloadfolder: tomato
 oldurl: http://teamw.in/project/twrp2/284
 supportstatus: Current
 maintainer: Abhishek Aggarwal
+devicetree: https://github.com/TeamWin/android_device_yu_tomato
 oem: Yu
 ---
 
@@ -20,3 +21,5 @@ oem: Yu
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_yu_tomato%}

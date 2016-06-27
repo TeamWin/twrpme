@@ -27,3 +27,5 @@ xdathread: "http://forum.xda-developers.com/galaxy-note-3/galaxy-note-3-exynos-a
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_ha3g%}

@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2380100"
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_asus_flo%}

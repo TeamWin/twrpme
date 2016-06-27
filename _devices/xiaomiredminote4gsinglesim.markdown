@@ -5,6 +5,7 @@ codename: dior
 downloadfolder: dior
 supportstatus: Current
 maintainer: myhellonearth
+devicetree: https://github.com/TeamWin/android_device_xiaomi_dior.git
 oem: Xiaomi
 ---
 
@@ -19,3 +20,5 @@ oem: Xiaomi
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_xiaomi_dior.git %}

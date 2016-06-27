@@ -24,3 +24,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=3060188"
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_e8%}

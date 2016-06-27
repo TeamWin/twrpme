@@ -25,3 +25,5 @@ ddof: "/dev/block/platform/sdhci-tegra.3/by-name/SOS"
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_nvidia_shieldtablet%}

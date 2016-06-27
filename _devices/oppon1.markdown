@@ -21,3 +21,5 @@ devicetree: https://github.com/omnirom/android_device_oppo_n1
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_oppo_n1%}

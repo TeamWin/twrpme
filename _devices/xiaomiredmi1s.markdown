@@ -6,6 +6,7 @@ downloadfolder: armani
 oldurl: http://teamw.in/project/twrp2/241
 supportstatus: Current
 maintainer: fefifofum
+devicetree: https://github.com/TeamWin/android_device_xiaomi_kenzo.git
 oem: Xiaomi
 ---
 
@@ -20,3 +21,5 @@ oem: Xiaomi
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_xiaomi_kenzo.git%}

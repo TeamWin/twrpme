@@ -23,3 +23,5 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_a8hplte"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_a8hplte%}

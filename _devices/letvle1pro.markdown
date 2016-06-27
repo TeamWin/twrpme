@@ -23,3 +23,5 @@ devicetree: https://github.com/TeamWin/android_device_letv_x1
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_letv_x1%}

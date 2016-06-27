@@ -20,3 +20,5 @@ devicetree: https://github.com/TeamWin/android_device_silentcircle_bp2
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_silentcircle_bp2%}

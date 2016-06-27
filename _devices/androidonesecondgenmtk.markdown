@@ -21,3 +21,5 @@ xdathread: http://forum.xda-developers.com/crossdevice-dev/android-one-secondgen
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_google_seedmtk%}

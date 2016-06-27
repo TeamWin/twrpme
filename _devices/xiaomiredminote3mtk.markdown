@@ -26,3 +26,5 @@ xdathread: "http://forum.xda-developers.com/redmi-note-3/xiaomi-redmi-note-3-med
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity "https://github.com/TeamWin/android_device_xiaomi_hennessy"%}

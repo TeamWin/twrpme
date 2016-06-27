@@ -23,3 +23,5 @@ devicetree: https://github.com/TeamWin/android_device_xiaomi_ido
 
 {% include fastbootinstall.html %}
 
+
+{% gitactivity  https://github.com/TeamWin/android_device_xiaomi_ido%}

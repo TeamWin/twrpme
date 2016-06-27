@@ -23,3 +23,5 @@ Note, you must be rooted and vulnerable to BUMP to use TWRP on this device.
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_d855%}

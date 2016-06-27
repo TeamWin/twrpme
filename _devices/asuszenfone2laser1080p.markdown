@@ -23,3 +23,5 @@ ddof: /dev/block/bootdevice/by-name/recovery
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_asus_Z00T%}

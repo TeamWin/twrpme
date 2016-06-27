@@ -5,6 +5,7 @@ codename: odin
 downloadfolder: odin
 supportstatus: Current
 maintainer: humberos
+devicetree: https://github.com/TeamWin/android_device_sony_odin.git
 oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
@@ -22,3 +23,5 @@ ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity https://github.com/TeamWin/android_device_sony_odin.git%}

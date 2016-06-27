@@ -5,6 +5,7 @@ codename: hydrogen
 downloadfolder: hydrogen
 supportstatus: Current
 maintainer: Abdess
+devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen.git
 oem: Xiaomi
 devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen
 ---
@@ -19,5 +20,6 @@ devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen
 
 {% include twrpinstall.html %}
 
-
 {% include fastbootinstall.html %}
+
+{%gitactivity https://github.com/TeamWin/android_device_xiaomi_hydrogen.git%}
