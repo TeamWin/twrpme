@@ -5,6 +5,7 @@ codename: honami
 downloadfolder: honami
 supportstatus: Current
 maintainer: sdtbarbarossa
+devicetree: https://github.com/TeamWin/android_device_sony_honami.git
 oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---

@@ -5,6 +5,7 @@ codename: p6810
 downloadfolder: degas
 oldurl: http://teamw.in/project/twrp2/108
 supportstatus: Current
+devicetree: https://github.com/TeamWin/android_device_samsung_degas.git
 maintainer: None
 oem: Samsung
 ---
