@@ -6,6 +6,7 @@ downloadfolder: a32e
 supportstatus: Current
 maintainer: CaptainThrowback
 oem: HTC
+devicetree: https://github.com/TeamWin/android_device_htc_a32e
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
 
