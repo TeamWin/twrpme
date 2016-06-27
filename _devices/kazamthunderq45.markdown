@@ -27,3 +27,6 @@ Note, you should be able to root this device using framaroot with the barahir me
 {% include ddinstall.html %}
 
 {% include mtkinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_kazam_thunder_q45%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

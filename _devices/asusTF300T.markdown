@@ -55,3 +55,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1672108"
 <p class="text">fastboot -i 0x0b05 flash staging twrp.img<p></p>fastboot reboot</p>
 
 
+
+{% gitactivity  https://github.com/TeamWin/device_asus_tf300t%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

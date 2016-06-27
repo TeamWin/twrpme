@@ -21,3 +21,6 @@ devicetree: https://github.com/TeamWin/device_amazon_blaze
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_amazon_blaze%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

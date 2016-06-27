@@ -25,3 +25,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recove
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_klimtwifi%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

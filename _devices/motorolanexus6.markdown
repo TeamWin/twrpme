@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/nexus-6/orig-development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_moto_shamu%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

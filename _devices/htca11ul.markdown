@@ -21,3 +21,6 @@ xdathread: ""
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_a11ul%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

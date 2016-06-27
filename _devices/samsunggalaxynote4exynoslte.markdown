@@ -25,3 +25,6 @@ xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_treltexx%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

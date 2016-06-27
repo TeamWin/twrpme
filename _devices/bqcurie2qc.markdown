@@ -18,3 +18,6 @@ devicetree: https://github.com/TeamWin/android_device_bq_curie2qc
 {% include download.html %}
 
 {% include twrpinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_bq_curie2qc%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

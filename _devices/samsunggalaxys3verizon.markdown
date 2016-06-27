@@ -25,3 +25,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1768142"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_d2vzw%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

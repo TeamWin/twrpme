@@ -26,3 +26,6 @@ xdathread: "http://forum.xda-developers.com/tmobile-lg-g5/development/recovery-t
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_h830%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

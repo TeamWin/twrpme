@@ -20,3 +20,6 @@ xdathread: "http://forum.xda-developers.com/htc-evo-3d/cdma-development/recovery
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_shooter%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

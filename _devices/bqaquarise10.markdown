@@ -20,3 +20,6 @@ devicetree: https://github.com/TeamWin/android_device_bq_kaito_wifi
 {% include download.html %}
 
 {% include twrpinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_bq_kaito_wifi%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

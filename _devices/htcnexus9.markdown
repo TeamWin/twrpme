@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/nexus-9/orig-development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_flounder%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

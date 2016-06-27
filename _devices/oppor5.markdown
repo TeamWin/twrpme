@@ -21,3 +21,6 @@ xdathread: "http://forum.xda-developers.com/oppo-r5/orig-development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_oppo_r5%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

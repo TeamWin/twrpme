@@ -25,3 +25,6 @@ DISCLAIMER: Please make sure you read about the [Device-Specific Issues](http://
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_htc_hima%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

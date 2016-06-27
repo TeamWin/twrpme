@@ -24,3 +24,6 @@ xdathread: "http://forum.xda-developers.com/note-edge/development/twrp-915fy-915
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_tbltecan%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

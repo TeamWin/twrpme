@@ -20,3 +20,6 @@ devicetree: https://github.com/TeamWin/android_device_huawei_p8
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_huawei_p8%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

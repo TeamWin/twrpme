@@ -24,3 +24,6 @@ Starting with TWRP 3.0.0, Z008 and Z00A TWRP builds are unified. The same image 
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_asus_zenfone2%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

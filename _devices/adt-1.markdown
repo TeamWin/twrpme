@@ -20,3 +20,6 @@ devicetree: https://github.com/teamwin/android_device_google_molly
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_google_molly%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

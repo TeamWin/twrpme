@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/gear-live/orig-development/recovery-
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_sprat%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

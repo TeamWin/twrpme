@@ -20,3 +20,6 @@ devicetree: https://github.com/teamwin/android_device_lenovo_b8080f
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_lenovo_b8080f%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

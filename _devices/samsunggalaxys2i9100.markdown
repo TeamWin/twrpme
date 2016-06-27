@@ -51,3 +51,6 @@ NOTE: The i9100 does not support a separately bootable recovery partition. To in
 <p class="text">The image will get flashed in '/dev/block/mmcblk0p6' partition under mountpoint '/recovery'</p>
 <p class="text">Device will automatically restart when flashing is complete</p>
 </html>
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_i9100%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

@@ -24,3 +24,6 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_kccat6%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

@@ -7,7 +7,8 @@ oldurl: http://teamw.in/project/twrp2/98
 supportstatus: Current
 maintainer: Dees_Troy, CaptainThrowback
 oem: HTC
-devicetree: https://github.com/TeamWin/android_device_htc_jewel/tree/android-5.0
+devicetree: https://github.com/TeamWin/android_device_htc_jewel.git
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns
 xdathread: "http://forum.xda-developers.com/evo-4g-lte-sprint/orig-development/recovery-twrp-touch-recovery-t3068193"
 ddof: "/dev/block/mmcblk0p22"
 ---
@@ -26,3 +27,6 @@ NOTE: As of TWRP 2.8.6.0, both partition layouts for Jewel are supported by the 
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_jewel.git%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

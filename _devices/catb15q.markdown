@@ -25,3 +25,6 @@ Note, you should be able to root this device using kingo root app.
 {% include ddinstall.html %}
 
 {% include mtkinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_cat_b15q%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

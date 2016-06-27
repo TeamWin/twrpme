@@ -23,3 +23,6 @@ devicetree: https://github.com/TeamWin/android_device_archos_ac50da
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_archos_ac50da%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

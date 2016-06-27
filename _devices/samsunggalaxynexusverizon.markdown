@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-nexus/verizon-develop/recover
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_toro%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

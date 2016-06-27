@@ -28,3 +28,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2717932"
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_htc_m8%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

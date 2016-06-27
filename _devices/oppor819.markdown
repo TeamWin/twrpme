@@ -24,3 +24,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2504665"
 {% include twrpinstall.html %}
 
 {% include mtkinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_oppo_R819%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

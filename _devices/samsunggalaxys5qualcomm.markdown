@@ -76,3 +76,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2727406"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_klte%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

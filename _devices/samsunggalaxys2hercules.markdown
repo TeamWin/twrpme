@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1768742"
 {% include twrpinstall.html %}
 
 {% include odininstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_hercules%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

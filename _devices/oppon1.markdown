@@ -21,3 +21,6 @@ devicetree: https://github.com/omnirom/android_device_oppo_n1
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_oppo_n1%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

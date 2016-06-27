@@ -22,3 +22,6 @@ devicetree: https://github.com/TeamWin/android_device_bq_freezerhd
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_bq_freezerhd%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

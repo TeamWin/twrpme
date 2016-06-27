@@ -24,3 +24,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1852183"
 {% include fastbootinstall.html %}
 
 {% include flashimageinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_htc_heroc%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

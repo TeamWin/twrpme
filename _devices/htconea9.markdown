@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/one-a9/orig-development/recovery-twr
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_htc_hiae%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

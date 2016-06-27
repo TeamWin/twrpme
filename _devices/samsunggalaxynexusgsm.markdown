@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-nexus/development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_maguro%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

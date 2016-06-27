@@ -20,3 +20,6 @@ devicetree: https://github.com/TeamWin/device_samsung_fascinatemtd
 <hr />
 <p class="text">This will only work with AOSP based ROMs. It will not work with stock-based Samsung ROMs.</p>
 <p class="text">Download the zip and flash in recovery just like you would flash a ROM.</p>
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_fascinatemtd%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

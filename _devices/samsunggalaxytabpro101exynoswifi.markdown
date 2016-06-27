@@ -25,3 +25,6 @@ ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_picassowifi%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

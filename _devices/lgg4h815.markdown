@@ -23,3 +23,6 @@ NOTE: You must unlock the bootloader first before installing TWRP!
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_h815%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

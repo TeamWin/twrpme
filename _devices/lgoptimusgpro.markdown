@@ -19,3 +19,6 @@ devicetree: https://github.com/CyanogenMod/android_device_lge_e980
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/CyanogenMod/android_device_lge_e980%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

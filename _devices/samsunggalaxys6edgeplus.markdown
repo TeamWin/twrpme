@@ -97,3 +97,6 @@ xdathread: "http://forum.xda-developers.com/s6-edge-plus/orig-development/recove
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_zenlte%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

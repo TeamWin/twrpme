@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/nexus-4/orig-development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_lge_mako%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

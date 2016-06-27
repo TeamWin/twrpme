@@ -24,3 +24,6 @@ xdathread: http://forum.xda-developers.com/showthread.php?t=1400649
 <p class="text">You must already have Android installed on your TouchPad. Download the above file. Rename it to uImage.TWRP&nbsp; Boot to recovery and use the menu options to mount boot.&nbsp; Plug the TouchPad into your computer and run the following command:</p>
 <p class="text">adb push uImage.TWRP /boot</p>
 <p class="text">Reboot and select TWRP&nbsp;from the boot menu.</p>
+
+{% gitactivity  https://github.com/TeamWin/device_hp_tenderloin%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

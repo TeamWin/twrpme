@@ -27,3 +27,6 @@ ddof: "/dev/block/mmcblk0p3"
 <div class='page-heading'>Bootable SD Card (No Root Required):</div>
 <hr />
 <p class="text">If you prefer not to modify any of the stock software, you can create a proper bootable sdcard for your device and copy the acclaim-sdcard file to the root of the sdcard and rename it to recovery.img and/or altboot.img and boot TWRP using the cyanoboot menu from your sdcard.</p>
+
+{% gitactivity  https://github.com/CyanogenMod/android_device_bn_acclaim%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

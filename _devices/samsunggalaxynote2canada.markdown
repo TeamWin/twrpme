@@ -24,3 +24,6 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_t0ltecan"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_t0ltecan%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

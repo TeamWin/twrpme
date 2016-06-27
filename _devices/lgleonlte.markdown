@@ -21,3 +21,6 @@ ddof: "/dev/block/bootdevice/by-name/recovery"
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_c50%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

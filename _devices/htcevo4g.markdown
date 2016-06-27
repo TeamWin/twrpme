@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=3060199"
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_supersonic%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

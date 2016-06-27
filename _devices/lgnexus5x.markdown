@@ -21,3 +21,6 @@ NOTE: Decrypting data does not work if you fastboot boot the recovery image. Dec
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_bullhead%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns

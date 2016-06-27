@@ -22,3 +22,6 @@ xdathread: "http://forum.xda-developers.com/g4/orig-development/recovery-twrp-2-
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_h811%}
+>>>>>>> d664940... twrpme: add gitactivity changelog tag to device markdowns
