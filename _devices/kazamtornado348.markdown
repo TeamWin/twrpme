@@ -27,3 +27,5 @@ Note, you should be able to root this device using kingo root app or [this towel
 {% include ddinstall.html %}
 
 {% include mtkinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_kazam_tornado_348%}

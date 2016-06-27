@@ -21,3 +21,5 @@ devicetree: https://github.com/TeamWin/android_device_nextbit_ether
 
 {% include fastbootinstall.html %}
 Note: Some fastboot binaries may not recognize the Nextbit's vendor ID. You may use fastboot -i 0x2c3f flash recovery twrp-3.0.0-0-ether.img or similar to make fastboot recognize the device.
+
+{% gitactivity  https://github.com/TeamWin/android_device_nextbit_ether%}

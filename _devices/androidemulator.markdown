@@ -41,3 +41,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?p=32965365"
 <p>Save the changes and repack the ramdisk image as follows:</p>
 <p><tt>find . | cpio -o -H newc &gt; gzip &gt; ../newramdisk.img</tt></p>
 <p>Boot the emulator using -ramdisk path/to/newramdisk.img -kernel path/to/goldfish_2.6_kernel</p>
+
+{% gitactivity  https://github.com/TeamWin/android_device_emulator_twrp%}

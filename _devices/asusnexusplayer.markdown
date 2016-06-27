@@ -21,3 +21,5 @@ xdathread: "http://forum.xda-developers.com/nexus-player/orig-development/recove
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_asus_fugu%}

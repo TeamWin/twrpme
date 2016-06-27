@@ -22,3 +22,5 @@ Note: The same TWRP image will work for both the 7a and 7s model now.
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_oppo_find7%}

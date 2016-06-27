@@ -21,3 +21,5 @@ devicetree: https://github.com/TeamWin/device_motorola_sunfire
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_motorola_sunfire%}

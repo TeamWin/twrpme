@@ -20,3 +20,5 @@ devicetree: https://github.com/TeamWin/android_device_bq_vegetahd
 {% include download.html %}
 
 {% include twrpinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_bq_vegetahd%}

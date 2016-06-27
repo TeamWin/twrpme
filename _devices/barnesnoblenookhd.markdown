@@ -21,3 +21,5 @@ ddof: /dev/block/platform/omap/omap_hsmmc.1/by-name/recovery
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/CyanogenMod/android_device_bn_hummingbird%}

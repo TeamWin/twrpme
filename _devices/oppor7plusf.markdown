@@ -20,3 +20,5 @@ devicetree: https://github.com/TeamWin/android_device_oppo_r7plusf
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_oppo_r7plusf%}

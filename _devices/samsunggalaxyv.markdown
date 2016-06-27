@@ -24,3 +24,5 @@ xdathread: "http://forum.xda-developers.com/ace-4/development/recovery-twrp-3-0-
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_vivalto3gvn%}

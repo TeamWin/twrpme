@@ -21,3 +21,5 @@ xdathread: "http://forum.xda-developers.com/pure-xl/development/twrp-3-0-0-unoff
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/teamwin/android_device_allview_x2xtreme%}

@@ -25,3 +25,5 @@ xdathread: "http://forum.xda-developers.com/galaxy-s3/orig-development/recovery-
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_i9300%}

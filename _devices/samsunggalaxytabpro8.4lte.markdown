@@ -25,3 +25,5 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_mondrianlte%}
