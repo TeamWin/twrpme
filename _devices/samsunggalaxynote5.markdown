@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: "jcadduono, bigbiff"
 oem: Samsung
 ddof: "/dev/block/platform/15570000.ufs/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin?utf8=%E2%9C%93&query=android_device_samsung_noblelte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_noblelte"
 xdathread: "http://forum.xda-developers.com/note5/orig-development/twrp-2-8-7-0-official-t3195262"
 ---
 

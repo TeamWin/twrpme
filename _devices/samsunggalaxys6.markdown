@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: "jcadduono, bigbiff"
 oem: Samsung
 ddof: "/dev/block/platform/15570000.ufs/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin?utf8=%E2%9C%93&query=android_device_samsung_zeroflte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_zeroflte"
 xdathread: "http://forum.xda-developers.com/galaxy-s6/orig-development/twrp-t3080940"
 ---
 

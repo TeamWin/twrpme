@@ -5,6 +5,7 @@ codename: z3c
 downloadfolder: z3c
 supportstatus: Current
 maintainer: someone755
+devicetree: https://github.com/TeamWin/android_device_sony_z3c.git
 oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---

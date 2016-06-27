@@ -5,6 +5,7 @@ codename: kenzo
 downloadfolder: kenzo
 supportstatus: Current
 maintainer: Vibhor Chaudhary (vibhu0009)
+devicetree: https://github.com/TeamWin/android_device_xiaomi_kenzo.git
 oem: Xiaomi
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---

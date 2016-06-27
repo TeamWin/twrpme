@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: "jcadduono"
 oem: Samsung
 ddof: "/dev/block/platform/15570000.ufs/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin?utf8=%E2%9C%93&query=android_device_samsung_zenlte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_zenlte"
 xdathread: "http://forum.xda-developers.com/s6-edge-plus/orig-development/recovery-official-twrp-galaxy-s6-edge-t3354492"
 ---
 
