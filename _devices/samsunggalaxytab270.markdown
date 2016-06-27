@@ -45,3 +45,5 @@ ddof: "/dev/block/mmcblk0p6"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/omnirom/android_device_samsung_p3100%}

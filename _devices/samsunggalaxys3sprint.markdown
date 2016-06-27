@@ -25,3 +25,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1809307"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_d2spr%}

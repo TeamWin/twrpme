@@ -23,3 +23,5 @@ Note, you must be rooted and vulnerable to loki to use TWRP on this device.
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_lge_f340k%}

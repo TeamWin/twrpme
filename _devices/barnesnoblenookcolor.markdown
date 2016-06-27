@@ -71,3 +71,5 @@ The 1gb image can be used for installing roms and making backups. A 1gb image ca
 Extract the TWRP2 .img (if you can't open the file use 7zip) and burn to sdcard using win32diskimager (free) or winimage (shareware). These apps will need to be "run as administrator.". ***Some internal laptop/desktop readers will not work to do this, you may need an external USB reader if you run into problems.***
 
 Once the card is done.  Copy any roms, or zips you want to flash over to the card.   Turn your Nook Color off, insert the card and boot the nook.  It should come up in TWRP2.
+
+{% gitactivity  https://github.com/TeamWin/android_device_bn_encore%}

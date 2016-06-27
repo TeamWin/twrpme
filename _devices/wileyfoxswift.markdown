@@ -1,13 +1,15 @@
 ---
 layout: device
-title:  "Letv Le 1 Pro"
-codename: x1
-downloadfolder: x1
+title: "Wileyfox Swift"
+codename: crackling
+downloadfolder: crackling
 supportstatus: Current
-maintainer: Dees_Troy
-oem: Letv
+maintainer: jcadduono
+oem: Wileyfox
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_letv_x1
+devicetree: "https://github.com/TeamWin/android_device_wileyfox_crackling"
+fastbootunlock: true
+fastbootvendor: 2970
 ---
 
 {% include disclaimer.html %}
@@ -24,4 +26,4 @@ devicetree: https://github.com/TeamWin/android_device_letv_x1
 
 {% include ddinstall.html %}
 
-{% gitactivity  https://github.com/TeamWin/android_device_letv_x1%}
+{% gitactivity  https://github.com/TeamWin/android_device_wileyfox_crackling%}

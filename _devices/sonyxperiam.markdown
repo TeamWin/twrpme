@@ -24,3 +24,5 @@ ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_sony_nicki%}

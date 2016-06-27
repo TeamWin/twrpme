@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/galaxy-nexus/development/recovery-tw
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_samsung_maguro%}

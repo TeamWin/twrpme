@@ -97,3 +97,5 @@ xdathread: "http://forum.xda-developers.com/galaxy-s6-edge/orig-development/reco
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_zerolte%}

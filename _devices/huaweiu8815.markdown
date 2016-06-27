@@ -21,3 +21,5 @@ devicetree: https://github.com/TeamWin/android_device_huawei_u8815
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_huawei_u8815%}

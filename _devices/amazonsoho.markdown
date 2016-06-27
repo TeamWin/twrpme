@@ -68,3 +68,5 @@ adb shell rm /sdcard/recovery.img /sdcard/exploit.img
 </pre>
 <p class="text">TWRP can now be accessed holding the volume down button when powering on the device</p>
 </html>
+
+{% gitactivity  https://github.com/TeamWin/android_device_amazon_soho%}

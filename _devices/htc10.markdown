@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/htc-10/development/recovery-twrp-tou
 {% include fastbootinstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_htc_pme%}

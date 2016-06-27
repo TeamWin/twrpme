@@ -97,3 +97,5 @@ xdathread: "http://forum.xda-developers.com/note5/orig-development/twrp-2-8-7-0-
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_noblelte%}

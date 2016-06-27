@@ -23,3 +23,5 @@ devicetree: https://github.com/TeamWin/device_htc_leo
 {% include fastbootinstall.html %}
 
 {% include flashimageinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/device_htc_leo%}

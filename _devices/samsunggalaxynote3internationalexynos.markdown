@@ -25,3 +25,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2494245"
 {% include odininstall.html %}
 
 {% include ddinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_samsung_ha3g%}

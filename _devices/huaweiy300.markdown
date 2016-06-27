@@ -21,3 +21,5 @@ devicetree: https://github.com/TeamWin/android_device_huawei_u8833
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_huawei_u8833%}

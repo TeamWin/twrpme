@@ -4,7 +4,7 @@ title:  "Android One"
 codename: sprout
 downloadfolder: sprout
 supportstatus: Current
-maintainer: Anik1199
+maintainer: MSF Jarvis
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_sprout
 ---
@@ -20,3 +20,5 @@ devicetree: https://github.com/TeamWin/android_device_google_sprout
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% gitactivity  https://github.com/TeamWin/android_device_google_sprout%}
