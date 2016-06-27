@@ -5,6 +5,7 @@ codename: scorpion_windy
 downloadfolder: scorpion_windy
 supportstatus: Current
 maintainer: Dees_Troy
+devicetree: https://github.com/TeamWin/android_device_sony_scorpion_windy.git
 oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---

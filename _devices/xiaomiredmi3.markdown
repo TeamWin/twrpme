@@ -22,4 +22,3 @@ devicetree: https://github.com/TeamWin/android_device_xiaomi_ido
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
-

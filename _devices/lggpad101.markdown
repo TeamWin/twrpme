@@ -6,7 +6,7 @@ downloadfolder: e9wifi
 supportstatus: Current
 maintainer: Dark_Nightmare
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_e9wifi
+devicetree: https://github.com/TeamWin/android_device_lge_e9wifi.git
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
 
