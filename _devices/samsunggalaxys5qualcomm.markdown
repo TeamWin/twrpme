@@ -8,7 +8,7 @@ supportstatus: Current
 maintainer: jcadduono
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
-devicetree: "https://github.com/TeamWin?utf8=%E2%9C%93&query=android_device_samsung_klte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_klte"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=2727406"
 ---
 
