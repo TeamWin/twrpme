@@ -5,8 +5,9 @@ codename: m7cd
 downloadfolder: m7cdtu
 oldurl: http://teamw.in/project/twrp2/278
 supportstatus: Current
-maintainer: None
+maintainer: Bruno Martins (bgcngm)
 oem: HTC
+xdathread: "http://forum.xda-developers.com/htc-one/development/recovery-htc-one-dual-sim-802w-802d-t2982133"
 ddof: "/dev/block/mmcblk0p37"
 ---
 
