@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "LG G Watch"
+title:  "LG G Watch R"
 codename: lenok
 downloadfolder: lenok
 oldurl: http://teamw.in/project/twrp2/281
