@@ -6,6 +6,7 @@ downloadfolder: victara
 oldurl: http://teamw.in/project/twrp2/264
 supportstatus: Current
 maintainer: None
+devicetree: https://github.com/TeamWin/android_device_motorola_victara
 oem: Motorola
 ---
 
