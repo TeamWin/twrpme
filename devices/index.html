@@ -4,6 +4,7 @@ title: Devices
 permalink: /Devices/
 ---
 
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
 <div class="home">
 
   <hr />
@@ -15,15 +16,69 @@ permalink: /Devices/
 <hr />
 <div id="results"></div>
 <br/>
-  <ul class="post-list" id="post-list">
-    {% for post in site.devices %}
-      <p>
-        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a>
-      </p>
-    {% endfor %}
-  </ul>
-<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
-    <script type="text/javascript">
+<div id="alldevices"></div>
+<input type="hidden" id="count"/>
+<input type="hidden" id="startcount"/>
+<input type="hidden" id="scrollVal" value="400"/>
+<br/>
+<div id="scroll" style="text-align:center">Scroll for more...</div>
+<div style="text-align: center"><a href="#top">Top</a></div>
+
+<script type='text/javascript'>
+        $("#count").val(20);
+        $("#startcount").val(0);
+        getresult();
+        var scrollVal = parseInt($("#scrollVal").val());
+        $(window).scroll(function(){
+                if ($(window).scrollTop() >= scrollVal){
+			if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+				scrollVal += 200;
+			}
+			else
+				scrollVal += 450;
+                        $("#scrollVal").val(scrollVal);
+                        window.setTimeout(getresult, 800);
+                }
+        });
+        function getresult() {
+        var divdata = "";
+        var count = parseInt($("#count").val());
+        var startcount = 0;
+        $.ajax({
+                url: '/search.json',
+                type: "GET",
+                dataType: 'json',
+                beforeSend: function(){
+                },
+                complete: function(){
+                        $('#loader-icon').hide();
+                },
+                success: function(data){
+                        for (var i = startcount; i < count; i++) {
+                                divdata = divdata + "<a href='" + data[i].url + "'>" + data[i].title + "</a><br/>";
+                        }
+                        startcount = count;
+                        count = count + 20;
+                        $("#alldevices").html(divdata);
+                        $("#startcount").val(startcount);
+                        $("#count").val(count);
+			if (count >= data.length) {
+				$("#scroll").hide();
+			} 
+
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                                console.log(xhr.statusText);
+                                console.log(thrownError);
+                        },
+                });
+        }
+        $("a[href='#top']").click(function() {
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+});
+</script>
+<script type="text/javascript">
       SimpleJekyllSearch.init({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results'),
@@ -32,5 +87,5 @@ permalink: /Devices/
         noResultsText: 'No results found',
         fuzzy: false,
       })
-    </script>
+</script>
 </div>
