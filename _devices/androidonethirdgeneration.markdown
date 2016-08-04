@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Android One Third Edition"
+title:  "Android One Third Generation"
 codename: shamrock
 downloadfolder: shamrock
 supportstatus: Current
