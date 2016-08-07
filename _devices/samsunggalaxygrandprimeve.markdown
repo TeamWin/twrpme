@@ -3,7 +3,7 @@ layout: device
 title:  "Samsung Galaxy Grand Prime VE"
 codename: grandprimevelte
 downloadfolder: grandprimevelte
-supportstatus: Current
+supportstatus: No longer supported
 maintainer: None
 oem: Samsung
 ddof: "/dev/block/platform/soc.2/by-name/RECOVERY"
