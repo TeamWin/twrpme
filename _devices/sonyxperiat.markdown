@@ -7,7 +7,7 @@ oldurl: http://teamw.in/project/twrp2/143
 supportstatus: Current
 maintainer: AdrianDC
 oem: Sony
-xdathread: "http://forum.xda-developers.com/showthread.php?t=t3319588"
+xdathread: "http://forum.xda-developers.com/showthread.php?t=3319588"
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
 
