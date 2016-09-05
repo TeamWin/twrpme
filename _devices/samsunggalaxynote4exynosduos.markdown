@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 4 Duos (China)"
+title:  "Samsung Galaxy Note 4 Duos (International)"
 codename: trlteduoszh
 downloadfolder: trlteduoszh
 supportstatus: Current
