@@ -88,6 +88,17 @@ xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility
   </li>
 {% endfor %}
 </ul>
+<p class="text">International Duos:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}trlteduoszh">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
 
 {% include twrpinstall.html %}
 
