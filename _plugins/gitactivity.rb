@@ -1,36 +1,47 @@
 require 'rugged'
 require 'fileutils'
 require 'cgi'
+require 'httparty'
 
 module Jekyll
     module GitActivity
 
-      def gitactivity(github)
-	changelogCount = 5
-	begin
-		repo = Rugged::Repository.clone_at(github, '/tmp/gittemp', {bare: true})
-	rescue
-		return
-	end
-	walker = Rugged::Walker.new(repo)
-	walker.sorting(Rugged::SORT_DATE | Rugged::SORT_TOPO)
-	walker.push(repo.head.target);
-	puts github
+      def gitactivity(devicetree)
+	repo = devicetree.split("/")[4]
+	puts repo
+	url = "https://api.github.com/repos/TeamWin/" + repo + "/commits"
+	token = File.read("/home/jenkins/token").chomp
+	user = "Teamwin-Gerrit"
+	auth = {:username=>user, :password=>token}
+	resp = HTTParty.get(url, :basic_auth=>auth, :headers=>{"User-Agent"=>"twrpme"})
+	json = JSON.parse(resp.body)
 	messages = ""
-	count = 0
 	messages += "<div class='page-heading'>Changelog:</div><div>"
 	messages += "<hr/>"
 	messages += "<ul>"
-	walker.each do |commit|
-		break if count >= changelogCount
-		messages += "<li>" + commit.author[:name] + "<br/>" + commit.author[:time].to_s() + "<br/>" + commit.message + "</li><br/>"
+	count = 0
+	json.each do |sha|
+		break if count == 5
+		begin
+			url = "https://api.github.com/repos/TeamWin/" + repo + "/commits?&sha=" + sha["sha"]
+			resp2 = HTTParty.get(url, :basic_auth=>auth, :headers=>{"User-Agent"=>"twrpme"})
+			json2 = JSON.parse(resp2.body)
+			messages += "<li>" 
+			messages += json2[0]["commit"]["author"]["name"] 
+			messages += "<br/>" 
+			messages += json2[0]["commit"]["author"]["date"].to_s() 
+			messages += "<br/>" 
+			messages += json2[0]["commit"]["message"] 
+			messages += "</li><br/>"
+		rescue
+			puts "skipping"
+		end
 		count = count + 1
 	end
 	messages += "</ul></div>"
-	FileUtils.rm_rf('/tmp/gittemp')
+	#puts messages
 	"#{messages}"
       end
-   end
+  end
 end
-
 Liquid::Template.register_filter(Jekyll::GitActivity)
