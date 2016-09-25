@@ -1,0 +1,50 @@
+---
+layout: page
+title: Open recovery script documentation
+permalink: /doc/openrecoveryscript.html
+---
+<div class="home">
+<p class="text">Man twrp command line
+<pre><b>install</b> 	install zip file. 
+<b>wipe</b> 	wipe PARTITION: 
+	<b>PARTITON</b> are, one by line: 
+		cache, 
+		system, 
+		dalvik, 
+		data.
+<b>backup</b> 	PARTITIONS-TO-BACKUP [BACKUP-NAME]: backup partition <b>PARTITIONS-TO-BACKUP</b> to [<b>BACKUP-NAME</b>]
+	<b>PARTITIONS-TO-BACKUP</b>, multiples selection allowed:
+		S: system, 
+		D: data, 
+		C: cache, 
+		R: recovery, 
+		B: boot, 
+		A: and-sec, 
+		E: sd-ext, 
+		M: skip md5 creation.
+	[<b>BACKUP-NAME</b>] If not provided, current date/time is used. 
+
+<b>restore</b>  	PARTITION-TO-RESTORE BACKUP-NAME: restore partitions from existant backup: 
+	<b>PARTITION-TO-RESTORE</b>, multiples selection allowed: 
+		S: system, 
+		D: data, 
+		C: cache, 
+		R: recovery, 
+		B: boot, 
+		A: and-sec, 
+		E: sd-ext, 
+		M: skip md5 check. 
+	[<b>BACKUP-NAME</b>]: could be full path or name of twrp backup in current twrp backup folder. 
+	Backup couldn't be encrypted. 
+
+adbbackup: TODO
+adbrestore: TODO
+<b>remountrw</b> <path>. 
+<b>mount</b> <path>. 
+<b>set</b>  	VARIABLE [value]: set VARIABLE to [value]. If [value] is empty, empty <variable>. 
+<b>mkdir</b> 	DIRECTORY: create directory <DIRECTORY>. 
+<b>reboot</b> 	[recovery|poweroff|bootloader|download]: reboot to target if provided. 
+<b>sideload</b> 	sideload zip from adb. 
+<b>fixperms</b> 	launch fix permissions. 
+<b>decrypt</b> password 	try to decrypt /data with provided <password>. 
+</pre></p>
