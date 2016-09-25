@@ -17,6 +17,8 @@ ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 
 {% include fotakernelnote.html %}
 
+{% include xperiabootloaderupgrade.html %}
+
 {% include appinstall.html %}
 
 {% include download.html %}
