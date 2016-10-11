@@ -1,13 +1,14 @@
 ---
 layout: device
-title:  "HTC One Max Sprint"
-codename: t6spr
-downloadfolder: t6spr
-oldurl: http://teamw.in/project/twrp2/211
+title:  "HTC One Max Universal"
+codename: t6univ
+downloadfolder: t6univ
 supportstatus: Current
 maintainer: FlyHalf205
+devicetree: https://github.com/TeamWin/android_device_htc_t6univ
+xdathread: http://forum.xda-developers.com/showthread.php?t=2498746
 oem: HTC
-ddof: "/dev/block/mmcblk0p38"
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
 
 {% include disclaimer.html %}
