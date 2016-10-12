@@ -2,6 +2,7 @@ require 'rugged'
 require 'fileutils'
 require 'cgi'
 require 'httparty'
+require 'resolv-replace'
 
 module Jekyll
     module GitActivity
