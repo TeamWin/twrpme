@@ -1,0 +1,28 @@
+---
+layout: device
+title: "LG V20 (T-Mobile)"
+codename: h918
+oem: LG
+downloadfolder: h918
+supportstatus: Current
+maintainer: jcadduono
+ddof: "/dev/block/bootdevice/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_lge_h918"
+xdathread: "set this"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+<p class="text">The T-Mobile LG V20 does not support fastboot flash, however it does have a fastboot unlockable bootloader. Find information on how to flash TWRP on the T-Mobile LG V20 in the XDA thread linked above.</p>
+
+{% include dmverity.html %}
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include ddinstall.html %}

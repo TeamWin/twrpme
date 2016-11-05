@@ -1,0 +1,30 @@
+---
+layout: device
+title: "LG V20 (International)"
+codename: h990
+oem: LG
+downloadfolder: h990
+supportstatus: Current
+maintainer: jcadduono
+ddof: "/dev/block/bootdevice/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_lge_h990"
+xdathread: "set this"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+{% include dmverity.html %}
+
+{% include lgunlock.html %}
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}
+
+{% include ddinstall.html %}
