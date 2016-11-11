@@ -1,7 +1,6 @@
 ---
-layout: page
-title: TWRP Commandline Guide
-permalink: /doc/openrecoveryscript.html
+layout: post
+title: "TWRP Commandline Guide"
 ---
 <style>
 .command {
