@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: IsaacChen
 oem: Lenovo
 devicetree: https://github.com/teamwin/android_device_lenovo_wt86518
-xdathread: "http://www.xda-developers.com/lenovo-a6000/how-to/twrp-development-wt86518-t3498524"
+xdathread: "http://forum.xda-developers.com/lenovo-a6000/how-to/twrp-development-wt86518-t3498524"
 ---
 
 
