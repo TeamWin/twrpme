@@ -5,10 +5,11 @@ codename: jflteatt
 downloadfolder: jflteatt
 oldurl: http://teamw.in/project/twrp2/174
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: Samsung
-ddof: "/dev/block/mmcblk0p21"
-xdathread: "http://forum.xda-developers.com/showthread.php?t=2262996"
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_samsung_jflteatt
+xdathread: http://forum.xda-developers.com/showthread.php?t=2262996
 ---
 
 {% include disclaimer.html %}

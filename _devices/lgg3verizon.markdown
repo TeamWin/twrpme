@@ -5,10 +5,10 @@ codename: vs985
 downloadfolder: vs985
 oldurl: http://teamw.in/project/twrp2/257
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_vs985
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_lge_vs985
 ---
 
 {% include disclaimer.html %}

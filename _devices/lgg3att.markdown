@@ -5,10 +5,10 @@ codename: d850
 downloadfolder: d850
 oldurl: http://teamw.in/project/twrp2/256
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_d850
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_lge_d850
 ---
 
 {% include disclaimer.html %}

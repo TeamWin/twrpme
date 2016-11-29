@@ -5,10 +5,11 @@ codename: jfltevzw
 downloadfolder: jfltevzw
 oldurl: http://teamw.in/project/twrp2/181
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: Samsung
-ddof: "/dev/block/mmcblk0p21"
-xdathread: "http://forum.xda-developers.com/showthread.php?t=2292565"
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_samsung_jfltevzw
+xdathread: http://forum.xda-developers.com/showthread.php?t=2292565
 ---
 
 {% include disclaimer.html %}

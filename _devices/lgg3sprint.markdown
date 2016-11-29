@@ -5,10 +5,10 @@ codename: ls990
 downloadfolder: ls990
 oldurl: http://teamw.in/project/twrp2/258
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_ls990
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_lge_ls990
 ---
 
 {% include disclaimer.html %}

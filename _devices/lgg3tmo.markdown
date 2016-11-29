@@ -5,10 +5,10 @@ codename: d851
 downloadfolder: d851
 oldurl: http://teamw.in/project/twrp2/249
 supportstatus: Current
-maintainer: None
+maintainer: invisiblek
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_d851
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: https://github.com/TeamWin/android_device_lge_d851
 ---
 
 {% include disclaimer.html %}
