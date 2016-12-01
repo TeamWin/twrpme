@@ -2,7 +2,7 @@
 layout: device
 title:  "Huawei P8"
 codename: grace
-downloadfolder: p8
+downloadfolder: grace
 supportstatus: Current
 maintainer: AD2076
 oem: Huawei
