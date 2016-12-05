@@ -1,10 +1,10 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 4 Exynos 3g"
+title: "Samsung Galaxy Note 4 Exynos 3G"
 codename: tre3gxx
 downloadfolder: tre3gxx
 supportstatus: Current
-maintainer: None
+maintainer: jcadduono
 oem: Samsung
 ddof: "/dev/block/platform/15540000.dwmmc0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_tre3gxx"
