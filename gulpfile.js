@@ -1,47 +1,48 @@
-var gulp = require('gulp');
-var browserify = require('gulp-browserify');
-var rename = require('gulp-rename');
-var using = require('gulp-using');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-
-var browserifyEntryPoint = 'src/index.js';
-
-
-
+var gulp         = require('gulp');
+var autoprefixer = require('gulp-autoprefixer');
+var minifyCSS    = require('gulp-minify-css');
+var notify       = require('gulp-notify');
+var gutil        = require('gulp-util');
+var cp           = require('child_process');
+var path         = require('path');
+var uglify       = require('gulp-uglify');
+var jsonminify   = require('gulp-jsonminify');
 
 
-gulp.task('default', ['js:src','js:test:unit'])
+var messages = {
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
 
-gulp.task('watch',['default'], function(){
-  gulp.watch(['!'+browserifyEntryPoint,'src/**/*.js'], ['js:src','js:test:unit']);
-  gulp.watch(['!test/unit/browserifiedTests.js','test/unit/**/*Test.js'], ['js:test:unit']);
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+        .on('close', done);
 });
 
-
-
-
-
-
-gulp.task('js:src', function() {
-  gulp.src(browserifyEntryPoint)
-    .pipe(browserify({
-      // insertGlobals : true,
-      debug : !process.env.PROD
-    }))
-    .pipe(uglify({mangle: false,compress:true}))
-    .pipe(rename('jekyll-search.js'))
-    .pipe(gulp.dest('./dest/'))
+// minifiy js
+gulp.task('js', function() {
+  gulp.src('_site/js/*.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('dist/js/'))
 });
 
-gulp.task('js:test:unit', function() {
-  gulp.src(['test/unit/**/*Test.js'])
-    .pipe(using())
-    .pipe(concat('browserifiedTests.js'))
-    .pipe(browserify({
-      // insertGlobals : true,
-      debug : !process.env.PROD
-    }))
-    .pipe(using())
-    .pipe(gulp.dest('./test/unit/'))
+gulp.task('json', function() {
+  gulp.src('_site/*.json')
+    .pipe(jsonminify())
+    .pipe(gulp.dest('dist/'))
 });
+
+gulp.task('cp1', function() {
+    gulp.src('dist/js/*.js')
+    .pipe(gulp.dest('_site/js/'))
+});
+
+gulp.task('cp2', function() {
+    gulp.src('dist/search.json')
+    .pipe(gulp.dest('_site/'))
+});
+
+gulp.task('default', ['js', 'json', 'cp1', 'cp2']);
