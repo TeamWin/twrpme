@@ -10,12 +10,15 @@ github_username: TeamWin
 gems: ['git', 'redcarpet']
 # Build settings
 markdown: redcarpet
-keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php]
-exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php]
+keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
+exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
 
 collections:
   devices:
     output: true
 
   faq:
+    output: true
+
+  app:
     output: true
