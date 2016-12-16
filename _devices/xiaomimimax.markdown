@@ -1,18 +1,22 @@
 ---
 layout: device
 title:  "Xiaomi Mi Max"
-codename: hydrogen
+codename: hydrogen/helium
 downloadfolder: hydrogen
 supportstatus: Current
-maintainer: Abdess
+maintainer: Parth Bhatia (TheStrix)
 devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen.git
 oem: Xiaomi
-devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+
+{% include dmverity.html %}
+
+{% include xiaomiunlock.html %}
 
 {% include appinstall.html %}
 
@@ -21,3 +25,5 @@ devicetree: https://github.com/TeamWin/android_device_xiaomi_hydrogen
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
+
+{% include ddinstall.html %}
