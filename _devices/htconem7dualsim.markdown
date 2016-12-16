@@ -2,7 +2,7 @@
 layout: device
 title:  "HTC One m7 Dual SIM"
 codename: m7cd
-downloadfolder: m7cdtu
+downloadfolder: "m7cdtu|m7cdtu|m7cdug|m7cdug|m7cdwg|m7cdwg"
 oldurl: http://teamw.in/project/twrp2/278
 supportstatus: Current
 maintainer: Bruno Martins (bgcngm)

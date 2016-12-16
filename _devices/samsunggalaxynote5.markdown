@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy Note 5"
 codename: noblelte
-downloadfolder: noblelte
+downloadfolder: "International GSM (SM-N920C, SM-N920CD, SM-N920G, SM-N920I)|noblelte|Canada (SM-N920W8)|nobleltecan|T-Mobile (SM-N920T)|nobleltetmo|Sprint (SM-N920P)|nobleltespr|US Cellular (SM-N920R4)|noblelteusc|China &amp; China Duos (SM-N9200, SM-N9208)|nobleltezt|Korea (SM-N920K, SM-N920L, SM-N920S)|noblelteskt"
 supportstatus: Current
 maintainer: "jcadduono, bigbiff"
 oem: Samsung

@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Tab 2 7.0"
 codename: p3100
-downloadfolder: p3100
+downloadfolder: "p3100|p3100|p3110|p3110"
 oldurl: http://teamw.in/project/twrp2/283
 supportstatus: Current
 maintainer: None

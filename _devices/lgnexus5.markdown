@@ -2,7 +2,7 @@
 layout: device
 title:  "LG Nexus 5"
 codename: hammerhead
-downloadfolder: hammerhead
+downloadfolder: "Normal (recommended)|hammerhead|hammerheadcaf (use only if you know this is what you need)|hammerheadcaf"
 oldurl: http://teamw.in/project/twrp2/205
 supportstatus: Current
 maintainer: Dees_Troy

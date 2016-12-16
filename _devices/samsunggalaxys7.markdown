@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S7 (Exynos)"
 codename: herolte
-downloadfolder: herolte
+downloadfolder: "International &amp; Canada (SM-G930F, SM-G930FD, SM-G930X, SM-G930W8)|herolte|Korea (SM-G930K, SM-G930L, SM-G930S)|heroltekor"
 supportstatus: Current
 maintainer: jcadduono
 devicetree: "https://github.com/TeamWin/android_device_samsung_herolte"

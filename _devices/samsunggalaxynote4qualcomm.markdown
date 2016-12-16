@@ -2,6 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Note 4 Qualcomm"
 codename: trlte
+downloadfolder: "Canada|trltecan|India|trltedt|International (N910-F)|trltexx|Sprint|trltespr|T-Mobile|trltetmo|Verizon|trltevzw|US Cellular|trlteusc|International Duos|trlteduoszh"
 oldurl: http://teamw.in/project/twrp2/266
 supportstatus: Current
 maintainer: bigbiff

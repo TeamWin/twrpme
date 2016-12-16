@@ -2,7 +2,7 @@
 layout: device
 title:  "Asus Transformer TF300T"
 codename: tf300t
-downloadfolder: tf300t
+downloadfolder: "TF300T|tf300t|TF300TG (3G model)|tf300tg"
 oldurl: http://teamw.in/project/twrp2/97
 supportstatus: No Longer Updated
 maintainer: None

@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Tab 2 10.1"
 codename: p5100
-downloadfolder: p5100
+downloadfolder: "p5100|p5100|p5110|p5110"
 oldurl: http://teamw.in/project/twrp2/283
 supportstatus: Current
 maintainer: None

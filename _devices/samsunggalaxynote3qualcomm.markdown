@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Note 3 Qualcomm"
 codename: hlte
-downloadfolder: hlte
+downloadfolder: "Europe &amp; Americas (SM-N9005, SM-N900A, SM-N900W8, SM-N900T, SM-N900R4, SM-N900P, SM-N900V)|hlte|Korea (SM-N900K, SM-N900L, SM-N900S)|hlteskt|Japan (SCL22, SC-01F)|hltekdi"
 oldurl: http://teamw.in/project/twrp2/202
 supportstatus: Current
 maintainer: jcadduono

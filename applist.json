@@ -1,0 +1,13 @@
+---
+layout: none
+---
+[
+    {% for device in site.devices %}
+       {
+         "title"    : "{{ device.title | escape }} -- {{ device.codename }}",
+         "url"      : "{{ device.url }}",
+         "dlfolder" : "{{ device.downloadfolder }}",
+         "recovery" : "{{ device.ddof }}"
+       } {% if forloop.last %}{% else %},{% endif %}
+   {% endfor %}
+]

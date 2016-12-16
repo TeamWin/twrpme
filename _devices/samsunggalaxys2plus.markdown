@@ -2,6 +2,7 @@
 layout: device
 title:  "Samsung Galaxy S2 Plus"
 codename: s2ve
+downloadfolder: "s2ve|s2ve|s2vep|s2vep"
 oldurl: http://teamw.in/project/twrp2/250
 supportstatus: Current
 maintainer: None

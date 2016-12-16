@@ -2,7 +2,7 @@
 layout: device
 title:  "LG G Pad 8.3 (v500, v510, awifi, palman)"
 codename: v500
-downloadfolder: v500
+downloadfolder: "Regular v500|v500|Google Edition v510|v510"
 oldurl: http://teamw.in/project/twrp2/213
 supportstatus: Current
 maintainer: fefifofum

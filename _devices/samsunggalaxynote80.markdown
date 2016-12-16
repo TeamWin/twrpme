@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Note 8.0"
 codename: n5100
-downloadfolder: n5100
+downloadfolder: "n5100|n5100|n5110|n5110"
 supportstatus: Current
 maintainer: RGIB
 oem: Samsung
