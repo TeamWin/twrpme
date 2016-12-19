@@ -1,8 +1,8 @@
 ---
 layout: device
 title:  "Alcatel Pop D3"
-codename: DL750
-downloadfolder: DL750
+codename: dl750
+downloadfolder: dl750
 supportstatus: Current
 maintainer: nashj1975
 oem: Alcatel
