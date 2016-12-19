@@ -1,3 +1,4 @@
+---
 layout: device
 title:  "Alcatel Pop D3"
 codename: DL750
