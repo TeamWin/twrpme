@@ -22,3 +22,6 @@ collections:
 
   app:
     output: true
+
+  terms:
+    output: true
