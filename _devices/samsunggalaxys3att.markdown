@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy S3 AT&T"
+title:  "Samsung Galaxy S3 AT&amp;T"
 codename: d2att
 downloadfolder: d2att
 oldurl: http://teamw.in/project/twrp2/104

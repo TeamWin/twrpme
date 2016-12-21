@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 2 AT&T"
+title:  "Samsung Galaxy Note 2 AT&amp;T"
 codename: t0lteatt
 downloadfolder: t0lteatt
 oldurl: http://teamw.in/project/twrp2/124

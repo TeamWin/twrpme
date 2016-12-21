@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "LG G3 AT&T"
+title:  "LG G3 AT&amp;T"
 codename: d850
 downloadfolder: d850
 oldurl: http://teamw.in/project/twrp2/256

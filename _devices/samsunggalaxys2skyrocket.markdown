@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy S2 AT&T Skyrocket SGH-i727"
+title:  "Samsung Galaxy S2 AT&amp;T Skyrocket SGH-i727"
 codename: skyrocket
 downloadfolder: skyrocket
 oldurl: http://teamw.in/project/twrp2/94

@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "HTC One X+ AT&T"
+title:  "HTC One X+ AT&amp;T"
 codename: evitareul
 downloadfolder: evitareul
 oldurl: http://teamw.in/project/twrp2/131

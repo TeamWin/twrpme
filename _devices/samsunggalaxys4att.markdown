@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy S4 AT&T"
+title:  "Samsung Galaxy S4 AT&amp;T"
 codename: jflteatt
 downloadfolder: jflteatt
 oldurl: http://teamw.in/project/twrp2/174
