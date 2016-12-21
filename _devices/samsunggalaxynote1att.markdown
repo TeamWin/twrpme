@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 1 AT&amp;T"
+title:  "Samsung Galaxy Note 1 AT&T"
 codename: quincyatt
 downloadfolder: quincyatt
 oldurl: http://teamw.in/project/twrp2/96

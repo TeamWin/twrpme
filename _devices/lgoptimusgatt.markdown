@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "LG Optimus G AT&amp;T"
+title:  "LG Optimus G AT&T"
 codename: geeb
 downloadfolder: geeb
 oldurl: http://teamw.in/project/twrp2/154

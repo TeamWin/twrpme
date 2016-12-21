@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "HTC One X AT&amp;T"
+title:  "HTC One X AT&T"
 codename: evita
 downloadfolder: evita
 oldurl: http://teamw.in/project/twrp2/99
