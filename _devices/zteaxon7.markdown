@@ -1,13 +1,13 @@
 ---
 layout: device
-title: "ZTE Axon 7 (North America)"
-codename: a2017u
+title: "ZTE Axon 7"
+codename: ailsa_ii
 oem: ZTE
-downloadfolder: a2017u
+downloadfolder: ailsa_ii
 supportstatus: Current
 maintainer: jcadduono
 ddof: "/dev/block/platform/soc/624000.ufshc/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_zte_a2017u
+devicetree: https://github.com/TeamWin/android_device_zte_ailsa_ii
 xdathread: "http://forum.xda-developers.com/axon-7/development/recovery-official-twrp-zte-axon-7-t3515715"
 fastbootunlock: true
 ---
@@ -16,7 +16,7 @@ fastbootunlock: true
 
 {% include supportstatus.html %}
 
-<p class="text">Note: At the moment you may only unlock your bootloader using the ZTE official B20 unlock fastboot. See the XDA thread for more information.</p>
+<p class="text">Note: Until Nougat is released you may only unlock your bootloader using the ZTE official B20 unlock fastboot. See the XDA thread for more information.</p>
 
 {% include dmverity.html %}
 
