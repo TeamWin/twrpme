@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Zuk Z2 Pro"
+title:  "Zuk Z2"
 codename: z2
 downloadfolder: z2
 supportstatus: Current
