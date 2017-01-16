@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "OnePlus 3T"
+title: "OnePlus 3T"
 codename: oneplus3t
 oem: OnePlus
 downloadfolder: oneplus3t
@@ -8,7 +8,7 @@ supportstatus: Current
 maintainer: jcadduono
 ddof: "/dev/block/platform/soc/624000.ufshc/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_oneplus_oneplus3t
-xdathread: "http://forum.xda-developers.com/oneplus-3t/development/recovery-twrp-oneplus-3t-t3507308"
+xdathread: "https://forum.xda-developers.com/oneplus-3t/development/recovery-twrp-oneplus-3t-t3507308"
 fastbootunlock: true
 ---
 
