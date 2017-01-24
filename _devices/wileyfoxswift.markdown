@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: beroid
 oem: Wileyfox
 devicetree: https://github.com/teamwin/android_device_wileyfox_crackling
+xdathread: "http://forum.xda-developers.com/showthread.php?t=3350351"
 ---
 
 {% include disclaimer.html %}
