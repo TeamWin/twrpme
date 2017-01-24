@@ -8,7 +8,7 @@ maintainer: LuK1337, luca020400
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_gts210vewifi"
-xdathread: ""
+xdathread: "http://forum.xda-developers.com/showthread.php?t=3543921"
 ---
 
 {% include disclaimer.html %}
