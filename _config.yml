@@ -19,3 +19,6 @@ collections:
 
   faq:
     output: true
+
+  doc:
+    output: true
