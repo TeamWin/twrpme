@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy Tab S2 8.0 WiFi (2016)"
 codename: gts28vewifi
-downloadfolder: gts210vewifi
+downloadfolder: gts28vewifi
 supportstatus: Current
 maintainer: LuK1337, luca020400
 oem: Samsung
