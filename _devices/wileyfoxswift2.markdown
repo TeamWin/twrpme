@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Wileyfox Swift 2 and Swift 2 Plus"
+title:  "Wileyfox Swift 2, 2 Plus, and 2 X"
 codename: marmite
 downloadfolder: marmite
 supportstatus: Current
