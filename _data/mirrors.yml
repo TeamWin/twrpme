@@ -1,2 +1,4 @@
 - description: Primary (Recommended)
   baseurl: https://dl.twrp.me/
+- description: Primary (Backup)
+  baseurl: https://eu.dl.twrp.me/
