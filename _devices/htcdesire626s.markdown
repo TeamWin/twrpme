@@ -19,6 +19,6 @@ ddof: "/dev/block/bootdevice/by-name/recovery"
 
 {% include twrpinstall.html %}
 
-{% include fastbootinstall.html %}
+{% include fastbootinstallhtc.html %}
 
 {% include ddinstall.html %}

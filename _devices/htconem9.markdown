@@ -22,6 +22,6 @@ DISCLAIMER: Please make sure you read about the [Device-Specific Issues](http://
 
 {% include twrpinstall.html %}
 
-{% include fastbootinstall.html %}
+{% include fastbootinstallhtc.html %}
 
 {% include ddinstall.html %}
