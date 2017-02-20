@@ -10,7 +10,7 @@ title: "TWRP Commandline Guide"
 }
 </style>
 <div class="home">
-<ul class="post-list">Client side/script</ul>
+<ul class="page-heading">Client side/script</ul>
 <pre class="command"><b>install</b> FILENAME :
 <div class="desc">	install <b>FILENAME</b> zip file.</div>
 
@@ -70,7 +70,7 @@ title: "TWRP Commandline Guide"
 <b>decrypt</b> password :
 <div class="desc"> 	decrypt /data with provided <b>password</b>.</div></pre>
 
-<ul class="post-list">host side</ul>
+<ul class="page-heading">host side</ul>
 <pre class="command"><b>adbbackup</b> :
 <div class="desc">	Use the <i>adb backup</i> command of the host computer to backup the device:
         adb backup --twrp [compress] [PARTITION-LIST]
