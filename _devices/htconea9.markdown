@@ -19,6 +19,6 @@ xdathread: "http://forum.xda-developers.com/one-a9/orig-development/recovery-twr
 
 {% include twrpinstall.html %}
 
-{% include fastbootinstall.html %}
+{% include fastbootinstallhtc.html %}
 
 {% include ddinstall.html %}
