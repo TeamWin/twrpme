@@ -1,8 +1,8 @@
 ---
 layout: device
-title:  "Motorola Moto G 2016"
-codename: harpia
-downloadfolder: harpia
+title:  "Motorola Moto G 2015"
+codename: osprey
+downloadfolder: osprey
 supportstatus: Current
 maintainer: Dees_Troy
 oem: Motorola

@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "TWRP 3.1.0-0 Released"
+date:   2017-03-10 14:21:42
+categories: site update
+version: 3.1.0-0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * vold decrypt on a few select HTC devices, TWRP will now attempt to use the system partition's vold and vdc binaries and libraries to decrypt the data partition (nkk71 and CaptainThrowback)
+  * adb backup to stream a backup directly to or from your PC, see documentation here: https://github.com/omnirom/android_bootable_recovery/commit/ce8f83c48d200106ff61ad530c863b15c16949d9 (bigbiff)
+  * tweak MTP startup routines (mdmower)
+  * support new Android 7.x xattrs for backup and restore to fix loss of data after a restore (Dees_Troy)
+  * support POSIX file capabilities backup and restore to fix VoLTE on HTC devices and possibly other issues (Dees_Troy)
+  * better indicate to users that internal storage is not backed up (Dees_Troy)
+  * improve automatic determination of TW_THEME (mdmower)
+  * minimal getcap and setcap support (_that)
+  * try mounting both ext4 and f2fs during decrypt (jcadduono and Dees_Troy)
+  * shut off backlight with power key (mdmower)
+  * timeout during FDE decrypt (Dees_Troy and nkk71)
+  * support for FBE decrypt and backing up and restoring FBE policies (Dees_Troy)
+  * boot slot support (Dees_Troy)
+  * TWRP app install prompt during reboot (Dees_Troy)
+  * support for AB OTA zips (Dees_Troy)
+  * support new Android 7.x log command (Dees_Troy)
+  * update recovery sources to AOSP 7.1 (Dees_Troy)
+  * numerous bugfixes and improvements by too many people to mention
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
