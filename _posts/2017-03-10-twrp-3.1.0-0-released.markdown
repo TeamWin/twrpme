@@ -11,7 +11,7 @@ TWRP {{ page.version }} is out now for all currently supported devices.
 What's new in {{ page.version }}:
 
   * vold decrypt on a few select HTC devices, TWRP will now attempt to use the system partition's vold and vdc binaries and libraries to decrypt the data partition (nkk71 and CaptainThrowback)
-  * adb backup to stream a backup directly to or from your PC, see documentation here: https://github.com/omnirom/android_bootable_recovery/commit/ce8f83c48d200106ff61ad530c863b15c16949d9 (bigbiff)
+  * adb backup to stream a backup directly to or from your PC, see documentation [here](https://github.com/omnirom/android_bootable_recovery/commit/ce8f83c48d200106ff61ad530c863b15c16949d9) (bigbiff)
   * tweak MTP startup routines (mdmower)
   * support new Android 7.x xattrs for backup and restore to fix loss of data after a restore (Dees_Troy)
   * support POSIX file capabilities backup and restore to fix VoLTE on HTC devices and possibly other issues (Dees_Troy)
