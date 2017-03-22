@@ -96,13 +96,13 @@ title: "TWRP Commandline Guide"
 		Password could be numeric, alphanumeric. For pattern see note bellow.</div></pre>
 
 <ul class="page-heading">HOST SIDE</ul>
-<pre class="command"><b>adbbackup</b> :
+<pre class="command"><b>adb backup</b> :
 <div class="desc">	Use the <i>adb backup</i> command of the host computer to backup the device:
         adb backup --twrp [compress] [PARTITION-LIST]
             PARTITION-LIST: partition(s) name(s) without leading '/'. Only partition present into fstab can be backuped.</div>
 
-<b>adbrestore</b>  FILENAME :
-<div class="desc">    Use the <i>adb restore</i> command of the host computer to restore <b>FILENAME</b> where <b>FILENAME</b> is a previously backup taken with <i>adbbackup</i>.</div></pre>
+<b>adb restore</b>  FILENAME :
+<div class="desc">    Use the <i>adb restore</i> command of the host computer to restore <b>FILENAME</b> where <b>FILENAME</b> is a previously backup taken with <i>adb backup</i>.</div></pre>
 
 
 
