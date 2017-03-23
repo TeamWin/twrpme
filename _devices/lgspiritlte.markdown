@@ -21,6 +21,4 @@ xdathread: https://forum.xda-developers.com/lg-spirit/development/recovery-unoff
 
 {% include twrpinstall.html %}
 
-{% include odininstall.html %}
-
 {% include ddinstall.html %}
