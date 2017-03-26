@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Motorola Moto G 2016"
+title:  "Motorola Moto G Play 2016"
 codename: harpia
 downloadfolder: harpia
 supportstatus: Current

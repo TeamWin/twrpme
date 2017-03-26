@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Motorola Moto G Plus 2016"
+title:  "Motorola Moto G 2016/Moto G Plus 2016"
 codename: athene
 downloadfolder: athene
 supportstatus: Current
