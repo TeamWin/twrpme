@@ -1,4 +1,4 @@
-- description: Primary (Recommended)
+- description: Primary (Americas)
   baseurl: https://dl.twrp.me/
-- description: Primary (Backup)
+- description: Primary (Europe)
   baseurl: https://eu.dl.twrp.me/
