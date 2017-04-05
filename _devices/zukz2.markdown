@@ -1,13 +1,12 @@
 ---
 layout: device
-title:  "Zuk Z2"
-codename: z2
+title:  "ZUK Z2 / Lenovo Z2 Plus"
+codename: z2_plus
 downloadfolder: z2
 supportstatus: Current
-maintainer: mauronofrio
-xdathread: https://forum.xda-developers.com/zuk-z2-pro/development/twrp-twrp-3-0-3-0-teamwin-recovery-t3529601
-oem: Zuk
-devicetree: https://github.com/TeamWin/android_device_zuk_z2
+maintainer: ontherunvaro
+oem: ZUK / Lenovo
+devicetree: https://github.com/TeamWin/android_device_zuk_z2_plus
 ---
 
 {% include disclaimer.html %}
