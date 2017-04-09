@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: ontherunvaro
 oem: ZUK / Lenovo
 devicetree: https://github.com/TeamWin/android_device_zuk_z2_plus
+xdathread: https://forum.xda-developers.com/lenovo-zuk-z2/development/recovery-official-twrp-3-1-0-zuk-z2-t3587092
 ---
 
 {% include disclaimer.html %}
