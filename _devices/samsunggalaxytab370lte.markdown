@@ -1,12 +1,12 @@
 ---
 layout: device
 title:  "Samsung Galaxy Tab 3 7.0 LTE"
-codename: lt02ltetmo
-downloadfolder: lt02ltetmo
+codename: lt02lte
+downloadfolder: lt02lte
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: deadman96385
 oem: Samsung
-devicetree: "https://github.com/TeamWin/device_samsung_lt02ltetmo"
+devicetree: "https://github.com/TeamWin/device_samsung_lt02lte"
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 ---
 
