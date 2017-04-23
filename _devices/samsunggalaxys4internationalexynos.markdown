@@ -3,7 +3,6 @@ layout: device
 title:  "Samsung Galaxy S4 Exynos (ja3g)"
 codename: i9500
 downloadfolder: i9500
-oldurl: http://teamw.in/project/twrp2/191
 supportstatus: Current
 maintainer: Alberto96
 devicetree: https://github.com/TeamWin/android_device_samsung_i9500
