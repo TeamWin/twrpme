@@ -1,13 +1,13 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 4 Qualcomm"
+title: "Samsung Galaxy Note 4 Qualcomm"
 codename: trlte
-downloadfolder: "Canada|trltecan|India|trltedt|International (N910-F)|trltexx|Sprint|trltespr|T-Mobile|trltetmo|Verizon|trltevzw|US Cellular|trlteusc|International Duos|trlteduoszh"
-oldurl: http://teamw.in/project/twrp2/266
+downloadfolder: "International &amp; Americas (SM-N910F/trltexx, SM-N910G/trltedt, SM-N910T/trltetmo, SM-N910W8/trltecan, SM-N910P/trltespr, SM-N910R4/trlteusc, SM-N910V/trltevzw)|trlte|International Duos (SM-N9100/trlteduoszh)|trlteduoszh"
 supportstatus: Current
 maintainer: bigbiff
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_samsung_trlte"
 xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility-twrp-2-8-1-x-teamwin-t2956011"
 ---
 
@@ -19,77 +19,17 @@ xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">Canada:</p>
+<p class="text">International &amp; Americas (SM-N910F/trltexx, SM-N910G/trltedt, SM-N910T/trltetmo, SM-N910W8/trltecan, SM-N910P/trltespr, SM-N910R4/trlteusc, SM-N910V/trltevzw):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}trltecan">
+    <a href="{{ mirror.baseurl }}trlte">
       {{ mirror.description }}
     </a>
   </li>
 {% endfor %}
 </ul>
-<p class="text">India:</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trltedt">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">International (N910-F):</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trltexx">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">Sprint:</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trltespr">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">T-Mobile:</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trltetmo">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">Verizon:</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trltevzw">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">US Celluar:</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}trlteusc">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">International Duos:</p>
+<p class="text">International Duos (SM-N9100/trlteduoszh):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
