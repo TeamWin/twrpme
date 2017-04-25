@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy Note 4 Qualcomm"
 codename: trlte
-downloadfolder: "trlte|trlteduoszh"
+downloadfolder: "International &amp; Americas (SM-N910F/trltexx, SM-N910G/trltedt, SM-N910T/trltetmo, SM-N910W8/trltecan, SM-N910P/trltespr, SM-N910R4/trlteusc, SM-N910V/trltevzw)|trlte|International Duos (SM-N9100/trlteduoszh)|trlteduoszh"
 supportstatus: Current
 maintainer: bigbiff
 oem: Samsung
