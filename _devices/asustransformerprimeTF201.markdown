@@ -31,4 +31,4 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1615990"
 <p class="text">On your device, go into Settings -> About and find the Build Number and tap on it 7 times to enable developer settings. Press back and go into Developer Options and enable USB debugging. From your computer, open a command prompt and type:</p>
 <p class="text">adb reboot bootloader</p>
 <p class="text">You should now be in fastboot mode. Download the correct blob file and copy the file into the same folder as your adb and fastboot binaries. Rename the image to twrp.blob and type:</p>
-<p class="text">fastboot -i 0x0b05 flash staging twrp.img<p></p>fastboot reboot</p>
+<p class="text">fastboot -i 0x0b05 flash staging twrp.blob<p></p>fastboot reboot</p>
