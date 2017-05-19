@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "TWRP 3.1.1-0 Released"
+date:   2017-05-19 14:21:42
+categories: site update
+version: 3.1.1-0
+---
+
+TWRP {{ page.version }} is out now for all currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Backups will now include adopted storage keys (Dees_Troy)
+  * Fixed an adb restore issue (bigbiff)
+  * Fixed rebooting when no OS is present (Dees_Troy)
+  * Fixed line wrapping in the GUI terminal (_that)
+  * Updated TWRP source code to AOSP 7.1.2 (Dees_Troy)Updated TWRP source code to AOSP 7.1.2
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
