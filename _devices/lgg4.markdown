@@ -1,8 +1,8 @@
 ---
 layout: device
-title:  "LG G4 International"
-codename: H815 , H811
-downloadfolder: h815 | h811
+title:  "LG G4"
+codename: H811, H815
+downloadfolder: lgg4
 supportstatus: Current
 maintainer: steadfasterX
 oem: LG
@@ -20,21 +20,11 @@ NOTE: You must unlock the bootloader first before installing TWRP!
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">International (H815):</p>
+<p class="text">LG G4 (any model):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}h815">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">T-Mobile (H811):</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}h811">
+    <a href="{{ mirror.baseurl }}lgg4">
       {{ mirror.description }}
     </a>
   </li>
@@ -44,10 +34,11 @@ NOTE: You must unlock the bootloader first before installing TWRP!
 <div class='page-heading' id='fastboot-install'>Unlocking + Fastboot Install Method (No Root Required):</div>
 <a id='fastboot'></a>
 <hr />
-<p class="text"><a href="http://developer.android.com/sdk/index.html#linux-bundle-size">You will need the platform-tools from the Android SDK on your computer.</a> Find the Android command line tools section on the page linked and install the SDK tools package. From the SDK Manager, download only the platform-tools to get adb and fastboot binaries.</p>
-<p class="text">Windows users will need proper drivers installed on their computer. You can try the <a href="https://forum.xda-developers.com/android/software-hacking/live-iso-adb-fastboot-driver-issues-t3526755" target=_blank>simple FWUL adb/fastboot ISO</a> or the <a href="http://www.xda-developers.com/universal-naked-driver-solves-your-adb-driver-problems-on-windows/">Naked ADB drivers</a> or the <a href="http://www.koushikdutta.com/post/universal-adb-driver">Universal ADB drivers</a> if you don't already have a working driver installed</p>
-<p class="text">Your device needs to be officially unlocked by LG before it can flash custom images! To unlock your device you have to go to:</p>
-<p class="text"><a href="http://developer.lge.com/resource/mobile/RetrieveBootloader.dev" target=_blank>http://developer.lge.com</a> and follow all steps there to get and flash your LG unlock binary. You can NOT proceed withouth completing this step!</p>
+<p class="text">The recommended way is to use <a href="https://forum.xda-developers.com/android/software-hacking/live-iso-adb-fastboot-driver-issues-t3526755" target=_blank>FWUL - a simple adb/fastboot ISO</a> which has all drivers etc included.</p>
+<p class="text">If you still want to use Windows <a href="http://developer.android.com/sdk/index.html#linux-bundle-size">you will need the platform-tools from the Android SDK</a> on your computer. Find the Android command line tools section on the page linked and install the SDK tools package. From the SDK Manager, download only the platform-tools to get adb and fastboot binaries.</p>
+<p class="text">Windows users will also need proper drivers installed on their computer. You can try the <a href="http://www.xda-developers.com/universal-naked-driver-solves-your-adb-driver-problems-on-windows/">Naked ADB drivers</a> or the <a href="http://www.koushikdutta.com/post/universal-adb-driver">Universal ADB drivers</a> if you don't already have a working driver installed</p>
+<p class="text">Your device needs to be officially unlocked by LG before it can flash custom images! (Hint: There is a <b>completely unsupported method</b> available for locked devices here: <a href="https://forum.xda-developers.com/g4/development/locked-twrpinfish-locked-g4-devices-t3573048">TWRP-in-FIsH for all locked G4 devices like: H810, H812, H818, ...</a>)</p>
+<p class="text">To unlock your device you have to go to: <a href="http://developer.lge.com/resource/mobile/RetrieveBootloader.dev" target=_blank>http://developer.lge.com</a> and follow all steps there to get and flash your LG unlock binary. You can NOT proceed withouth completing this step!</p>
 <p class="text">Download the correct image file and copy the file into the same folder as your adb and fastboot binaries. Rename the image to twrp.img and type:</p>
 <p class="code">fastboot boot twrp.img</p>
 <p class="text">This will boot up TWRP but for the moment in memory only. To complete the installation and making it persistent:</p>
