@@ -1,8 +1,8 @@
 ---
 layout: device
-title:  "LG G4 International"
-codename: H815 , H811
-downloadfolder: h815 | h811
+title:  "LG G4"
+codename: H811 , H812, H815 , H818
+downloadfolder: lgg4
 supportstatus: Current
 maintainer: steadfasterX
 oem: LG
@@ -20,21 +20,11 @@ NOTE: You must unlock the bootloader first before installing TWRP!
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">International (H815):</p>
+<p class="text">LG G4 (any model):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}h815">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">T-Mobile (H811):</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}h811">
+    <a href="{{ mirror.baseurl }}lgg4">
       {{ mirror.description }}
     </a>
   </li>
