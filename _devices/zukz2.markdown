@@ -2,7 +2,7 @@
 layout: device
 title:  "ZUK Z2 / Lenovo Z2 Plus"
 codename: z2_plus
-downloadfolder: z2
+downloadfolder: z2_plus
 supportstatus: Current
 maintainer: ontherunvaro
 oem: ZUK / Lenovo
