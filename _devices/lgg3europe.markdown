@@ -14,7 +14,8 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-Note, you must be rooted and vulnerable to BUMP to use TWRP on this device.
+Note, overwriting the recovery with TWRP requires root (you don't need to root the device you can get root via download mode).
+The LG G3 has a locked boot loader, when your device isn't vulnerable to BUMP it will refuse to boot TWRP. BUMP got fixed with the Lollipop update, so you either need to downgrade to KitKat or copy the boot loader from KitKat.
 
 {% include appinstall.html %}
 
