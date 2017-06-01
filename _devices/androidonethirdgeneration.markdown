@@ -4,7 +4,7 @@ title:  "Android One Third Generation"
 codename: shamrock
 downloadfolder: shamrock
 supportstatus: Current
-maintainer: HostZero
+maintainer: Rygebin
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_shamrock
 ---
