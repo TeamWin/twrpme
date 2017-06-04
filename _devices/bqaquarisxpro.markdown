@@ -2,7 +2,7 @@
 layout: device
 title:  "BQ Aquaris X Pro (bardock)"
 codename: bardock
-downloadfolder: bardock-pro
+downloadfolder: bardock_pro
 supportstatus: Current
 maintainer: Kra1o5
 oem: BQ
