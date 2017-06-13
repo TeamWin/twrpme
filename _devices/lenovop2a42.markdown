@@ -3,7 +3,7 @@ layout: device
 title: "Lenovo P2a42"
 codename: kuntao_row
 oem: Lenovo
-downloadfolder: p2a42
+downloadfolder: kuntao_row
 supportstatus: Current
 maintainer: Celoxocis
 ddof: "/dev/block/bootdevice/by-name/recovery"
