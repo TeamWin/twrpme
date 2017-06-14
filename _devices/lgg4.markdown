@@ -2,11 +2,11 @@
 layout: device
 title:  "LG G4"
 codename: H811, H815
-downloadfolder: lgg4
+downloadfolder: g4
 supportstatus: Current
 maintainer: steadfasterX
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_h815
+devicetree: https://github.com/TeamWin/android_device_lge_g4
 ddof: "/dev/block/bootdevice/by-name/recovery"
 xdathread: "http://forum.xda-developers.com/g4/development/recovery-twrp-3-touch-recovery-t3442424"
 ---
@@ -24,7 +24,7 @@ NOTE: You must unlock the bootloader first before installing TWRP!
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}lgg4">
+    <a href="{{ mirror.baseurl }}g4">
       {{ mirror.description }}
     </a>
   </li>
