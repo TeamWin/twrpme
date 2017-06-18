@@ -1,20 +1,22 @@
 ---
 layout: device
-title: "OnePlus 3T"
-codename: oneplus3t
+title: "OnePlus 3 / 3T"
+codename: oneplus3
 oem: OnePlus
-downloadfolder: oneplus3t
+downloadfolder: oneplus3
 supportstatus: Current
-maintainer: jcadduono
+maintainer: dianlujitao
 ddof: "/dev/block/platform/soc/624000.ufshc/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_oneplus_oneplus3t
-xdathread: "https://forum.xda-developers.com/oneplus-3t/development/recovery-twrp-oneplus-3t-t3507308"
+devicetree: https://github.com/TeamWin/android_device_oneplus_oneplus3
+xdathread: "https://forum.xda-developers.com/oneplus-3/development/recovery-official-twrp-oneplus-3-t3539129"
 fastbootunlock: true
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+
+<p class="text">As of TWRP 3.1.1-2, the OnePlus 3 and OnePlus 3T have been unified and use the same recovery image.</p>
 
 {% include dmverity.html %}
 
