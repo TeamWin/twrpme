@@ -1,6 +1,6 @@
 ---
 layout: device
-title: "OnePlus 3"
+title: "OnePlus 3 / 3T"
 codename: oneplus3
 oem: OnePlus
 downloadfolder: oneplus3
