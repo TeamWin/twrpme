@@ -1,4 +1,3 @@
-
 ---
 layout: device
 title:  "Android One Fourth Generation"
