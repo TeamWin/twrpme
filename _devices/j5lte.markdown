@@ -1,13 +1,13 @@
 ---
 layout: device
-title:  "Samsung Galaxy J5 LTE (SM-J500FN)"
-codename: j5nltexx
-downloadfolder: j5nltexx
+title:  "Samsung Galaxy J5 LTE (SM-J500F/G/M/NO/Y)"
+codename: j5lte
+downloadfolder: j5lte
 supportstatus: Current
 maintainer: Vincent Zvikaramba
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_samsung_j5nltexx.git
+devicetree: https://github.com/TeamWin/android_device_samsung_j5lte.git
 xdathread: https://forum.xda-developers.com/showthread.php?t=3588533
 ---
 
