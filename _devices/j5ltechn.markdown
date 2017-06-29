@@ -1,13 +1,13 @@
 ---
 layout: device
 title:  "Samsung Galaxy J5 LTE (SM-J5008)"
-codename: j5nltechn
-downloadfolder: j5nltechn
+codename: j5ltechn
+downloadfolder: j5ltechn
 supportstatus: Current
 maintainer: Vincent Zvikaramba
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_samsung_j5nltechn.git
+devicetree: https://github.com/TeamWin/android_device_samsung_j5ltechn.git
 xdathread: https://forum.xda-developers.com/showthread.php?t=3588533
 ---
 
