@@ -1,0 +1,18 @@
+---
+layout: oem
+title: Barnes & Noble
+permalink: /Devices/Barnes & Noble/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for post in site.bn %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>
