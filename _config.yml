@@ -14,9 +14,6 @@ keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, wh
 exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
 
 collections:
-  devices:
-    output: true
-
   faq:
     output: true
 
@@ -24,4 +21,139 @@ collections:
     output: true
 
   terms:
+    output: true
+
+  oem:
+    output: true
+
+  alcatel:
+    output: true
+
+  allview:
+    output: true
+
+  amazon:
+    output: true
+
+  amlogic:
+    output: true
+
+  archos:
+    output: true
+
+  asus:
+    output: true
+
+  bn:
+    output: true
+
+  bq:
+    output: true
+
+  cat:
+    output: true
+
+  dell:
+    output: true
+
+  fairphone:
+    output: true
+
+  google:
+    output: true
+
+  hp:
+    output: true
+
+  htc:
+    output: true
+
+  huawei:
+    output: true
+
+  infinix:
+    output: true
+
+  iuni:
+    output: true
+
+  kazam:
+    output: true
+
+  leeco:
+    output: true
+
+  lenovo:
+    output: true
+
+  letv:
+    output: true
+
+  lg:
+    output: true
+
+  marshall:
+    output: true
+
+  micromax:
+    output: true
+
+  minix:
+    output: true
+
+  motorola:
+    output: true
+
+  nextbit:
+    output: true
+
+  nubia:
+    output: true
+
+  nvidia:
+    output: true
+
+  omate:
+    output: true
+
+  oneplus:
+    output: true
+
+  oppo:
+    output: true
+
+  pantech:
+    output: true
+
+  razer:
+    output: true
+
+  samsung:
+    output: true
+
+  silentcircle:
+    output: true
+
+  sony:
+    output: true
+
+  twrp:
+    output: true
+
+  wileyfox:
+    output: true
+
+  wingtech:
+    output: true
+
+  xiaomi:
+    output: true
+
+  yu:
+    output: true
+
+  zte:
+    output: true
+
+  zuk:
     output: true
