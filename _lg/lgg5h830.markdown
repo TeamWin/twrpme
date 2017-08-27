@@ -1,0 +1,28 @@
+---
+layout: device
+title: "LG G5 T-Mobile"
+codename: h830
+downloadfolder: h830
+supportstatus: Current
+maintainer: jcadduono
+oem: LG
+ddof: "/dev/block/platform/soc/624000.ufshc/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_lge_h830"
+xdathread: "http://forum.xda-developers.com/tmobile-lg-g5/development/recovery-team-win-recovery-project-lg-g5-t3349499"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+<p class="text">Note: h830 requires a 3rd party unlock tool to flash.</p>
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}
+
+{% include ddinstall.html %}

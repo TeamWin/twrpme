@@ -3,7 +3,7 @@ layout: device
 title: "Samsung Galaxy Note 7 (Exynos)"
 codename: gracelte
 oem: Samsung
-downloadfolder: "International &amp; Duos (SM-N930F, SM-N930FD)|gracelte|Korea (SM-N930K, SM-N930L, SM-N930S)|graceltekor"
+downloadfolder: gracelte
 supportstatus: Current
 maintainer: jcadduono, bigbiff
 ddof: "/dev/block/platform/155a0000.ufs/by-name/RECOVERY"

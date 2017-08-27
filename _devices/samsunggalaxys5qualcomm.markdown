@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S5 Qualcomm"
 codename: klte
-downloadfolder: "International, Americas, and Oceanic (SM-G900F, SM-G900W8, SM-G900T, SM-G900M, SM-G900P, SM-G900V, SM-G900I)|klte|International Duos (SM-G900FD)|klteduos|China &amp; China Duos (SM-G9006V, SM-G9008V, SM-G9006W, SM-G9008W, SM-G9009W)|kltechn|Japan (SCL23, SC-04F)|kltekdi|Korea (SM-G900K, SM-G900L, SM-G900S)|klteskt"
+downloadfolder: klte
 oldurl: http://teamw.in/project/twrp2/229
 supportstatus: Current
 maintainer: jcadduono

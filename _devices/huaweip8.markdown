@@ -1,14 +1,12 @@
 ---
 layout: device
 title:  "Huawei P8"
-codename: grace
-downloadfolder: grace
+codename: p8
+downloadfolder: p8
 supportstatus: Current
-maintainer: AD2076
+maintainer: reas0n
 oem: Huawei
-devicetree: https://github.com/TeamWin/android_device_huawei_grace
-xdathread: http://forum.xda-developers.com/huawei-p8/development/twrp-huawei-p8-gra-l09-t3511067
-
+devicetree: https://github.com/TeamWin/android_device_huawei_p8
 ---
 
 {% include disclaimer.html %}

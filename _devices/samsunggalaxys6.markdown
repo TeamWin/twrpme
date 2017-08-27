@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S6"
 codename: zeroflte
-downloadfolder: "International GSM (SM-G920F, SM-G920FD, SM-G920I)|zeroflte|Canada (SM-G920W8)|zerofltecan|T-Mobile (SM-G920T)|zerofltetmo|Sprint (SM-G920P)|zerofltespr|US Cellular (SM-G920R4)|zeroflteusc|China &amp; China Duos (SM-G9200, SM-G9208, SM-G9209)|zerofltezt|Korea (SM-G920K, SM-G920L, SM-G920S)|zeroflteskt"
+downloadfolder: zeroflte
 supportstatus: Current
 maintainer: "jcadduono, bigbiff"
 oem: Samsung

@@ -1,18 +1,24 @@
 ---
 layout: device
-title:  "LG G4"
-codename: h811
-supportstatus: Unified
-maintainer: steadfasterX
+title:  "LG G4 T-Mobile USA"
+codename: H811
+downloadfolder: h811
+supportstatus: Current
+maintainer: None
 oem: LG
+devicetree: https://github.com/TeamWin/android_device_lge_h811
+ddof: "/dev/block/bootdevice/by-name/recovery"
+xdathread: "http://forum.xda-developers.com/g4/orig-development/recovery-twrp-2-8-6-0-touch-recovery-t3125859"
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
 
-All models of the LG G4 were unified now which means they are using all
-the same TWRP image.
+{% include appinstall.html %}
 
-Please go <a href="https://twrp.me/devices/lgg4.html">here (click)</a>
-to continue downloading TWRP for the G4.
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include ddinstall.html %}

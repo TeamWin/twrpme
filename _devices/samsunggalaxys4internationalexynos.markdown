@@ -1,14 +1,13 @@
 ---
 layout: device
-title:  "Samsung Galaxy S4 Exynos (ja3g)"
+title:  "Samsung Galaxy S4 International Exynos"
 codename: i9500
 downloadfolder: i9500
+oldurl: http://teamw.in/project/twrp2/191
 supportstatus: Current
-maintainer: Alberto96
-devicetree: https://github.com/TeamWin/android_device_samsung_i9500
-xdathread: https://forum.xda-developers.com/showthread.php?t=2361122
+maintainer: None
 oem: Samsung
-ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
+ddof: "/dev/block/mmcblk0p10"
 ---
 
 {% include disclaimer.html %}

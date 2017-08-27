@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S6 edge"
 codename: zerolte
-downloadfolder: "International GSM (SM-G925F, SM-G925FD, SM-G925I)|zerolte|Canada (SM-G925W8)|zeroltecan|T-Mobile (SM-G925T)|zeroltetmo|Sprint (SM-G925P)|zeroltespr|US Cellular (SM-G925R4)|zerolteusc|China (SM-G9250)|zeroltezt|Korea (SM-G925K, SM-G925L, SM-G925S)|zerolteskt"
+downloadfolder: zerolte
 supportstatus: Current
 maintainer: "jcadduono, bigbiff"
 oem: Samsung

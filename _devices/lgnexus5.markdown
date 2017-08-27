@@ -2,12 +2,12 @@
 layout: device
 title:  "LG Nexus 5"
 codename: hammerhead
-downloadfolder: "Normal (recommended)|hammerhead|hammerheadcaf (use only if you know this is what you need)|hammerheadcaf"
+downloadfolder: hammerhead
 oldurl: http://teamw.in/project/twrp2/205
 supportstatus: Current
 maintainer: Dees_Troy
 oem: LG
-devicetree: https://github.com/TeamWin/android_device_lge_hammerhead
+devicetree: https://github.com/omnirom/android_device_lge_hammerhead
 xdathread: "http://forum.xda-developers.com/google-nexus-5/orig-development/recovery-twrp-2-7-1-0-touch-recovery-t2511507"
 ---
 

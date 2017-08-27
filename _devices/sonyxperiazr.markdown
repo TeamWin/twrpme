@@ -4,10 +4,9 @@ title:  "Sony Xperia ZR"
 codename: dogo
 downloadfolder: dogo
 supportstatus: Current
-maintainer: Chippa_a
-oem: Sony
+maintainer: Chippa-a
 devicetree: https://github.com/TeamWin/android_device_sony_dogo.git
-xdathread: "http://forum.xda-developers.com/showthread.php?t=3317670"
+oem: Sony
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
 

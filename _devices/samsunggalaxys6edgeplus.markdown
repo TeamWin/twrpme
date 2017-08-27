@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S6 edge+"
 codename: zenlte
-downloadfolder: "International GSM (SM-G928F, SM-G928FD, SM-G928G, SM-G928I)|zenlte|Canada (SM-G928W8)|zenltecan|T-Mobile USA (SM-G928T)|zenltetmo|Sprint (SM-G928P)|zenltespr|US Cellular (SM-G928R4)|zenlteusc|China &amp; China Duos (SM-G9280, SM-G9287, SM-G9287C)|zenltezt|Korea (SM-G928K, SM-G928L, SM-G928S)|zenlteskt"
+downloadfolder: zenlte
 supportstatus: Current
 maintainer: "jcadduono"
 oem: Samsung
@@ -41,7 +41,7 @@ xdathread: "http://forum.xda-developers.com/s6-edge-plus/orig-development/recove
   </li>
 {% endfor %}
 </ul>
-<p class="text">T-Mobile USA (SM-G928T):</p>
+<p class="text">T-Mobile (SM-G928T):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>

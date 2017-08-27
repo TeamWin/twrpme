@@ -1,10 +1,10 @@
 ---
 layout: device
-title: "Samsung Galaxy Tab S 10.5 LTE"
+title:  "Samsung Galaxy Tab S 10.5 LTE"
 codename: chagalllte
 downloadfolder: chagalllte
 supportstatus: Current
-maintainer: jcadduono
+maintainer: deadman96385
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_chagalllte"
@@ -14,8 +14,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recove
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-
-<p class="text">Note: Exynos models only. Your device model will be determined from your bootloader version.</p>
 
 {% include appinstall.html %}
 

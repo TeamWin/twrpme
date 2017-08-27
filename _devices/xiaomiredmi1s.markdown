@@ -6,9 +6,8 @@ downloadfolder: armani
 oldurl: http://teamw.in/project/twrp2/241
 supportstatus: Current
 maintainer: fefifofum
-devicetree: https://github.com/TeamWin/android_device_xiaomi_armani
+devicetree: https://github.com/TeamWin/android_device_xiaomi_kenzo.git
 oem: Xiaomi
-xdathread: "https://forum.xda-developers.com/redmi-1s/orig-development/team-win-recovery-project-t3507843"
 ---
 
 {% include disclaimer.html %}

@@ -5,7 +5,7 @@ codename: d855
 downloadfolder: d855
 oldurl: http://teamw.in/project/twrp2/262
 supportstatus: Current
-maintainer: Exodus,invisiblek
+maintainer: None
 oem: LG
 devicetree: https://github.com/TeamWin/android_device_lge_d855
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
