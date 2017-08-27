@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Hyundai Titan LTE"
+title:  "LG Hyundai Titan LTE"
 codename: titanlte
 downloadfolder: titanlte
 supportstatus: Current
