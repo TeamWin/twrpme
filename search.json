@@ -2,11 +2,20 @@
 layout: none
 ---
 [
-    {% for device in site.devices %}
-       {
-         "title"    : "{{ device.title | escape }} ({{ device.codename }})",
-         "desc"     : "TWRP for {{ device.title | escape }}",
-         "url"      : "{{ device.url }}"
-       } {% if forloop.last %}{% else %},{% endif %}
+    {% for oem in site.collections %}
+	{% assign name = oem.label %}
+	{% for device in site[name] %}
+	       {
+		 "title"    : "{{ device.title | escape }} ({{ device.codename }})",
+		 "desc"     : "TWRP for {{ device.title | escape }}",
+		 "url"      : "{{ device.url }}"
+   		}{% unless lastouterloop == "true" and lastinnerloop == "true" and forloop.rindex == 1 %}, {% endunless %}
+		{% if forloop.rindex == 1 %}
+			{% assign lastinnerloop = "true" %}
+		{% endif %}
+	{% endfor %}
+	{% if forloop.rindex == 2 %}
+		{% assign lastouterloop = "true" %}
+	{% endif %}
    {% endfor %}
 ]
