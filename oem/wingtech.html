@@ -1,0 +1,18 @@
+---
+layout: oem
+title: Wingtech
+permalink: /Devices/Wingtech/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for post in site.wingtech %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>
