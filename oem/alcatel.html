@@ -1,0 +1,19 @@
+---
+layout: oem
+title: Alcatel
+permalink: /Devices/Alcatel/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for oem in site.collections %}
+	{% assign devices=oem.label %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>
