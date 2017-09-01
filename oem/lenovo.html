@@ -1,0 +1,18 @@
+---
+layout: oem
+title: Lenovo
+permalink: /Devices/Lenovo/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for post in site.lenovo %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>

@@ -15,10 +15,11 @@ permalink: /Devices/
 <hr />
 <div id="results"></div>
 <br/>
+<h3>OEMs</h3>
   <ul class="post-list" id="post-list">
-    {% for post in site.devices %}
+    {% for post in site.oem %}
       <p>
-        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a>
+	<strong><a href="/Devices/{{ post.oem }}/">{{ post.oem }}</a></strong>
       </p>
     {% endfor %}
   </ul>

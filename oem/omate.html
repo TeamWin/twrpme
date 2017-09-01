@@ -1,0 +1,18 @@
+---
+layout: oem
+title: Omate
+permalink: /Devices/Omate/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for post in site.omate %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>
