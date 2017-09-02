@@ -13,6 +13,8 @@ layout: none
 			{% continue %}
 		{% when "oem" %}
 			{% continue %}
+		{% when "posts" %}
+			{% continue %}
 	{% endcase %}
 	{% for device in site[name] %}
 	       {
