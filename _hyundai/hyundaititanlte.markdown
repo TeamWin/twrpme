@@ -1,11 +1,11 @@
 ---
 layout: device
-title:  "LG Hyundai Titan LTE"
+title:  "Hyundai Titan LTE"
 codename: titanlte
 downloadfolder: titanlte
 supportstatus: Current
 maintainer: Dees_Troy
-oem: LG
+oem: Hyundai
 devicetree: https://github.com/TeamWin/android_device_hyundai_titanlte
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
