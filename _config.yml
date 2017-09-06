@@ -74,6 +74,9 @@ collections:
   huawei:
     output: true
 
+  hyundai:
+    output: true
+
   infinix:
     output: true
 
