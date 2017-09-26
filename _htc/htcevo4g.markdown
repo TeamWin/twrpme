@@ -4,8 +4,8 @@ title:  "HTC EVO 4G"
 codename: supersonic
 downloadfolder: supersonic
 oldurl: http://teamw.in/project/twrp2/3
-supportstatus: Active
-maintainer: CaptainThrowback
+supportstatus: No longer updated
+maintainer: None
 oem: HTC
 devicetree: "https://github.com/TeamWin/android_device_htc_supersonic"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=3060199"
