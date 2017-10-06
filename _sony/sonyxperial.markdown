@@ -3,10 +3,10 @@ layout: device
 title:  "Sony Xperia L"
 codename: taoshan
 downloadfolder: taoshan
-oldurl: http://teamw.in/project/twrp2/286
 supportstatus: Current
-maintainer: None
+maintainer: STRYDER-007
 oem: Sony
+xdathread: "https://forum.xda-developers.com/showthread.php?t=3682714"
 ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ---
 
