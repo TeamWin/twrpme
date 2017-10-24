@@ -1,30 +1,22 @@
-layout 	title 	codename 	downloadfolder 	supportstatus 	maintainer 	oem 	devicetree
-device
-	
-Xiaomi Mi Note 2
-	
-scorpio
-	
-scorpio
-	
-Current
-	
-IcemanDev
-	
-Xiaomi
-	
-https://github.com/IcemanDev/android_device_Xiaomi_scorpio_7.0
-
-{% include disclaimer.html %}
-
-{% include supportstatus.html %}
-
-{% include dmverity.html %}
-
-{% include appinstall.html %}
-
-{% include download.html %}
-
-{% include twrpinstall.html %}
-
-{% include fastbootinstall.html %}
++---
++layout: device
++title:  "Xiaomi Mi Note 2"
++codename: scorpio
++downloadfolder: scorpio
++supportstatus: Current
++maintainer: IcemanDev
++oem: Xiaomi
++devicetree: https://github.com/IcemanDev/android_device_Xiaomi_scorpio_7.0
++---
++
++{% include disclaimer.html %}
++
++{% include supportstatus.html %}
++
++{% include appinstall.html %}
++
++{% include download.html %}
++
++{% include twrpinstall.html %}
++
++{% include fastbootinstall.html %}
