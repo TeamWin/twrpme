@@ -1,12 +1,12 @@
 ---
 layout: device
 title:  "Fairphone 2"
-codename: fp2
-downloadfolder: fp2
+codename: FP2
+downloadfolder: FP2
 supportstatus: Current
 maintainer: z3ntu
 oem: Fairphone
-devicetree: https://github.com/TeamWin/android_device_fairphone_fp2
+devicetree: https://github.com/TeamWin/android_device_fairphone_FP2
 ---
 
 {% include disclaimer.html %}
