@@ -1,8 +1,8 @@
 ---
 layout: device
 title:  "Fairphone 2"
-codename: fp2
-downloadfolder: fp2
+codename: FP2
+downloadfolder: FP2
 supportstatus: Current
 maintainer: z3ntu
 oem: Fairphone
