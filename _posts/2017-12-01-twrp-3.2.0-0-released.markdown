@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "TWRP 3.2.0-0 Released"
+date:   2017-12-01 14:21:42
+categories: site update
+version: 3.2.0-0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+What's new in {{ page.version }}:
+
+  * Allow restoring adb backups in the TWRP GUI (bigbiff)
+  * Fix gzip backup error in adb backups (bigbiff)
+  * Fix a bug in TWRP's backup routines that occasionally corrupted backup files (nkk71)
+  * Better support for installing Android 8.0 based zips due to legacy props (nkk71)
+  * Support vold decrypt with keymaster 3.0 in 8.0 firmwares (nkk71)
+  * Decrypt of synthetic passwords for Pixel 2 (Dees_Troy)
+  * Support newer ext4 FBE policies for backup and restore in libtar (Dees_Troy)
+  * v2 fstab support (Dees_Troy)
+  * Bring TWRP forward to android 8.0 AOSP base (Dees_Troy)
+  * Various other minor bugfixes and tweaks
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
