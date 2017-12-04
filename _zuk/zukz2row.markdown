@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: cosmedd
 oem: ZUK
 devicetree: https://github.com/TeamWin/android_device_zuk_z2_row
+xdathread: https://forum.xda-developers.com/zuk-z2-pro/development/recovery-official-twrp-zuk-z2-pro-t3714651
 ---
 
 {% include disclaimer.html %}
