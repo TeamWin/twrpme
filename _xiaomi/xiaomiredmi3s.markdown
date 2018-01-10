@@ -8,6 +8,7 @@ maintainer: Darshan M. (darshan1205)
 devicetree: https://github.com/TeamWin/android_device_xiaomi_land.git
 oem: Xiaomi
 ddof: "/dev/block/bootdevice/by-name/recovery"
+xdathread: "https://forum.xda-developers.com/xiaomi-redmi-3s/development/recovery-twrp-3-1-0-0-xiaomi-redmi-3s-t3585945"
 ---
 
 {% include disclaimer.html %}
