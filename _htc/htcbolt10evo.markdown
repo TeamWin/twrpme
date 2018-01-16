@@ -4,7 +4,7 @@ title:  "HTC Bolt/10 Evo"
 codename: aca
 downloadfolder: aca
 supportstatus: Current
-maintainer: CaptainThrowback
+maintainer: None
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_htc_aca"
