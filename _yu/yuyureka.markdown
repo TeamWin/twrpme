@@ -5,8 +5,9 @@ codename: tomato
 downloadfolder: tomato
 oldurl: http://teamw.in/project/twrp2/284
 supportstatus: Current
-maintainer: Abhishek Aggarwal
+maintainer: AnkitGourav
 devicetree: https://github.com/TeamWin/android_device_yu_tomato
+xdathread: https://forum.xda-developers.com/yureka/orig-development/unofficial-twrp-3-2-1-0-tomato-t3717099
 oem: Yu
 ---
 
