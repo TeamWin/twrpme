@@ -1,13 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy S3 International LTE"
+title:  "Samsung Galaxy S III (International LTE)"
 codename: i9305
 downloadfolder: i9305
-oldurl: http://teamw.in/project/twrp2/145
 supportstatus: Current
-maintainer: None
+maintainer: ripee
 oem: Samsung
-ddof: "/dev/block/mmcblk0p9"
+ddof: "/dev/block/bootdevice/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_samsung_i9305"
+xdathread: "https://forum.xda-developers.com/galaxy-s3/development-i9305/recovery-twrp-3-2-1-0-t3741413"
 ---
 
 {% include disclaimer.html %}
