@@ -1,14 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy S4 International Qualcomm"
+title:  "Samsung Galaxy S4 (GT-I9505/G, SGH-M919)"
 codename: jfltexx
 downloadfolder: jfltexx
-oldurl: http://teamw.in/project/twrp2/182
 supportstatus: Current
-maintainer: None
+maintainer: ripee
 oem: Samsung
-ddof: "/dev/block/mmcblk0p21"
+ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_jfltexx"
+xdathread: "https://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/recovery-twrp-3-2-1-0-t3742880"
 ---
 
 {% include disclaimer.html %}
