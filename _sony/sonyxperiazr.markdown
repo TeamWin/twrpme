@@ -4,11 +4,11 @@ title:  "Sony Xperia ZR"
 codename: dogo
 downloadfolder: dogo
 supportstatus: Current
-maintainer: Chippa_a
+maintainer: Chippa_a, CyberWalkMaN
+devicetree: https://github.com/TeamWin/android_device_sony_dogo
 oem: Sony
-devicetree: https://github.com/TeamWin/android_device_sony_dogo.git
-xdathread: "http://forum.xda-developers.com/showthread.php?t=3317670"
-ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
+xdathread: "https://forum.xda-developers.com/xperia-zr/orig-development/dogo-twrp-recovery-flashable-t3317670"
 ---
 
 {% include disclaimer.html %}
