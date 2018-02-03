@@ -1,14 +1,14 @@
 ---
 layout: device
-title:  "Sony Xperia ZR"
-codename: dogo
-downloadfolder: dogo
+title:  "Sony Xperia Tablet Z LTE"
+codename: pollux
+downloadfolder: pollux
 supportstatus: Current
 maintainer: CyberWalkMaN
-devicetree: https://github.com/TeamWin/android_device_sony_dogo
+devicetree: https://github.com/TeamWin/android_device_sony_pollux
 oem: Sony
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
-xdathread: "https://forum.xda-developers.com/xperia-zr/orig-development/ub-twrp-v3-2-1-xperia-zr-t3744868"
+xdathread: "https://forum.xda-developers.com/xperia-tablet-z/orig-development/ub-twrp-v3-2-1-xperia-tablet-z-t3735110"
 ---
 
 {% include disclaimer.html %}

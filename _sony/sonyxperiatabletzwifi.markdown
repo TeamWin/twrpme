@@ -1,15 +1,14 @@
 ---
 layout: device
-title:  "Sony Xperia Z Tablet"
+title:  "Sony Xperia Tablet Z Wi-Fi"
 codename: pollux_windy
 downloadfolder: pollux_windy
-oldurl: http://teamw.in/project/twrp2/185
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: CyberWalkMaN
 devicetree: https://github.com/TeamWin/android_device_sony_pollux_windy.git
 oem: Sony
-xdathread: "http://forum.xda-developers.com/showthread.php?t=2413289"
-ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
+xdathread: "https://forum.xda-developers.com/xperia-tablet-z/orig-development/ub-twrp-v3-2-1-xperia-tablet-z-t3735110"
 ---
 
 {% include disclaimer.html %}
