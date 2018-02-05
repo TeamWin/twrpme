@@ -4,10 +4,11 @@ title:  "Sony Xperia ZL"
 codename: odin
 downloadfolder: odin
 supportstatus: Current
-maintainer: humberos
-devicetree: https://github.com/TeamWin/android_device_sony_odin.git
+maintainer: CyberWalkMaN
+devicetree: https://github.com/TeamWin/android_device_sony_odin
 oem: Sony
-ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
+xdathread: "https://forum.xda-developers.com/xperia-zl/orig-development/ub-twrp-v3-2-1-xperia-zl-t3720156"
 ---
 
 {% include disclaimer.html %}

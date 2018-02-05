@@ -3,12 +3,12 @@ layout: device
 title:  "Sony Xperia Z"
 codename: yuga
 downloadfolder: yuga
-oldurl: http://teamw.in/project/twrp2/187
 supportstatus: Current
-maintainer: Dees_Troy
-devicetree: https://github.com/TeamWin/android_device_sony_yuga.git
+maintainer: CyberWalkMaN
+devicetree: https://github.com/TeamWin/android_device_sony_yuga
 oem: Sony
-ddof: /dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel"
+xdathread: "https://forum.xda-developers.com/xperia-z/orig-development/ub-twrp-v3-2-1-xperia-z-t3735098"
 ---
 
 {% include disclaimer.html %}
