@@ -1,11 +1,11 @@
 ---
 layout: device
-title: "Samsung Galaxy J7 Exynos SM-J700"
-codename: j7elte
-downloadfolder: j7elte
+title: "Samsung Galaxy A3 2016 (Exynos)"
+codename: a3xelte
+downloadfolder: a3xelte
 supportstatus: Current
 maintainer: Stricted
-devicetree: "https://github.com/TeamWin/android_device_samsung_j7elte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_a3xelte"
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 ---
