@@ -1,6 +1,6 @@
 ---
 layout: device
-title: "Samsung Galaxy Tab S2 9.7 2015 (Wi-Fi)"
+title: "Samsung Galaxy Tab S2 9.7 2015 (LTE)"
 codename: gts210ltexx
 downloadfolder: gts210ltexx
 supportstatus: Current
