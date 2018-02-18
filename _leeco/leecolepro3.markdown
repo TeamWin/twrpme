@@ -1,10 +1,10 @@
 ---
 layout: device
-title:  "LeEco Le Pro 3"
+title:  "LeEco Le Pro3"
 codename: zl1
 downloadfolder: zl1
 supportstatus: Current
-maintainer: jrior001
+maintainer: codeworkx
 oem: LeEco
 devicetree: https://github.com/TeamWin/android_device_leeco_zl1
 ---
