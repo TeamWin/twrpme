@@ -1,0 +1,16 @@
+---
+layout: device
+title: "Meizu M6 Note"
+codename: m1721
+downloadfolder: m1721
+supportstatus: Current
+maintainer: aiden09
+oem: Meizu
+devicetree: https://github.com/TeamWin/android_device_meizu_m1721
+---
+
+{% include disclaimer.html %}
+{% include supportstatus.html %}
+{% include appinstall.html %}
+{% include download.html %}
+{% include twrpinstall.html %}
