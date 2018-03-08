@@ -4,7 +4,7 @@ title: "Samsung Galaxy J7 (2016 Exynos)"
 codename: j7xelte
 downloadfolder: j7xelte
 supportstatus: Current
-maintainer: jcadduono
+maintainer: Oves786,jcadduono
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_j7xelte"
