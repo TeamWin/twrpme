@@ -131,6 +131,9 @@ collections:
   pantech:
     output: true
 
+  quanta:
+    output: true
+
   razer:
     output: true
 
