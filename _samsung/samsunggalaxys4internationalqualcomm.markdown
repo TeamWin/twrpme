@@ -6,7 +6,7 @@ downloadfolder: jfltexx
 supportstatus: Current
 maintainer: ripee
 oem: Samsung
-ddof: "/dev/block/bootdevice/by-name/recovery"
+ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_jfltexx"
 xdathread: "https://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/recovery-twrp-3-2-1-0-t3742880"
 ---
