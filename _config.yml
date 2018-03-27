@@ -149,6 +149,9 @@ collections:
   sony:
     output: true
 
+  tcl:
+    output: true
+
   twrp:
     output: true
 
