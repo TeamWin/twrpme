@@ -100,7 +100,7 @@ collections:
 
   marshall:
     output: true
-    
+
   mattel:
     output: true
 
