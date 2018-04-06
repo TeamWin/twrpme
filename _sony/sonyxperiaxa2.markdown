@@ -12,7 +12,7 @@ oem: Sony
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-NOTE: Montly security updates may break decrypt in TWRP. MTP does not work at this time, but you can use adb to transfer files.
+NOTE: Monthly security updates may break decrypt in TWRP. MTP does not work at this time, but you can use adb to transfer files.
 
 {% include download.html %}
 
