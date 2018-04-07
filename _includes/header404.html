@@ -1,0 +1,25 @@
+<!-- Page level adsense ad -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3594204119287048",
+    enable_page_level_ads: true
+  });
+</script>
+
+  <div class="wrapper">
+
+      <div class="trigger">
+        {% for page in site.pages %}
+	  {% unless page.exclude %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+	  {% endunless %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
