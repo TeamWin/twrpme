@@ -1,0 +1,17 @@
+<!-- Page level adsense ad -->
+  <div class="wrapper">
+
+      <div class="trigger">
+        {% for page in site.pages %}
+	  {% unless page.exclude %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+	  {% endunless %}
+        {% endfor %}
+      </div>
+    </nav>
+
+  </div>
+
+</header>
