@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: Zanooda
 oem: Huawei
 devicetree: https://github.com/TeamWin/android_device_huawei_charlotte
+xdathread: https://forum.xda-developers.com/huawei-p20-pro/development/recovery-twrp-3-2-1-0-touch-recovery-t3779336
 ---
 
 {% include disclaimer.html %}
@@ -28,11 +29,11 @@ Note: Data cannot be decrypted in TWRP at this time. MTP also does not work, but
 <p class="text">On your device, go into Settings -> About and find the Build Number and tap on it 7 times to enable developer settings. Press back and go into Developer Options and enable USB debugging. From your computer, open a command prompt and type:</p>
 <p class="code">adb reboot bootloader</p>
 <p class="text">You should now be in fastboot mode.</p>
-{% if page.fastbootunlock %}
+
 <p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device type:</p>
-<p class="code">{{ fastboot }} oem unlock</p>
-{% endif %}
+<p class="code">fastboot oem unlock</p>
+
 <p class="text">Download the correct image file and copy the file into the same folder as your adb and fastboot binaries. Rename the image to twrp.img and type:</p>
-<p class="code">{{ fastboot }} flash recovery_ramdisk twrp.img</p>
-<p class="code">{{ fastboot }} reboot</p>
-<p class="text">Note many devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After typing <span class="code">{{ fastboot }} reboot</span>, hold the key combo and boot to TWRP. Once TWRP is booted, TWRP will patch the stock ROM to prevent the stock ROM from replacing TWRP. If you don't follow this step, you will have to repeat the install.</p>
+<p class="code">fastboot flash recovery_ramdisk twrp.img</p>
+<p class="code">fastboot reboot</p>
+<p class="text">Note many devices will replace your custom recovery automatically during first boot. To prevent this, use <a href="http://www.google.com">Google</a> to find the proper key combo to enter recovery. After typing <span class="code">fastboot reboot</span>, hold the key combo and boot to TWRP. Once TWRP is booted, TWRP will patch the stock ROM to prevent the stock ROM from replacing TWRP. If you don't follow this step, you will have to repeat the install.</p>
