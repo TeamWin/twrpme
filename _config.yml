@@ -152,6 +152,9 @@ collections:
   twrp:
     output: true
 
+  vanzo:
+    output: true
+
   wileyfox:
     output: true
 
