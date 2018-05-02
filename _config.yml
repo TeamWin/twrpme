@@ -104,6 +104,9 @@ collections:
   mattel:
     output: true
 
+  meizu:
+    output: true
+
   micromax:
     output: true
 
