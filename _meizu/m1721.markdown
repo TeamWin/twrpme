@@ -10,7 +10,11 @@ devicetree: https://github.com/TeamWin/android_device_meizu_m1721
 ---
 
 {% include disclaimer.html %}
+
 {% include supportstatus.html %}
+
 {% include appinstall.html %}
+
 {% include download.html %}
+
 {% include twrpinstall.html %}
