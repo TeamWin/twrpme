@@ -137,6 +137,9 @@ collections:
   pantech:
     output: true
 
+  planet:
+    output: true
+
   quanta:
     output: true
 
