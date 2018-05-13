@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: blankaf
 devicetree: https://github.com/TeamWin/android_device_xiaomi_chiron
 oem: Xiaomi
+xdathread: "https://forum.xda-developers.com/mi-mix-2/development/recovery-twrp-3-2-1-0-xiaomi-mi-mix-2-t3780525"
 ---
 
 {% include disclaimer.html %}
