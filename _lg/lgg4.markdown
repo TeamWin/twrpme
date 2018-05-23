@@ -1,7 +1,7 @@
 ---
 layout: device
 title:  "LG G4"
-codename: H811, H815
+codename: G4, F500, LS991, H810, H811, H812, H815, H819, US991, VS986
 downloadfolder: g4
 supportstatus: Current
 maintainer: steadfasterX
