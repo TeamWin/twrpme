@@ -32,7 +32,7 @@ Once you have passed this initial screen, you will be greeted with the app home 
 
 If you enabled root access, you will see options for selecting an image and buttons for flashing the selected image to boot or recovery. Note that you should flash TWRP images to recovery. The boot image flashing is for flashing full boot images (not just kernel zImages) and should not be used for flashing TWRP.
 
-<div class='page-heading'>What is InsightCore or Network Statics?</div>
+<div class='page-heading'>What is InsightCore or Network Statistics?</div>
 <hr />
 
 We have partnered with a company called [P3](http://www.p3-group.com/) on the development of this app. One of the features that we have included with this app is a feature to monitor and record the network performance of your device. P3's InsightCore will keep track of signal strength, network type (3G, 4G), and network speeds. If you enable this feature within the app, you will be able to monitor how well your carrier's network performs and compare the performance you are getting with your carrier to the performance of other users on your same carrier and compare to performance on other carriers in your region. We believe that crowd-sourcing this network performance data and providing that data to users will help you better choose which carrier offers the best value. You may find their privacy policy [here](privacypolicy.pdf).
