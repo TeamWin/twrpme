@@ -9,12 +9,12 @@ oem: Nubia
 devicetree: https://github.com/TeamWin/android_device_nubia_nx563j
 ---
 
-{% include disclaimer.html %}
+<div class='page-heading'>Installation:</div>
 
-{% include supportstatus.html %}
+1.unlock bootloader
 
-{% include appinstall.html %}
+fastboot oem nubia_unlock NUBIA_NX563J
 
-{% include download.html %}
+2.flash twrp
 
-{% include twrpinstall.html %}
+fastboot flash recovery twrp.img
