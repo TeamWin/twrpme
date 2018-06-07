@@ -1,14 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy S2 i9100"
+title: "Samsung Galaxy S II (International)"
 codename: i9100
 downloadfolder: i9100
 supportstatus: Currently Supported via IsoRec
-maintainer: arnab
+maintainer: ripee
 oem: Samsung
 ddof: "/dev/block/mmcblk0p6"
-xdathread: "http://forum.xda-developers.com/galaxy-s2/development-derivatives/recovery-twrp-3-0-0-0-t3330457"
 devicetree: "https://github.com/TeamWin/android_device_samsung_i9100"
+xdathread: "https://forum.xda-developers.com/galaxy-s2/orig-development/recovery-twrp-3-2-1-0-t3740526"
 ---
 
 {% include disclaimer.html %}
