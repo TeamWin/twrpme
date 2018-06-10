@@ -6,8 +6,7 @@ download folder: a3y17lte
 cpu: Exynos7870
 supportstatus: Current
 maintainer: McFy
-device tree:
-"https://github.com/TeamWin/android_device_samsung_a3y17lte"
+device tree: "https://github.com/TeamWin/android_device_samsung_a3y17lte"
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 ---
