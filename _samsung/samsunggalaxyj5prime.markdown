@@ -1,6 +1,6 @@
 layout: device
 title: "Samsung Galaxy J5 Prime"
-codename: G570F
+codename: on5xelte
 downloadfolder: g570f
 supportstatus: Current
 maintainer: awab228
