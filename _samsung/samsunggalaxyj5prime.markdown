@@ -1,3 +1,4 @@
+---
 layout: device
 title: "Samsung Galaxy J5 Prime"
 codename: on5xelte
