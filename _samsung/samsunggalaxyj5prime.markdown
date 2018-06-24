@@ -19,4 +19,4 @@ xdathread: "https://forum.xda-developers.com/galaxy-j5/samsung-galaxy-j5-prime-r
 
 {% include twrpinstall.html %}
 
-{% include ddinstall.html % }
+{% include ddinstall.html %}
