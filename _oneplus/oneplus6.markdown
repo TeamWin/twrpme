@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "OnePlus 6 (enchilada)"
+title:  "OnePlus 6"
 codename: enchilada
 downloadfolder: enchilada
 supportstatus: Current
