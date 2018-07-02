@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TWRP 3.2.2-0 Released"
+date:   2018-07-01 09:39:42
+categories: site update
+version: 3.2.2-0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+What's new in {{ page.version }}:
+
+	* adb backup fixes
+	* OTA style update zips will now install automatically without prompting for decrypt
+	* minor tweaks to handling date/time on Qualcomm devices
+	* updates to some language translations
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+[You can track the progress of builds here](https://jenkins.twrp.me)
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
