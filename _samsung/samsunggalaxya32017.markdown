@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy A3 2017"
 codename: a3y17lte
-download folder: a3y17lte
+downloadfolder: a3y17lte
 cpu: Exynos7870
 supportstatus: Current
 maintainer: McFy
