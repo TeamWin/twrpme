@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Motorola Moto E4 (woods)"
+title:  "Motorola Moto E4"
 codename: woods
 downloadfolder: woods
 supportstatus: Current
