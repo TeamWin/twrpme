@@ -1,10 +1,10 @@
 ---
 layout: device
-title: "Samsung Galaxy Note 4 Qualcomm"
+title: "Samsung Galaxy Note 4 (Snapdragon)"
 codename: trlte
 downloadfolder: International, Americas, Duos & Edge (SM-N910F/trltexx, SM-N910G/trltedt, SM-N910P/trltespr, SM-N910R4/trlteusc, SM-N910T/trltetmo, SM-N910V/trltevzw, SM-N910W8/trltecan)|trlte|International Duos (SM-N9100ZC/trlteduoszc, SM-N9100ZH/trlteduoszh, SM-N9106W/trlteduoszn, SM-N9109W/trlteduosctc)|trlteduos
 supportstatus: Current
-maintainer: bigbiff
+maintainer: ripee
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_trlte"
