@@ -158,6 +158,9 @@ collections:
   twrp:
     output: true
 
+  unihertz:
+    output: true
+
   vanzo:
     output: true
 
