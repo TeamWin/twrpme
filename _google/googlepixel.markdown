@@ -12,6 +12,7 @@ devicetree: https://github.com/TeamWin/android_device_google_sailfish
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+Decrypting Android 9.0 Pie when using a PIN / pattern / password does not work yet. We do not have an ETA for fixing decrypt.
 Restoring a backup made with an alpha using RC1 may result in loss of data including internal storage. If you need your backups from those versions, restore the backup using alpha2, then install RC1 and run a new backup with RC1.
 
 {% include download.html %}
