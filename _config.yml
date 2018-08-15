@@ -10,7 +10,7 @@ github_username: TeamWin
 plugins: ['git', 'redcarpet']
 # Build settings
 markdown: redcarpet
-keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
+keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf favicon.ico]
 exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
 
 collections:
