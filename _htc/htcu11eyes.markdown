@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: sabpprook
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: "https://github.com/TeamWin/android_device_htc_ocn"
+devicetree: "https://github.com/TeamWin/android_device_htc_hay"
 ---
 
 {% include disclaimer.html %}
