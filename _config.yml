@@ -119,6 +119,9 @@ collections:
   nextbit:
     output: true
 
+  nokia:
+    output: true
+
   nubia:
     output: true
 
