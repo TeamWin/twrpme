@@ -12,7 +12,6 @@ devicetree: https://github.com/TeamWin/android_device_google_wahoo
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-Decrypting Android 9.0 Pie when using a PIN / pattern / password does not work yet. We do not have an ETA for fixing decrypt.
 NOTE: Monthly security updates may break decrypt in TWRP. MTP does not work at this time, but you can use adb to transfer files.
 
 {% include download.html %}
