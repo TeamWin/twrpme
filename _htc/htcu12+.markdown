@@ -13,7 +13,7 @@ xdathread: "https://forum.xda-developers.com/u12-plus/development/recovery-unoff
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-NOTE: Updates may break decrypt in TWRP. MTP does not work at this time, but you can use adb to transfer files.
+NOTE: Updates may break decrypt in TWRP. MTP is working starting with Release 3.2.3-1.
 
 {% include download.html %}
 
@@ -30,6 +30,4 @@ This will temporarily boot TWRP on your device. You may use adb to push the zip 
 
 adb push path/to/twrp.zip /
 
-Go to install and browse to the zip and install the zip. The zip will install TWRP to both boot slots. Now flash magisk zip, otherwise the device will only be able to reboot straigtly to TWRP.
-
-MTP is currently disabled.
+Go to install and browse to the zip and install the zip. The zip will install TWRP to both boot slots. Please note: If you were previously rooted and want to keep your device rooted or want to root, you now have to flash the magisk.zip.
