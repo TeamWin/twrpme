@@ -59,6 +59,9 @@ collections:
   elephone:
     output: true
 
+  essential:
+    output: true
+
   fairphone:
     output: true
 
