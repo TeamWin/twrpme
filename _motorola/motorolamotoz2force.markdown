@@ -12,6 +12,7 @@ oem: Motorola
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+NOTE: Monthly security updates may break decryption of /data in TWRP. MTP does not work at this time, but you can use adb to transfer files.
 
 {% include download.html %}
 
@@ -24,6 +25,10 @@ Download both the img and the zip. Copy the zip to your device. You will need to
 
 fastboot boot path/to/twrp.img
 
-This will temporarily boot TWRP on your device. If you are using a lockscreen pin/pattern/password and do not get prompted to enter your password, reboot to the bootloader and try again. Go to install and browse to the zip and install the zip. The zip will install TWRP to both boot slots. Installing TWRP at this time will remove root if you are currently rooted.
+This will temporarily boot TWRP on your device. Use adb to push the zip onto your device:
+
+adb push path/to/twrp.zip /sdcard
+
+Go to install and browse to the zip and install the zip. The zip will install TWRP on boot partition of both slots.
 
 If you accidently flash TWRP to your device using fastboot instead of temporarily booting the image, you will need to download the latest firmware for your device and reflash the boot image.
