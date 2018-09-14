@@ -5,7 +5,7 @@ codename: a5y17lte
 downloadfolder: a5y17lte
 cpu: Exynos7880
 supportstatus: Current
-maintainer: None
+maintainer: Corsicanu
 device tree: "https://github.com/TeamWin/android_device_samsung_a5y17lte"
 oem: Samsung
 ---
