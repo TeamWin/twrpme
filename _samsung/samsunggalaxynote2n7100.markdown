@@ -5,7 +5,7 @@ codename: t03g
 downloadfolder: t03g
 oldurl: http://teamw.in/project/twrp2/115
 supportstatus: Current
-maintainer: None
+maintainer: marc0601
 oem: Samsung
 ddof: "/dev/block/mmcblk0p9"
 devicetree: "https://github.com/TeamWin/android_device_samsung_t03g"
