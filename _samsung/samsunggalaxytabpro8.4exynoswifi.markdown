@@ -1,13 +1,13 @@
 ---
 layout: device
 title:  "Samsung Galaxy Tab Pro 8.4 Wi-Fi"
-codename: mondrianwifiue
-downloadfolder: mondrianwifiue
+codename: mondrianwifi
+downloadfolder: mondrianwifi
 oldurl: http://teamw.in/project/twrp2/220
 supportstatus: Current
-maintainer: None
+maintainer: marc0601
 oem: Samsung
-devicetree: "https://github.com/TeamWin/android_device_samsung_mondrianwifiue"
+devicetree: "https://github.com/TeamWin/android_device_samsung_mondrianwifi"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=2679825"
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
 ---
