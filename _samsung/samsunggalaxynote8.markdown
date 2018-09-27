@@ -4,9 +4,9 @@ title:  "Samsung Galaxy Note 8 (Exynos)"
 codename: greatlte
 downloadfolder: greatlte
 supportstatus: Current
-maintainer: geiti94
-devicetree: https://github.com/TeamWin/android_device_samsung_greatlte
-xdathread: "https://forum.xda-developers.com/galaxy-note-8/development/recovery-twrp-galaxy-note-8-exynos-t3674036"
+maintainer: corsicanu
+devicetree: "https://github.com/TeamWin/android_device_samsung_greatlte"
+xdathread: "https://forum.xda-developers.com/galaxy-note-8/development/recovery-galaxy-note-8-t3832962"
 oem: Samsung
 ddof: "/dev/block/platform/11120000.ufs/by-name/RECOVERY"
 ---
@@ -15,10 +15,14 @@ ddof: "/dev/block/platform/11120000.ufs/by-name/RECOVERY"
 
 {% include supportstatus.html %}
 
+{% include dmverity.html %}
+
 {% include appinstall.html %}
 
 {% include download.html %}
 
 {% include twrpinstall.html %}
+
+{% include odininstall.html %}
 
 {% include ddinstall.html %}
