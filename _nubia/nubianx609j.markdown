@@ -23,6 +23,6 @@ On your device, go into Settings -> About and find the Build Number and tap on i
 
 unlock bootloader and flash twrp
 
-fastboot oem nubia_unlock NUBIA_NX609J
+<p class="code">fastboot oem nubia_unlock NUBIA_NX609J</p>
 
-fastboot flash recovery twrp.img
+<p class="code">fastboot flash recovery twrp.img</p>
