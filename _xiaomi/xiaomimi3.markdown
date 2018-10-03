@@ -5,7 +5,7 @@ codename: cancro
 downloadfolder: cancro
 oldurl: http://teamw.in/project/twrp2/288
 supportstatus: Current
-maintainer: None
+maintainer: MkfsSion
 devicetree: https://github.com/TeamWin/android_device_xiaomi_cancro.git
 oem: Xiaomi
 ---
