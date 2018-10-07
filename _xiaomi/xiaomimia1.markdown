@@ -4,7 +4,7 @@ title:  "Xiaomi Mi A1"
 codename: tissot
 downloadfolder: tissot
 supportstatus: Current
-maintainer: Mohan Cm(mohancm100)
+maintainer: nicknitewolf
 devicetree: "https://github.com/TeamWin/android_device_xiaomi_tissot.git"
 xdathread: "https://forum.xda-developers.com/mi-a1/development/recovery-twrp-3-1-1-0-touch-recovery-t3688472"
 oem: Xiaomi
