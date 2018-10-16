@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How Do I Become a TWRP Maintainer."
+title:  "How Do I Become a TWRP Maintainer?"
 ---
 
 <div class='page-heading'>How Do I Become a TWRP Maintainer?</div>
