@@ -5,8 +5,8 @@ title:  "What is TWRP?"
 
 <div class='page-heading'>What is TWRP?</div>
 <hr />
-TWRP stands for TeamWin Recovery Project. It is a custom touch recovery that is GUI based.<br/>
-<img src="https://twrp.me/images/home.png" alt="TWRP Home" /><br/>
+TWRP stands for TeamWin Recovery Project. It is a custom touch recovery that is GUI based.<br/><br/>
+<img src="https://twrp.me/images/home.png" alt="TWRP Home" /><br/><br/>
 TWRP allows the following features:
 <ul>
 <li>Backups of partitions in TAR or raw Image format</li>
