@@ -4,7 +4,7 @@ title: "Samsung Galaxy Tab S 10.5 LTE"
 codename: chagalllte
 downloadfolder: chagalllte
 supportstatus: Current
-maintainer: jcadduono
+maintainer: gellmar
 oem: Samsung
 ddof: "/dev/block/platform/dw_mmc.0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_chagalllte"
