@@ -1,0 +1,18 @@
+---
+layout: oem
+title: Mobvoi
+permalink: /Devices/Mobovoi/
+exclude: true
+---
+
+<div class="home">
+
+  <hr />
+  <ul class="post-list" id="post-list">
+    {% for post in site.mobvoi %}
+      <p>
+	<strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a></strong>
+      </p>
+    {% endfor %}
+  </ul>
+</div>

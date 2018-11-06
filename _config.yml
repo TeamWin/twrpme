@@ -116,6 +116,9 @@ collections:
   minix:
     output: true
 
+  mobvoi:
+    output: true
+
   motorola:
     output: true
 
