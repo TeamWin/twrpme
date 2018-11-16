@@ -12,7 +12,7 @@ devicetree: https://github.com/TeamWin/android_device_google_crosshatch
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-MTP does not work at this time. ADB also does not currently work. You may need to use a USB-OTG cable and a USB thumb drive to transfer files. TWRP may take a little longer than usual to boot on this device.
+MTP does not work at this time. ADB only works on the flashed version of TWRP. Unfortunately it does not work on the fastboot version of TWRP. You may need to use a USB-OTG cable and a USB thumb drive to transfer files. TWRP may take a little longer than usual to boot on this device.
 
 {% include download.html %}
 
