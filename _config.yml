@@ -101,6 +101,9 @@ collections:
   lg:
     output: true
 
+  LYF:
+    output: true
+
   marshall:
     output: true
 
