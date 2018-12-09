@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S4 (Qualcomm)"
 codename: jflte
-downloadfolder: International, Americas & China (GT-I9295/jactivelte, GT-I9505/jfltexx, GT-I9505G/jgedlte, GT-I9507/jftddxx, GT-I9508/jfltezm, SCH-I545/jfltevzw, SCH-R970/jflteusc, SCH-R970C/jfltecri, SCH-R970X/jfltecsp, SGH-I337/jflteatt, SGH-I337M/jfltecan, SGH-M919/jfltetmo, SGH-S970G/jfltetfntmo, SM-S975L/jfltetfnatt, SPH-L720/jfltespr)
+downloadfolder: International, Americas & China GT-I9295|jactivelte, GT-I9505|jfltexx, GT-I9505G|jgedlte, GT-I9507|jftddxx, GT-I9508|jfltezm, SCH-I545|jfltevzw, SCH-R970|jflteusc, SCH-R970C|jfltecri, SCH-R970X|jfltecsp, SGH-I337|jflteatt, SGH-I337M|jfltecan, SGH-M919|jfltetmo, SGH-S970G|jfltetfntmo, SM-S975L|jfltetfnatt, SPH-L720|jfltespr
 supportstatus: Current
 maintainer: ripee
 oem: Samsung
