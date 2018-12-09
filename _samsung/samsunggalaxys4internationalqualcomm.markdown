@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S4 (Qualcomm)"
 codename: jflte
-downloadfolder: International, Americas & China GT-I9295|jactivelte, GT-I9505|jfltexx, GT-I9505G|jgedlte, GT-I9507|jftddxx, GT-I9508|jfltezm, SCH-I545|jfltevzw, SCH-R970|jflteusc, SCH-R970C|jfltecri, SCH-R970X|jfltecsp, SGH-I337|jflteatt, SGH-I337M|jfltecan, SGH-M919|jfltetmo, SGH-S970G|jfltetfntmo, SM-S975L|jfltetfnatt, SPH-L720|jfltespr
+downloadfolder: International, Americas & China GT-I9295|jactivelte, GT-I9505|jfltexx, GT-I9505G|jgedlte, GT-I9507|jftddxx, SCH-I545|jfltevzw, SCH-R970|jflteusc, SCH-R970C|jfltecri, SGH-I337|jflteatt, SGH-I337M|jfltecan, SGH-M919|jfltetmo, SPH-L720|jfltespr
 supportstatus: Current
 maintainer: ripee
 oem: Samsung
@@ -17,7 +17,116 @@ xdathread: "https://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/recove
 
 {% include appinstall.html %}
 
-{% include download.html %}
+<p class="text">International, Americas & China GT-I9295:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jactivelte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">GT-I9505:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltexx">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">GT-I9505G:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jgedlte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">GT-I9507:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jftddxx">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SCH-I545:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltevzw">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SCH-R970:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jflteusc">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SCH-R970C:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltecri">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SGH-I337:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jflteatt">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SGH-I337M:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltecan">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SGH-M919:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltetmo">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">SPH-L720:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jfltespr">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
 
 {% include twrpinstall.html %}
 
