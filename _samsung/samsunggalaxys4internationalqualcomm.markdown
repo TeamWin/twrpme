@@ -2,7 +2,7 @@
 layout: device
 title: "Samsung Galaxy S4 (Qualcomm)"
 codename: jflte
-downloadfolder: International, Americas & China GT-I9295|jactivelte, GT-I9505|jfltexx, GT-I9505G|jgedlte, SCH-I545|jfltevzw, SCH-R970|jflteusc, SCH-R970C|jfltecri, SGH-I337|jflteatt, SGH-I337M|jfltecan, SGH-M919|jfltetmo, SPH-L720|jfltespr
+downloadfolder: International, Americas & China|jflte, GT-I9295|jactivelte, GT-I9505|jfltexx, GT-I9505G|jgedlte, SCH-I545|jfltevzw, SCH-R970|jflteusc, SCH-R970C|jfltecri, SGH-I337|jflteatt, SGH-I337M|jfltecan, SGH-M919|jfltetmo, SPH-L720|jfltespr
 supportstatus: Current
 maintainer: ripee
 oem: Samsung
@@ -17,7 +17,17 @@ xdathread: "https://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/recove
 
 {% include appinstall.html %}
 
-<p class="text">International, Americas & China GT-I9295:</p>
+<p class="text">International, Americas & China:</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}jflte">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">GT-I9295:</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
