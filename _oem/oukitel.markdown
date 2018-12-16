@@ -1,4 +1,4 @@
 ---
 layout: device
-oem: oukitel
+oem: Oukitel
 ---

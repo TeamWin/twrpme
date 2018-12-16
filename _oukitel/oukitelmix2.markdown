@@ -2,7 +2,7 @@
 layout: device
 title: "OUKITEL MIX 2"
 codename: mix2
-oem: oukitel
+oem: Oukitel
 downloadfolder: mix2
 supportstatus: Current
 maintainer: thanasxda
