@@ -146,6 +146,9 @@ collections:
   oppo:
     output: true
 
+  oukitel:
+    output: true
+
   pantech:
     output: true
 
