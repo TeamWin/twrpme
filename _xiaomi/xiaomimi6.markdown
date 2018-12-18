@@ -5,6 +5,7 @@ codename: sagit
 downloadfolder: sagit
 supportstatus: Current
 maintainer: Parth Bhatia (TheStrix)
+co-maintainer: Mauronofrio
 devicetree: https://github.com/TeamWin/android_device_xiaomi_sagit
 oem: Xiaomi
 xdathread: "https://forum.xda-developers.com/mi-6/development/recovery-twrp-xiaomi-mi-6-t3619822"
