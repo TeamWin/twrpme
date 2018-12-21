@@ -4,7 +4,7 @@ title:  "OnePlus 6 (enchilada)"
 codename: enchilada
 downloadfolder: enchilada
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: Dees_Troy, Mauronofrio
 oem: OnePlus
 devicetree: https://github.com/TeamWin/android_device_oneplus_enchilada
 ---
@@ -24,5 +24,3 @@ Power off the device. Hold volume up to get into fastboot mode. Run this command
 `fastboot boot twrp-3.2.1-0-enchilada.img`
 
 In TWRP, tap on Install and browse to the zip and install it (the zip will probably be in /sdcard/Downloads). TWRP will now be installed to both slots. TWRP is now installed and you can reboot and use your device as normal.
-
-MTP is disabled because it causes a kernel panic sometimes with the stock kernel.
