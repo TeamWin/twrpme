@@ -1,15 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 4 Exynos LTE"
+title:  "Samsung Galaxy Note 4 Exynos LTE (treltexx)"
 codename: treltexx
 downloadfolder: treltexx
-oldurl: http://teamw.in/project/twrp2/273
 supportstatus: Current
-maintainer: None
+maintainer: ananjaser1211
 oem: Samsung
 ddof: "/dev/block/platform/15540000.dwmmc0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_treltexx"
-xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility-twrp-2-8-1-x-teamwin-t2956011"
+xdathread: "https://forum.xda-developers.com/note-4/development/recovery-twrp-3-2-3-0-touch-recovery-t3836759"
 ---
 
 {% include disclaimer.html %}
