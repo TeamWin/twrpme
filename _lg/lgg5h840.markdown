@@ -1,0 +1,28 @@
+---
+layout: device
+title: "LG G5 SE International"
+codename: h840
+downloadfolder: h840
+supportstatus: Current
+maintainer: None
+oem: LG
+ddof: "/dev/block/platform/soc.0/7824900.sdhci/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_lge_h840"
+xdathread: "https://forum.xda-developers.com/lg-g5/development/twrp-3-0-2-0-lg-g5-h840-t3604778"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+{% include lgunlock.html %}
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}
+
+{% include ddinstall.html %}
