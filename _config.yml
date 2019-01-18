@@ -161,6 +161,9 @@ collections:
   razer:
     output: true
 
+  realme:
+    output: true
+
   samsung:
     output: true
 
