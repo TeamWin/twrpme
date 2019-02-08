@@ -1,4 +1,0 @@
----
-layout: device
-oem: Realme
----
