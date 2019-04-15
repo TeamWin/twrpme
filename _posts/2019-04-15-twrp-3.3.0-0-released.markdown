@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "TWRP 3.3.0-0 Released"
+date:   2019-04-15 09:39:42
+categories: site update
+version: 3.3.0-0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+What's new in {{ page.version }}:
+
+	* Merge AOSP 9.0 r3 (Dees_Troy)
+	* Use ANDROID_ROOT variable instead of hard coding to /system (CaptainThrowback)
+	* Decrypt FBE on 9.0 and metadata decrypt (Dees_Troy)
+	* vold decrypt updates (CaptainThrowback and nijel8)
+	* Support vibration on LED class devices (notsyncing)
+	* Metadata decrypt support for Pixel 3 (Dees_Troy)
+	* Support rotating the display via build flag (vladimiroltean)
+	* Reboot to EDL mode button (mauronofrio)
+	* Support MTP on FFS devices (bigbiff)
+	* Update FDE decrypt to support keymaster 3 and 4 (Dees_Troy)
+	* Detect mkfs.f2fs version to properly format on f2fs partitions (Dees_Troy)
+	* Allow TWRP to use md5 and sha256 checksums for zip installs (bigbiff)
+	* TWRP can use /data/cache/recovery and /persist/cache/recovery on AB devices with no cache partition (bigbiff)
+	* Switch part of advanced menus in TWRP to use a listbox of options (Dees_Troy)
+	* Use magiskboot to allow repacking boot images for installing TWRP (Dees_Troy with thanks to topjohnwu of course)
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
