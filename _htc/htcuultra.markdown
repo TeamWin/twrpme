@@ -4,7 +4,7 @@ title:  "HTC U Ultra"
 codename: oce
 downloadfolder: oce
 supportstatus: Current
-maintainer: None
+maintainer: TARKZiM
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_htc_oce"
