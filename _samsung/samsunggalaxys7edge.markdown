@@ -4,7 +4,7 @@ title: "Samsung Galaxy S7 edge (Exynos)"
 codename: hero2lte
 downloadfolder: "International &amp; Canada (SM-G935F, SM-G935FD, SM-G935X, SM-G935W8)|hero2lte|Korea (SM-G935K, SM-G935L, SM-G935S)|hero2ltekor"
 supportstatus: Current
-maintainer: jcadduono
+maintainer: ivanmeler
 devicetree: "https://github.com/TeamWin/android_device_samsung_hero2lte"
 xdathread: "http://forum.xda-developers.com/s7-edge/development/recovery-official-twrp-hero2lte-3-0-0-0-t3334084"
 oem: Samsung

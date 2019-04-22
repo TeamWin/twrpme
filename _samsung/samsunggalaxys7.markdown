@@ -4,7 +4,7 @@ title: "Samsung Galaxy S7 (Exynos)"
 codename: herolte
 downloadfolder: "International &amp; Canada (SM-G930F, SM-G930FD, SM-G930X, SM-G930W8)|herolte|Korea (SM-G930K, SM-G930L, SM-G930S)|heroltekor"
 supportstatus: Current
-maintainer: jcadduono
+maintainer: ivanmeler
 devicetree: "https://github.com/TeamWin/android_device_samsung_herolte"
 xdathread: "http://forum.xda-developers.com/galaxy-s7/development/recovery-official-twrp-herolte-t3333770"
 oem: Samsung
