@@ -7,7 +7,7 @@ downloadfolder: kuntao_row
 supportstatus: Current
 maintainer: Celoxocis
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_lenovo_p2a42
+devicetree: https://github.com/TeamWin/android_device_lenovo_kuntao_row
 xdathread: "https://forum.xda-developers.com/android/development/recovery-unofficial-twrp-lenovo-p2-3-0-t3533659"
 fastbootunlock: true
 ---
