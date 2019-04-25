@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: Mauronofrio
 oem: OnePlus
 devicetree: https://github.com/TeamWin/android_device_oneplus_fajita
+xdathread: "https://forum.xda-developers.com/oneplus-6t/development/recovery-unofficial-twrp-touch-recovery-t3861482"
 ---
 
 {% include disclaimer.html %}
