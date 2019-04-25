@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: Dees_Troy, Mauronofrio
 oem: OnePlus
 devicetree: https://github.com/TeamWin/android_device_oneplus_enchilada
+xdathread: "https://forum.xda-developers.com/oneplus-6/development/recovery-unofficial-twrp-touch-recovery-t3860815"
 ---
 
 {% include disclaimer.html %}
