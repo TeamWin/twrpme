@@ -4,7 +4,7 @@ title:  "HTC One A9"
 codename: hiae
 downloadfolder: hiae
 supportstatus: Current
-maintainer: None
+maintainer: Captain_Throwback
 oem: HTC
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/teamwin/android_device_htc_hiae"
