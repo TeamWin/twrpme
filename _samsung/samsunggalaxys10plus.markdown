@@ -4,7 +4,7 @@ title: "Samsung Galaxy S10+ (Exynos)"
 codename: beyond2lte
 downloadfolder: beyond2lte
 supportstatus: Current
-maintainer: ianmacd
+maintainer: ianmacd (credit to geiti94 for the initial unofficial release)
 devicetree: "https://github.com/TeamWin/android_device_samsung_beyond2lte"
 xdathread: "https://forum.xda-developers.com/s10-plus/development/recovery-twrp-3-3-0-galaxy-s10-exynos-t3924856"
 oem: Samsung
