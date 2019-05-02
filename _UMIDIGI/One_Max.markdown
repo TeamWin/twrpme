@@ -1,14 +1,14 @@
 ---
 layout: device
-title: "OUKITEL K10"
-codename: k10
-oem: Oukitel
-downloadfolder: k10
+title: "UMIDIGI One Max"
+codename: One_Max
+oem: UMIDIGI
+downloadfolder: One_Max
 supportstatus: Current
 maintainer: chankruze
 ddof: "/dev/block/platform/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_oukitel_k10
-xdathread: "https://forum.xda-developers.com/android/development/recovery-twrp-3-3-0-0-oukitel-k10-t3925703"
+devicetree: https://github.com/TeamWin/android_device_UMIDIGI_One_Max
+xdathread: "https://forum.xda-developers.com/android/development/twrp-twrp-3-3-0-0-umidigi-one-max-t3926615"
 ---
 
 {% include disclaimer.html %}
