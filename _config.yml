@@ -173,7 +173,7 @@ collections:
   twrp:
     output: true
 
-  UMIDIGI:
+  umidigi:
     output: true
 
   unihertz:
