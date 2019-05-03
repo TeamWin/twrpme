@@ -7,7 +7,7 @@ downloadfolder: One_Max
 supportstatus: Current
 maintainer: chankruze
 ddof: "/dev/block/platform/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_UMIDIGI_One_Max
+devicetree: https://github.com/TeamWin/android_device_umidigi_one_max
 xdathread: "https://forum.xda-developers.com/android/development/twrp-twrp-3-3-0-0-umidigi-one-max-t3926615"
 ---
 
