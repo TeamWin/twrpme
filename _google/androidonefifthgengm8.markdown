@@ -6,7 +6,7 @@ downloadfolder: gm8_sprout
 supportstatus: Current
 maintainer: Yigit Emre Yanik (yey59)
 oem: Google
-devicetree: https://github.com/yey59/android_device_google_gm8_sprout
+devicetree: https://github.com/TeamWin/android_device_google_gm8_sprout
 ---
 
 {% include disclaimer.html %}
