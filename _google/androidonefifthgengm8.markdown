@@ -19,7 +19,9 @@ devicetree: https://github.com/TeamWin/android_device_google_gm8_sprout
 
 
 <div class='page-heading'>Installation:</div>
+IMPORTANT : Only works with "9.0 April sec. patch !"
+
 Install on your active slot
 
-Sample : fastboot flash boot_a twrp.img or fastboot flash boot_b twrp.img
+Sample : fastboot flash boot_(activeslot) twrp.img
 
