@@ -8,7 +8,7 @@ maintainer: ripee
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_trlte"
-xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility-twrp-2-8-1-x-teamwin-t2956011"
+xdathread: "https://forum.xda-developers.com/note-4/snapdragon-dev/recovery-twrp-3-3-1-0-t3933427"
 ---
 
 {% include disclaimer.html %}
