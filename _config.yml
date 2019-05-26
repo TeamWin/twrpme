@@ -181,6 +181,9 @@ collections:
 
   vanzo:
     output: true
+  
+  vestel:
+    output: true
 
   wileyfox:
     output: true
