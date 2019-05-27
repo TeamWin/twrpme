@@ -6,7 +6,7 @@ downloadfolder: mobee01a
 supportstatus: Current
 maintainer: Mohd Faraz
 devicetree: https://github.com/TeamWin/android_device_LYF_mobee01a
-oem: LYF
+oem: Lyf
 ---
 
 {% include disclaimer.html %}
