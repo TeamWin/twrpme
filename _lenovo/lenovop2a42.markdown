@@ -1,14 +1,14 @@
 ---
 layout: device
 title: "Lenovo P2a42"
-codename: kuntao_row
+codename: kuntao
 oem: Lenovo
-downloadfolder: kuntao_row
+downloadfolder: kuntao
 supportstatus: Current
-maintainer: Celoxocis
+maintainer: Darshan M. (darshan1205)
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_lenovo_kuntao_row
-xdathread: "https://forum.xda-developers.com/android/development/recovery-unofficial-twrp-lenovo-p2-3-0-t3533659"
+devicetree: https://github.com/TeamWin/android_device_lenovo_kuntao
+xdathread: "https://forum.xda-developers.com/lenovo-p2/development/recovery-twrp-3-3-1-0-lenovo-p2-t3932598"
 fastbootunlock: true
 ---
 
