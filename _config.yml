@@ -74,6 +74,9 @@ collections:
   htc:
     output: true
 
+  huami:
+    output: true
+
   huawei:
     output: true
 
