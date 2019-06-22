@@ -21,7 +21,7 @@ Release 3.2.3-3 supports HTC´s firmware 1.53.xxx.y with security patch state of
 Release 3.2.3-4 supports HTC´s firmware 1.53.xxx.y with security patch state of 1st December 2018. Starting with 3.2.3-4 booting TWRP won´t mount system RW, therefore no longer impacting OTA functionality by solely booting TWRP.
 Release 3.2.3-5 supports HTC´s firmware 1.57.xxx.y with security patch state of 1st January 2019.
 Release 3.3.0-0 supports HTC´s firmware 1.62.xxx.y with security patch state of 1st February 2019.
-Release 3.3.0-1 supports HTC´s firmware 1.68.xxx.y with security patch state of 1st April 2019.
+Release 3.3.1-0 supports HTC´s firmware 1.68.xxx.y with security patch state of 1st April 2019.
 
 {% include download.html %}
 
