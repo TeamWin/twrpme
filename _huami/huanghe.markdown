@@ -10,7 +10,7 @@ devicetree: https://github.com/TeamWin/android_device_huami_huanghe
 xdathread: "https://forum.xda-developers.com/smartwatch/amazfit/twrp-unofficial-twrp-3-x-recovery-t3851089"
 ---
 
-{{% include disclaimer.html %}
+{% include disclaimer.html %}
 
 {% include supportstatus.html %}
 
