@@ -4,7 +4,7 @@ title:  "Samsung Galaxy S3 International Exynos"
 codename: i9300
 downloadfolder: i9300
 oldurl: http://teamw.in/project/twrp2/114
-supportstatus: Current
+supportstatus: Not Current
 maintainer: None
 oem: Samsung
 ddof: "/dev/block/mmcblk0p6"
