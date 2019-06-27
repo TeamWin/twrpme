@@ -4,7 +4,7 @@ title:  "Google Pixel XL"
 codename: marlin
 downloadfolder: marlin
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: bigbiff, Dees_Troy
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_marlin
 ---
