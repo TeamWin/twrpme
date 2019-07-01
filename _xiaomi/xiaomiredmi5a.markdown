@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Redmi 5A"
 codename: riva
 downloadfolder: riva
-supportstatus: Current
-maintainer: Darshan M. (darshan1205)
+supportstatus: Not Supported
+maintainer: none
 devicetree: https://github.com/TeamWin/android_device_xiaomi_riva.git
 oem: Xiaomi
 ddof: "/dev/block/bootdevice/by-name/recovery"

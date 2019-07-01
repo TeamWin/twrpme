@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Redmi 4A"
 codename: rolex
 downloadfolder: rolex
-supportstatus: Current
-maintainer: Darshan M. (darshan1205)
+supportstatus: Not supported
+maintainer: none
 devicetree: https://github.com/TeamWin/android_device_xiaomi_rolex.git
 oem: Xiaomi
 ddof: "/dev/block/bootdevice/by-name/recovery"
