@@ -4,11 +4,11 @@ title:  "Samsung Galaxy J5N LTE (SM-J500FN)"
 codename: j5nlte
 downloadfolder: j5nlte
 supportstatus: Current
-maintainer: Vincent Zvikaramba
+maintainer: David McLeod
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_samsung_j5nlte.git
-xdathread: https://forum.xda-developers.com/showthread.php?t=3588533
+xdathread: https://forum.xda-developers.com/galaxy-j5/development/unofficial-twrp-3-3-1-galaxy-j5-2015-t3946500
 ---
 
 {% include disclaimer.html %}
