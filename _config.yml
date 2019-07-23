@@ -178,6 +178,9 @@ collections:
 
   twrp:
     output: true
+
+  ulefone:
+    output: true
   
   umidigi:
     output: true

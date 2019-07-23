@@ -1,0 +1,16 @@
+---
+layout: oem
+title: Ulefone
+permalink: /Devices/Ulefone/
+exclude: true
+---
+<div class="home">
+    <hr />
+    <ul class="post-list" id="post-list">
+        {% for post in site.ulefone %}
+        <p>
+            <strong><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} ({{ post.codename }})</a></strong>
+        </p>
+        {% endfor %}
+    </ul>
+</div>
