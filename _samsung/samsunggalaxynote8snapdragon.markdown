@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 8 (Exynos)"
+title:  "Samsung Galaxy Note 8 (Snapdragon)"
 codename: greatlte
 downloadfolder: greatqlte
 supportstatus: Current
 maintainer: LeeMenHin
 devicetree: "https://github.com/TeamWin/android_device_samsung_greatqlte"
-xdathread: "https://forum.xda-developers.com/galaxy-note-8/development/recovery-galaxy-note-8-t3832962"
+xdathread: "https://forum.xda-developers.com/galaxy-note-8/development/recovery-samsung-galaxy-note8-snapdragon-t3962754"
 oem: Samsung
 ddof: "/dev/block/platform/soc/1da4000.ufshc/by-name/recovery"
 ---
