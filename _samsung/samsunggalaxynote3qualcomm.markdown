@@ -21,7 +21,7 @@ xdathread: "https://forum.xda-developers.com/galaxy-note-3/development/recovery-
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">Americas, Europe &amp; Korea (SM-N9005/hltexx, SM-N900K/hltekor, SM-N900L/hltekor, SM-N900P/hltespr, SM-N900R4/hlteusc, SM-N900S/hltekor, SM-N900T/hltetmo, SM-N900V/hltevzw, SM-N900W8/hltecan):</p>
+<p class="text">Americas, Europe &amp; (SM-N9005/hltexx, SM-N900P/hltespr, SM-N900R4/hlteusc, SM-N900T/hltetmo, SM-N900V/hltevzw, SM-N900W8/hltecan):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
@@ -46,6 +46,16 @@ xdathread: "https://forum.xda-developers.com/galaxy-note-3/development/recovery-
 {% for mirror in site.data.mirrors %}
   <li>
     <a href="{{ mirror.baseurl }}hltekdi">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<p class="text">Korea (SM-N900K, SM-N900S):</p>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}hlteskt">
       {{ mirror.description }}
     </a>
   </li>
