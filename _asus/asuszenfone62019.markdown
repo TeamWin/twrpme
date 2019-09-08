@@ -30,5 +30,6 @@ fastboot boot twrp-installer-fastboot-3.3.1-0-I01WD.img
 
 This will allow you to install the permanent version. Download the latest image from the download mirros specified above. Next use MTP to put it on /sdcard/.
 
-Once the image is on the phone, go to Install->Install Image and select the image you pushed to /sdcard/. TWRP will repack your ramdisk and permanently install
-the image to your boot_a and boot_b partition. Currently there is no official support for an installer zip to perform these actions.
+Once the image is on the phone, go to Install->Install Image and select the image you pushed to /sdcard/. Make sure to choose Install Recovery Ramdisk and not boot.
+TWRP will repack your ramdisk and permanently install the image to your boot_a and boot_b partition. 
+Currently there is no official support for an installer zip to perform these actions.
