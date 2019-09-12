@@ -63,12 +63,16 @@ xdathread: "https://forum.xda-developers.com/red-magic/development/nx609j-twrp-s
 <p class="code">adb reboot bootloader</p>
 <p class="text">You should now be in fastboot mode.</p>
 <p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device type:</p>
-<p class="code">{{ fastboot }} oem nubia_unlock NUBIA_NX609J</p>
+<p class="code">{{ fastboot }} oem nubia\_unlock NUBIA\_NX609J</p>
 <p class="text">Download the correct image file and copy the file into the same folder as your adb and fastboot binaries. Rename the image to twrp.img and type:</p>
 <p class="code">{{ fastboot }} flash recovery twrp.img</p>
 <p class="text">Choose the "Reboot to recovery" option in bootloader to enter TWRP.</p>
 <p class="text">NOTE: Many devices will replace your custom recovery automatically during first boot. To prevent this, boot to TWRP and swipe to "Allow System Modifications". TWRP will then patch the stock ROM to prevent the stock ROM from replacing TWRP. If you don't follow this step, you will have to repeat the install.</p>
 <p class="text"><strong>WARNING</strong>: Choosing to "Allow System Modifications" in TWRP may result in a non-booting device if dm-verity is enabled. Disable dm-verity before (or immediately after) choosing this option using a dm-verity disable zip or a root zip like Magisk.</p>
+</html>
+
+{% include ddinstall.html %}
+r immediately after) choosing this option using a dm-verity disable zip or a root zip like Magisk.</p>
 </html>
 
 {% include ddinstall.html %}
