@@ -2,7 +2,7 @@
 layout: device
 title:  "Nubia ZTE 红魔电竞游戏手机 (Red Magic)"
 codename: nx609j
-downloadfolder: "nx609j, nx609j_SAR"
+downloadfolder: nx609j
 supportstatus: Current
 maintainer: youyim, Captain_Throwback
 oem: Nubia
@@ -14,18 +14,6 @@ xdathread: "https://forum.xda-developers.com/red-magic/development/nx609j-twrp-s
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-
-<html>
-<div class='page-heading' id='app-install'>App Install Method (Requires Root):</div>
-<a id='app'></a>
-<hr />
-<p class="text">Download the Official TWRP App (root required):</p>
-<ul class="text">
-    <li><a href="https://play.google.com/store/apps/details?id=me.twrp.twrpapp">Play Store (recommended)</a></li>
-    <li><a href="https://dl.twrp.me/twrpapp/">No Play Store?&nbsp;Download the latest version here.</a></li>
-</ul>
-<p class="text">Install the app and open it.&nbsp;Agree to the Terms.&nbsp;Select TWRP Flash. Select your device from the device list (nx609j or nx609j_SAR) and choose a version. The file will download to your Downloads folder. Browse to and select the file. Tap on Flash to Recovery. Find out <a href="https://twrp.me/app/">more about the app here.</a></p>
-</html>
 
 <div class='page-heading' id='download'>Download Links:</div>
 <hr />
