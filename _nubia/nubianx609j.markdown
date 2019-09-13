@@ -2,7 +2,7 @@
 layout: device
 title:  "Nubia ZTE 红魔电竞游戏手机 (Red Magic)"
 codename: nx609j
-downloadfolder: nx609j
+downloadfolder: "Oreo firmware (legacy system setup)|nx609j|Pie firmware (system-as-root setup)|nx609j_SAR"
 supportstatus: Current
 maintainer: youyim, Captain_Throwback
 oem: Nubia
@@ -14,6 +14,8 @@ xdathread: "https://forum.xda-developers.com/red-magic/development/nx609j-twrp-s
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+
+{% include appinstall.html %}
 
 <div class='page-heading' id='download'>Download Links:</div>
 <hr />
