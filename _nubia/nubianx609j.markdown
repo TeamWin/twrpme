@@ -72,7 +72,3 @@ xdathread: "https://forum.xda-developers.com/red-magic/development/nx609j-twrp-s
 </html>
 
 {% include ddinstall.html %}
-r immediately after) choosing this option using a dm-verity disable zip or a root zip like Magisk.</p>
-</html>
-
-{% include ddinstall.html %}
