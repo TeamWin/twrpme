@@ -6,7 +6,7 @@ oem: Realme
 downloadfolder: RMX1901
 supportstatus: Current
 maintainer: chankruze
-ddof: "/dev/block/platform/bootdevice/by-name/recovery"
+ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_realme_RMX1901
 xdathread: "https://forum.xda-developers.com/realme-x/development/twrp-twrp-3-3-1-0-realme-x-t3970313"
 ---
