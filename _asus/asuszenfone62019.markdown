@@ -23,13 +23,9 @@ xdathread: "https://forum.xda-developers.com/zenfone-6-2019/development/tool-uti
 <div class="page-heading">Installation</div>
 Please unlock your bootloader according to instructions documented <a href="https://www.xda-developers.com/asus-zenfone-6-bootloader-unlock-tool-kernel-source-code/">here</a>
 
-Next download twrp-installer-fastboot-3.3.1-0-I01WD.img and do
+Next download twrp-3.3.1-1-I01WD.img and do
 <pre>
-fastboot boot twrp-installer-fastboot-3.3.1-0-I01WD.img
+fastboot boot twrp-3.3.1-1-I01WD.img
 </pre>
 
-This will allow you to install the permanent version. Download the latest image from the download mirros specified above. Next use MTP to put it on /sdcard/.
-
-Once the image is on the phone, go to Install->Install Image and select the image you pushed to /sdcard/. Make sure to choose Install Recovery Ramdisk and not boot.
-TWRP will repack your ramdisk and permanently install the image to your boot_a and boot_b partition.
-Currently there is no official support for an installer zip to perform these actions.
+This will allow you to install the permanent version. Download twrp-I01WD-installer-3.3.1-1.zip and install it normally through the Install button in TWRP.
