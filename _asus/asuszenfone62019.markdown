@@ -23,9 +23,9 @@ xdathread: "https://forum.xda-developers.com/zenfone-6-2019/development/tool-uti
 <div class="page-heading">Installation</div>
 Please unlock your bootloader according to instructions documented <a href="https://www.xda-developers.com/asus-zenfone-6-bootloader-unlock-tool-kernel-source-code/">here</a>
 
-Next download twrp-3.3.1-1-I01WD.img and do
+Next download twrp-3.3.1-x-I01WD.img and do
 <pre>
-fastboot boot twrp-3.3.1-1-I01WD.img
+fastboot boot twrp-3.3.1-x-I01WD.img
 </pre>
 
-This will allow you to install the permanent version. Download twrp-I01WD-installer-3.3.1-1.zip and install it normally through the Install button in TWRP.
+This will allow you to install the permanent version. Download twrp-I01WD-installer-3.3.1-x.zip and install it normally through the Install button in TWRP.
