@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: Grace5921
 oem: Samsung
 ddof: "/dev/block/mmcblk0p6"
-devicetree: "https://github.com/TeamWin/device_samsung_kyleve"
+devicetree: "https://github.com/TeamWin/android_device_samsung_kyleve"
 ---
 
 {% include disclaimer.html %}
