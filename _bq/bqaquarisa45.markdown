@@ -3,7 +3,7 @@ layout: device
 title:  "BQ Aquaris A4.5"
 codename: dendeone
 downloadfolder: dendeone
-supportstatus: Current
+supportstatus: None
 maintainer: Kra1o5
 oem: BQ
 devicetree: https://github.com/TeamWin/android_device_bq_dendeone
