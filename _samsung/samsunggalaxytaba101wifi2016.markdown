@@ -8,7 +8,7 @@ maintainer: srgrusso
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_gtaxlwifi"
-xdathread: "http://forum.xda-developers.com/android/development/recovery-official-twrp-gtaxlwifi-galaxy-t3437666"
+xdathread: "https://forum.xda-developers.com/galaxy-tab-a/development/recovery-t3995181"
 ---
 
 {% include disclaimer.html %}
