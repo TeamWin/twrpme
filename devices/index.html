@@ -19,7 +19,7 @@ permalink: /Devices/
   <ul class="post-list" id="post-list">
     {% for post in site.oem %}
       <p>
-	<strong><a href="/Devices/{{ post.oem }}/">{{ post.oem }}</a></strong>
+	<strong><a href="{{ site.baseurl }}/Devices/{{post.oem}}/">{{ post.oem }}</a></strong>
       </p>
     {% endfor %}
   </ul>
