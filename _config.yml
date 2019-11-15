@@ -14,6 +14,9 @@ keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, wh
 exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf]
 
 collections:
+  docs:
+    output: true
+
   faq:
     output: true
 

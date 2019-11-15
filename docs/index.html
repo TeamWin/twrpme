@@ -1,0 +1,16 @@
+---
+layout: page
+title: Docs
+---
+  <a style="float:right;font-size:small;" href="contribute.html">Contribute&#9998;</a>
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.docs %}
+      <p>
+        <a class="post-meta" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </p>
+    {% endfor %}
+  </ul>
+
+</div>
