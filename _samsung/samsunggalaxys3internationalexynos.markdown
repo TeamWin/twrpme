@@ -1,15 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy S3 International Exynos"
+title:  "Samsung Galaxy S III (International Exynos)"
 codename: i9300
 downloadfolder: i9300
-oldurl: http://teamw.in/project/twrp2/114
-supportstatus: Not Current
-maintainer: None
+supportstatus: Current
+maintainer: ripee
 oem: Samsung
-ddof: "/dev/block/mmcblk0p6"
+ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_i9300"
-xdathread: "http://forum.xda-developers.com/galaxy-s3/orig-development/recovery-twrp-2-7-1-0-touch-recovery-t1943592"
+xdathread: "https://forum.xda-developers.com/galaxy-s3/orig-development/recovery-twrp-3-3-1-0-t4023605"
 ---
 
 {% include disclaimer.html %}
