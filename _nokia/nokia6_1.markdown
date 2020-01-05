@@ -14,33 +14,21 @@ devicetree: https://github.com/TeamWin/android_device_nokia_PL2
 {% include supportstatus.html %}
 NOTE: Monthly security updates may break decrypt in TWRP.
 
+{% include dmverity.html %}
+
 {% include download.html %}
 
 <div class='page-heading'>Installation:</div>
-If you already have TWRP installed:
-Download the latest zip and install the zip using TWRP.
+WARNING: If you accidently flash TWRP to your device using fastboot instead of temporarily booting the image, you will need to download the latest factory image for your device and reflash the boot image.
 
-If you do not already have TWRP installed:
-Download both the img and the zip.You will need to have fastboot binaries and the correct drivers installed.
+To install TWRP permanently on your device, copy the downloaded image into your device's storage.
 
-You can grab latest platform-tools (fastboot binaries) from [here]https://developer.android.com/studio/releases/platform-tools
+Now reboot to fastboot/download mode by using adb or manual key combos (Volume down + Power). Temporary boot the downloaded image using the following command:
 
-Now go in the directory where your adb/fastboot binaries exists.Connect the device to your PC.Enable USB debugging in developer options & then open a command window and run the following command from the proper location: 
+<code>fastboot boot path/to/twrp.img</code>
 
-adb reboot bootloader
+Once booted, navigate to the Advanced > Install Recovery Ramdisk option. This will ask you to select the image you want to install TWRP from. Select the TWRP image you just downloaded and copied into device storage. Proceed to install this image.
 
-Your device should now be in the bootloader.
+You also need to use the "Fix Recovery Bootloop" option present in the same Advanced Tab. Use that option after you have installed the recovery ramdisk successfully to avoid boot loops happening from installing TWRP Permanently.
 
-Then again from command window run the following command from the proper location:
-
-fastboot boot path/to/twrp.img
-
-This will temporarily boot TWRP on your device. Use adb to push the zip onto your device:
-
-adb push path/to/twrp.zip /
-
-Even MTP is working you can also directly copy zip from your pc and paste to your device.
-
-Go to install and browse to the zip and install the zip. The zip will install TWRP to both boot slots. Installing TWRP at this time will remove root if you are currently rooted.
-
-If you accidently flash TWRP to your device using fastboot instead of temporarily booting the image, you will need to download the latest factory image for your device and reflash the boot image.
+After this is done, you have successfully installed TWRP on your device.
