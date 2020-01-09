@@ -61,9 +61,9 @@ adb reboot
 adb wait-for-device
 adb shell su -c 'mount -o remount,rw /system && rm /system/etc/install-recovery.sh && mount -o remount,ro /system'
 adb push recovery.img /sdcard/recovery.img
-adb shell su -c "dd if=/sdcard/recovery.img of=/dev/block/platform/omap_hsmmc.1/by-name/recovery"
+adb shell su -c "dd if=/sdcard/recovery.img of=/dev/block/platform/omap\_hsmmc.1/by-name/recovery"
 adb push exploit.img /sdcard/exploit.img
-adb shell su -c "dd if=/sdcard/exploit.img of=/dev/block/platform/omap_hsmmc.1/by-name/exploit"
+adb shell su -c "dd if=/sdcard/exploit.img of=/dev/block/platform/omap\_hsmmc.1/by-name/exploit"
 adb shell rm /sdcard/recovery.img /sdcard/exploit.img
 </pre>
 <p class="text">TWRP can now be accessed holding the volume down button when powering on the device</p>
