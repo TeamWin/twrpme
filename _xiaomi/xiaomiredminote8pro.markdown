@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: theimpulson
 devicetree: https://github.com/TeamWin/android_device_redmi_begonia
 oem: Xiaomi
+xdathread: "https://forum.xda-developers.com/redmi-note-8-pro/development/recovery-twrp-3-3-1-0-touch-recovery-t4039691"
 ---
 
 {% include disclaimer.html %}
@@ -15,7 +16,7 @@ WARNING: This device hard bricks really easily for unknown reasons. Restoring de
 
 {% include supportstatus.html %}
 
-WARNING: Updates might break data decryption support in this device's TWRP. <a href="https://twrp.me/faq/encryptionsupport.html/">Read this F.A.Q. for more information on decryption support policy of TWRP.
+WARNING: Updates break data decryption support in this device's TWRP.
 
 {% include xiaomiunlock.html %}
 
