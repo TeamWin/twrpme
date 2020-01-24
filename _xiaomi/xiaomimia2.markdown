@@ -21,4 +21,4 @@ oem: Xiaomi
 
 {% include twrpinstall.html %}
 
-{% include fastbootabinstall.html %}
+{% include fastbootabinstall_old.html %}
