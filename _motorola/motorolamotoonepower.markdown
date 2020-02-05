@@ -5,7 +5,7 @@ codename: chef
 downloadfolder: chef
 devicetree: https://github.com/TeamWin/android_device_motorola_chef
 supportstatus: Current
-maintainer: kaneawk, erfanoabdi
+maintainer: Rohan Hasabe
 oem: Motorola
 ---
 
