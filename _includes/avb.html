@@ -1,3 +1,9 @@
 <div class='page-heading'>This device uses Android Verified Boot (AVB)</div>
 <hr />
 <p class="text">This means that installing TWRP or swiping to allow system modifications will prevent you from being able to boot. To bypass AVB's boot prevention, you will have to disable it or install a custom ROM that ships with disabled AVB.</p>
+
+To disable AVB using fastboot, grab the vbmeta image from the ROM you are on, and flash it from fastboot with the following command:
+
+<code>fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img</code>
+
+AVB should be disabled now on your device.
