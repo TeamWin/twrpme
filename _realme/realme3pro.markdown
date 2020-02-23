@@ -4,9 +4,9 @@ title:  "Realme 3 Pro"
 codename: RMX1851
 downloadfolder: RMX1851
 supportstatus: Current
-maintainer: SamarV-121, mauronofrio
-oem: Oppo
-devicetree: https://github.com/TeamWin/android_device_oppo_RMX1851
+maintainer: Darshan M. (darshan1205)
+oem: Realme
+devicetree: https://github.com/TeamWin/android_device_realme_RMX1851
 ---
 
 {% include disclaimer.html %}
@@ -19,4 +19,4 @@ devicetree: https://github.com/TeamWin/android_device_oppo_RMX1851
 
 {% include twrpinstall.html %}
 
-{% include mtkinstall.html %}
+{% include fastbootinstall.html %}
