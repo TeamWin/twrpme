@@ -1,4 +1,4 @@
-------
+---
 layout: device
 title:  "Realme C1"
 codename: RMX1811
