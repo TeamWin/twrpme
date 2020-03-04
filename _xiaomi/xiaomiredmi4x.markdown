@@ -4,7 +4,7 @@ title:  "Xiaomi Redmi 4X"
 codename: santoni
 downloadfolder: santoni
 supportstatus: Current
-maintainer: Isaac Chen
+maintainer: Pranaya Deomani (pranaya2005)
 devicetree: https://github.com/TeamWin/android_device_xiaomi_santoni.git
 oem: Xiaomi
 ddof: "/dev/block/bootdevice/by-name/recovery"
