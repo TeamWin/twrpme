@@ -1,7 +1,7 @@
 ---
 layout: device
 title:  "Realme X2"
-codename: RMX1991
+codename: RMX1991/RMX1993
 downloadfolder: RMX1991
 supportstatus: Current
 maintainer: Mauronofrio
