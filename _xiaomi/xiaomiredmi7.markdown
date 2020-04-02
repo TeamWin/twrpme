@@ -12,8 +12,7 @@ oem: Xiaomi
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-NOTE-1: Monthly security updates may (or may not) break decryption of /data in TWRP.
-NOTE-2: Decryption of /data works only when installing TWRP permanently!
+NOTE-1: Decryption works only on ROMs with FBE Support
 
 {% include download.html %}
 
@@ -34,3 +33,4 @@ adb push path/to/twrp.zip /sdcard
 Go to install and browse to the zip and install the zip. The zip will install TWRP on boot partition of both slots.
 
 If you accidently flash TWRP to your device using fastboot instead of temporarily booting the image, you will need to download the latest firmware for your device and reflash the boot image.
+
