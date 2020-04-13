@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: mikeioannina
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_samsung_ks01lte"
 ---
 
 {% include disclaimer.html %}
