@@ -4,7 +4,7 @@ title:  "Xiaomi Redmi Note 6"
 codename: tulip
 downloadfolder: tulip
 supportstatus: Current
-maintainer: Mauronofrio
+maintainer: DD3Boh, mauronofrio
 devicetree: https://github.com/TeamWin/android_device_xiaomi_tulip
 oem: Xiaomi
 ---
