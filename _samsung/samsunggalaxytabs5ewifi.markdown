@@ -8,7 +8,6 @@ maintainer: LuK1337
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_gts4lvwifi"
-xdathread: ""
 ---
 
 {% include disclaimer.html %}
