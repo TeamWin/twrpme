@@ -194,6 +194,9 @@ collections:
   vestel:
     output: true
 
+  vivo:
+    output: true
+
   wileyfox:
     output: true
 
