@@ -5,9 +5,9 @@ codename: I01WD
 oem: Asus
 downloadfolder: I01WD
 supportstatus: Current
-maintainer: bigbiff,Dees_Troy
+maintainer: bigbiff,Dees_Troy,mauronofrio
 devicetree: https://github.com/TeamWin/android_device_asus_I01WD
-xdathread: "https://forum.xda-developers.com/zenfone-6-2019/development/tool-utility-twrp-3-3-1-0-teamwin-t3963876"
+xdathread: "https://forum.xda-developers.com/zenfone-6-2019/development/recovery-unofficial-twrp-recovery-asus-t3937844"
 ---
 
 {% include disclaimer.html %}
