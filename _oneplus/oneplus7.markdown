@@ -2,11 +2,11 @@
 layout: device
 title:  "OnePlus 7 (guacamoleb)"
 codename: guacamoleb
-downloadfolder: guacamoleb
+downloadfolder: guacamole
 supportstatus: Current
 maintainer: Mauronofrio
 oem: OnePlus
-devicetree: https://github.com/TeamWin/android_device_oneplus_guacamoleb
+devicetree: https://github.com/TeamWin/android_device_oneplus_guacamole
 xdathread: "https://forum.xda-developers.com/showthread.php?t=3932943"
 ---
 
