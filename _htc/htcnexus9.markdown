@@ -5,7 +5,7 @@ codename: flounder
 downloadfolder: flounder
 oldurl: http://teamw.in/project/twrp2/269
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: Dees_Troy, Captain_Throwback
 oem: HTC
 devicetree: https://github.com/TeamWin/android_device_htc_flounder
 xdathread: "http://forum.xda-developers.com/nexus-9/orig-development/recovery-twrp-2-8-2-0-touch-recovery-t2944788"
