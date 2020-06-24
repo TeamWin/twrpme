@@ -1,0 +1,123 @@
+---
+layout: post
+title:  "TWRP 3.4.0-0 Released"
+date:   2020-06-24 13:21:42
+categories: site update
+version: 3.4.0-0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+What's new in {{ page.version }}:
+        System As Root (SAR)
+           - Fix backup and restore using SAR - dianlujitao
+           - System mount point - Chaosmaster
+           - ORS - Chaosmaster
+           - Zip install - Chaosmaster
+           - system_root bind mount to /system - Chaosmaster
+           - Autodetection of SAR - Chaosmaster
+
+        Digest - fix creation of digests for sub-partitions (was bugfix applied to many devices since last year) - Bigbiff
+
+        Encryption
+           - ext4Crypt Wrapped Key Update - Peter Cai
+           - Fix upgrading encryption key if export fails - Peter Cai
+           - Fix wrapped key support for devices without metadata partition - mauronofrio
+           - Don't skip decryption when using block map file in order to write to /data in ORS - CaptainThrowback
+           - FDE - Decrypt master key first - AndroidableDroid
+           - vold_decrypt - set Android version and patch level automatically - CaptainThrowback
+           - Set wrapped decrypt support by twrp flag - Peter Cai
+           - Don't try wrapped support unless needed - mauronofrio
+           - restore ext4 policy on /data/cache - Bigbiff
+           - multiuser decryption - Noah Jacobson
+           - FDE retry - AndroidableDroid
+
+        TWRP App - unmount system after checking for app - Bigbiff
+
+        Fix Dependency requirements - Dees_Troy
+
+        Fix Symbolic links for BB and Toolbox - Dees_Troy
+
+        FB2PNG compilation errors - Bigbiff
+
+        Localisation of Backup_Tar: Ian Macdonald
+
+        Prebuilt updates -
+           - android.hardware.confirmationui@1.0 - cryptomilk
+
+        Compilation Fixes:
+           - TW_EXFAT_FUSE compilation fixes - Bigbiff
+           - libuuid - cryptomilk
+           - 'system/etc/ld.config.txt' not found error - Martin Dünkelmann
+
+        Compress Persistent Logs - Bigbiff
+
+        Language Updates:
+           - Portugal - Vasco Machado
+           - Dutch -  Ian Macdonald
+           - Turkish - Fatih Fırıncı
+
+        ld.config.txt
+           - updates for 8.x trees - CaptainThrowback
+           - fix search path for /sbin - CaptainThrowback
+           - /sbin should come first in search path - Ian Macdonald
+
+        Fix persistent log storage - SyberHexen
+
+        Cleanup -
+            - Typo fix in comment - VDavid003
+            - newlines in ext4crypt - CaptainThrowback
+            - TW_OEM_BUILD compilation issue - Patrick Zacharias
+
+        Bootloader Message
+            - cleanup - Alessandro Astone
+            - add configurable offsets
+
+        Error Cleanup
+           - uevent errors and decryption error - mauronofrio
+           - using copy_file to copy files from /etc - CaptainThrowback
+           - ueventd access to /acct - early directory creation in init - cryptomilk
+
+        Haptics
+           - TSP Driver - LameMonster82
+           - QTI Input - AndroidableDroid
+
+        exclude per_boot from backups - Darth9
+
+        update_engine
+            - read all asserts - Hernán Castañón
+
+        Unmount all directories that point to same block device - AndroidableDroid
+
+        Resetprop
+           - Add Resetprop from Magisk - CaptainThrowback & mauronofrio
+           - compile from source - Chaosmaster
+           - fix for android-7 and earlier - Chaosmaster
+           - cleanup for spaces in properties - AndroidableDroid
+ 
+        Add Property override - Chaosmaster
+
+        Backuptool - mount system and vendor for A/B installs for backuptool
+
+        twrpTar - fix backup freezes when pigz and openaes are used - Fabrice Bellet
+
+        Zip Installs
+           - Info for A/B zip installing to inactive slot - Chaosmaster
+           - Reboot to system button now allows to be rebooted to different partitions after zip install
+           - progressbar rework - Chaosmaster
+
+        Toolbox is default on android-9+ - mauronofrio
+
+        Blank screen fixes - Sean hoyt
+
+        Magisk updates - AndroidableDroid
+
+        OZIP Encryption Support - mauronofrio
+
+        Support for more extensions in File Selector - mauronofrio
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
