@@ -17,7 +17,8 @@ What's new in {{ page.version }}:
 - system_root bind mount to /system - Chaosmaster
 - Autodetection of SAR - Chaosmaster
 
-# Digest - fix creation of digests for sub-partitions (was bugfix applied to many devices since last year) - Bigbiff
+# Digest 
+- fix creation of digests for sub-partitions (was bugfix applied to many devices since last year) - Bigbiff
 
 # Encryption
 - ext4Crypt Wrapped Key Update - Peter Cai
@@ -32,15 +33,8 @@ What's new in {{ page.version }}:
 - multiuser decryption - Noah Jacobson
 - FDE retry - AndroidableDroid
 
-# TWRP App - unmount system after checking for app - Bigbiff
-
-# Fix Dependency requirements - Dees_Troy
-
-# Fix Symbolic links for BB and Toolbox - Dees_Troy
-
-# FB2PNG compilation errors - Bigbiff
-
-# Localisation of Backup_Tar: Ian Macdonald
+# TWRP App 
+- unmount system after checking for app - Bigbiff
 
 # Prebuilt updates -
 - android.hardware.confirmationui@1.0 - cryptomilk
@@ -50,24 +44,32 @@ What's new in {{ page.version }}:
 - libuuid - cryptomilk
 - 'system/etc/ld.config.txt' not found error - Martin Dünkelmann
 
-# Compress Persistent Logs - Bigbiff
-
 # Language Updates:
 - Portugal - Vasco Machado
 - Dutch -  Ian Macdonald
 - Turkish - Fatih Fırıncı
+- Localisation of Backup_Tar: Ian Macdonald
 
 # ld.config.txt
 - updates for 8.x trees - CaptainThrowback
 - fix search path for /sbin - CaptainThrowback
 - /sbin should come first in search path - Ian Macdonald
 
-# Fix persistent log storage - SyberHexen
+# General Bugs
+- Fix persistent log storage - SyberHexen
+- Compress Persistent Logs - Bigbiff
+- FB2PNG compilation errors - Bigbiff
+- exclude per_boot from backups - Darth9
+- Unmount all directories that point to same block device - AndroidableDroid
+- Blank screen fixes - Sean hoyt
+- Toolbox is default on android-9+ - mauronofrio
 
 # Cleanup -
 - Typo fix in comment - VDavid003
 - newlines in ext4crypt - CaptainThrowback
 - TW_OEM_BUILD compilation issue - Patrick Zacharias
+- Fix Dependency requirements - Dees_Troy
+- Fix Symbolic links for BB and Toolbox - Dees_Troy
 
 # Bootloader Message
 - cleanup - Alessandro Astone
@@ -82,12 +84,8 @@ What's new in {{ page.version }}:
 - TSP Driver - LameMonster82
 - QTI Input - AndroidableDroid
 
-# exclude per_boot from backups - Darth9
-
 # update_engine
 - read all asserts - Hernán Castañón
-
-# Unmount all directories that point to same block device - AndroidableDroid
 
 # Resetprop
 - Add Resetprop from Magisk - CaptainThrowback & mauronofrio
@@ -95,26 +93,28 @@ What's new in {{ page.version }}:
 - fix for android-7 and earlier - Chaosmaster
 - cleanup for spaces in properties - AndroidableDroid
 
-# Add Property override - Chaosmaster
+# Properties
+- Add Property override - Chaosmaster
 
-# Backuptool - mount system and vendor for A/B installs for backuptool - Chaosmaster
+# Backuptool 
+- mount system and vendor for A/B installs for backuptool - Chaosmaster
 
-# twrpTar - fix backup freezes when pigz and openaes are used - Fabrice Bellet
+# twrpTar 
+- fix backup freezes when pigz and openaes are used - Fabrice Bellet
 
 # Zip Installs
 - Info for A/B zip installing to inactive slot - Chaosmaster
 - Reboot to system button now allows to be rebooted to different partitions after zip install
 - progressbar rework - Chaosmaster
 
-# Toolbox is default on android-9+ - mauronofrio
+# Magisk updates 
+- update binaries from source - AndroidableDroid
 
-# Blank screen fixes - Sean hoyt
+# OZIP Encryption Support 
+- add OZIP encryption - mauronofrio
 
-# Magisk updates - AndroidableDroid
-
-# OZIP Encryption Support - mauronofrio
-
-# Support for more extensions in File Selector - mauronofrio
+#File Selector
+- Support for more extensions in File Selector - mauronofrio
 
 Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
 
