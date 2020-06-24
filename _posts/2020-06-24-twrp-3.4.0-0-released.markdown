@@ -40,7 +40,7 @@ What's new in {{ page.version }}:
 - android.hardware.confirmationui@1.0 - cryptomilk
 
 # Compilation Fixes:
-- TW_EXFAT_FUSE compilation fixes - Bigbiff
+- TW\_EXFAT\_FUSE compilation fixes - Bigbiff
 - libuuid - cryptomilk
 - 'system/etc/ld.config.txt' not found error - Martin Dünkelmann
 
@@ -67,7 +67,7 @@ What's new in {{ page.version }}:
 # Cleanup -
 - Typo fix in comment - VDavid003
 - newlines in ext4crypt - CaptainThrowback
-- TW_OEM_BUILD compilation issue - Patrick Zacharias
+- TW\_OEM\_BUILD compilation issue - Patrick Zacharias
 - Fix Dependency requirements - Dees_Troy
 - Fix Symbolic links for BB and Toolbox - Dees_Troy
 
@@ -109,6 +109,12 @@ What's new in {{ page.version }}:
 
 # Magisk updates 
 - update binaries from source - AndroidableDroid
+
+# A/B Updater Zip Template
+- rewrite A/B installer zip from scratch using a new generic template and latest magiskboot - osm0sis
+- installer zip support for recovery_a/recovery_b partition ramdisks on newer 2SI SAR A/B devices - osm0sis
+- generate installer zips for all prod A/B devices - bigbiff
+- improve installer zip dump/write speed and add more error catching - arter97 & osm0sis
 
 # OZIP Encryption Support
 - add OZIP encryption - mauronofrio
