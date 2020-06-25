@@ -112,7 +112,7 @@ What's new in {{ page.version }}:
 
 # A/B Updater Zip Template
 - rewrite A/B installer zip from scratch using a new generic template and latest magiskboot - osm0sis
-- installer zip support for recovery_a/recovery_b partition ramdisks on newer 2SI SAR A/B devices - osm0sis
+- installer zip support for recovery\_a/recovery\_b partition ramdisks on newer 2SI SAR A/B devices - osm0sis
 - generate installer zips for all prod A/B devices - bigbiff
 - improve installer zip dump/write speed and add more error catching - arter97 & osm0sis
 
