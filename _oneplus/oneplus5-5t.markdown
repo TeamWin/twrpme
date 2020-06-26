@@ -3,11 +3,11 @@ layout: device
 title: "OnePlus 5/5T"
 codename: cheeseburger/dumpling
 oem: OnePlus
-downloadfolder: cheeseburger
+downloadfolder: cheeseburger-dumpling
 supportstatus: Current
 maintainer: Dees_Troy, mauronofrio
 ddof: "/dev/block/bootdevice/by-name/recovery"
-devicetree: https://github.com/TeamWin/android_device_oneplus_cheeseburger
+devicetree: https://github.com/TeamWin/android_device_oneplus_cheeseburger-dumpling
 fastbootunlock: true
 ---
 
