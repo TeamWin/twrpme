@@ -3,8 +3,8 @@ layout: device
 title:  "Realme 2 Pro"
 codename: RMX1801
 downloadfolder: RMX1801
-supportstatus: Current
-maintainer: SamarV-121
+supportstatus: Not supported
+maintainer: None
 oem: Oppo
 devicetree: https://github.com/TeamWin/android_device_oppo_RMX1801
 ---

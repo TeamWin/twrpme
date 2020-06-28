@@ -3,8 +3,8 @@ layout: device
 title:  "Motorola Moto E4 Plus"
 codename: nicklaus
 downloadfolder: nicklaus
-supportstatus: Current
-maintainer: SamarV-121
+supportstatus: Not supported
+maintainer: None
 oem: Motorola
 devicetree: https://github.com/TeamWin/android_device_motorola_nicklaus
 ---

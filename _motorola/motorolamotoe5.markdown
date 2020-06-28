@@ -3,8 +3,8 @@ layout: device
 title:  "Motorola Moto E5"
 codename: nora
 downloadfolder: nora
-supportstatus: Current
-maintainer: SamarV-121
+supportstatus: Not supported
+maintainer: None
 oem: Motorola
 devicetree: https://github.com/TeamWin/android_device_moto_nora
 ---

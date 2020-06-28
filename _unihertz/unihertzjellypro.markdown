@@ -3,8 +3,8 @@ layout: device
 title:  "Unihertz Jelly Pro (MT6737T)"
 codename: jellypro
 downloadfolder: jellypro
-supportstatus: Current
-maintainer: SamarV-121
+supportstatus: Not supported
+maintainer: None
 oem: Unihertz
 devicetree: https://github.com/TeamWin/android_device_unihertz_jellypro/tree/android-7.1
 ---
