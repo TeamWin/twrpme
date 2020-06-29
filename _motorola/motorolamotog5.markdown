@@ -4,7 +4,7 @@ title:  "Motorola Moto G5"
 codename: cedric
 downloadfolder: cedric
 supportstatus: Current
-maintainer: Theitfixer85
+maintainer: Theitfixer85, Jarl-Penguin
 oem: Motorola
 ---
 
