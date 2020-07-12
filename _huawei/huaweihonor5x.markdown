@@ -3,8 +3,8 @@ layout: device
 title:  "Huawei Honor 5X"
 codename: kiwi
 downloadfolder: kiwi
-supportstatus: Current
-maintainer: deadman96385
+supportstatus: Not Current
+maintainer: None
 oem: Huawei
 devicetree: https://github.com/TeamWin/android_device_huawei_kiwi
 ---
