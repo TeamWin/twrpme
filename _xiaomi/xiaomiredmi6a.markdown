@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Redmi 6a"
 codename: cactus
 downloadfolder: cactus
-supportstatus: Not supported
-maintainer: None
+downloadfolder: cactus
+supportstatus: Current
 oem: Xiaomi
 devicetree: https://github.com/TeamWin/android_device_xiaomi_cactus
 ---
