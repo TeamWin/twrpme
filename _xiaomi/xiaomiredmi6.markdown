@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Redmi 6"
 codename: cereus
 downloadfolder: cereus
-supportstatus: Not supported
-maintainer: None
+supportstatus: Current
+maintainer: MegaFon929
 oem: Xiaomi
 devicetree: https://github.com/TeamWin/android_device_xiaomi_cereus
 ---
