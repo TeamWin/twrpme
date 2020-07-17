@@ -1,0 +1,27 @@
+---
+layout: device
+title: "LG V20 US Unlocked"
+codename: us996
+downloadfolder: us996
+supportstatus: Current
+maintainer: npjohnson
+oem: LG
+ddof: "/dev/block/platform/soc/624000.ufshc/by-name/recovery"
+devicetree: "https://github.com/TeamWin/android_device_lge_us996"
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+{% include lgunlock.html %}
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}
+
+{% include ddinstall.html %}
