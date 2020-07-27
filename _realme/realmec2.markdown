@@ -2,6 +2,7 @@
 layout: device
 title:  "Realme C2"
 codename: RMX1941
+downloadfolder: RMX1941
 oem: Realme
 devicetree:  https://github.com/TeamWin/android_device_realme_RMX1941
 ---
