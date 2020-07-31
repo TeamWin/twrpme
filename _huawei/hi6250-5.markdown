@@ -1,0 +1,22 @@
+---
+layout: device
+title:  "hi6250 EMUI5"
+codename: hi6250
+downloadfolder: hi6250
+supportstatus: Current
+maintainer: GG2501YT
+oem: Huawei
+devicetree: https://github.com/TeamWin/android_device_huawei_hi6250
+---
+
+{% include disclaimer.html %}
+
+{% include supportstatus.html %}
+
+{% include appinstall.html %}
+
+{% include download.html %}
+
+{% include twrpinstall.html %}
+
+{% include fastbootinstall.html %}
