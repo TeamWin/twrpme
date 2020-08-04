@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Pocophone F1"
 codename: beryllium
 downloadfolder: beryllium
-supportstatus: Current
-maintainer: Dees_Troy
+supportstatus: Not Supported
+maintainer: none
 oem: Xiaomi
 devicetree: "https://github.com/TeamWin/android_device_xiaomi_beryllium"
 ---
