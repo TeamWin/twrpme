@@ -59,6 +59,9 @@ collections:
   elephone:
     output: true
 
+  ergo:
+    output: true
+
   essential:
     output: true
 
