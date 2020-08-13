@@ -5,8 +5,7 @@ codename: sanders
 downloadfolder: sanders
 supportstatus: Current
 maintainer: iamsaalim
-devicetree:
-https://github.com/TeamWin/android_device_motorola_sanders
+devicetree: https://github.com/TeamWin/android_device_motorola_sanders
 oem: Motorola
 ---
 
