@@ -7,9 +7,9 @@ title:  "How Do I Become a TWRP Maintainer?"
 <hr />
 <ol>
 <li>Device Tree</li>
-You need to have a device tree. You need to figure this out on your own. You can review other trees for help and modify it as necessary. You can use <a href="https://github.com/Tasssadar/libbootimg">libbootimg</a> to get the needed values from stock recovery to populate BoardConfig.mk. 
-<li>Push your tree to Github.com.</li>
-We need to be able to fork your tree to our TeamWin repository. We can then add it to our Gerrit.twrp.me and Jenkins.twrp.me instance for building. If you want to be an active maintainer, we can give you +2 rights to merge new updates directly to our repository at Github.
+You need to have a device tree. You need to figure this out on your own. You can review other trees for help and modify it as necessary. You can use <a href="https://github.com/Tasssadar/libbootimg">libbootimg</a> to get the needed values from stock recovery to populate BoardConfig.mk.
+<li>Push your tree to GitHub.com.</li>
+We need to be able to fork your tree to our TeamWin repository. We can then add it to our Gerrit.twrp.me and Jenkins.twrp.me instance for building. If you want to be an active maintainer, we can give you +2 rights to merge new updates directly to our repository at GitHub.
 <li>Verify your device tree works</li>
 Make sure your image works as intended. You can use the following for a functional list to test your device:
 <pre>
