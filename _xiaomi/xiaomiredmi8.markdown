@@ -4,7 +4,7 @@ title:  "Xiaomi Redmi 8"
 codename: olive
 downloadfolder: olive
 supportstatus: Current
-maintainer: oguzbakir
+maintainer: AltsecDEV
 devicetree: https://github.com/TeamWin/android_device_xiaomi_olive
 oem: Xiaomi
 ---
