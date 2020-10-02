@@ -2,7 +2,7 @@
 layout: device
 title:  "Motorola Moto Z2 Play"
 codename: albus
-downloadfolder: motorola
+downloadfolder: albus
 supportstatus: Current
 maintainer: EmaMaker
 oem: Motorola
