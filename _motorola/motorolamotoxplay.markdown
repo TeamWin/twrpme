@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Motorola Moto G 2015"
-codename: osprey
-downloadfolder: osprey
+title:  "Motorola Moto X Play"
+codename: lux
+downloadfolder: lux
 supportstatus: Current
 maintainer: althafvly
 oem: Motorola
-devicetree: https://github.com/TeamWin/android_device_motorola_osprey
+devicetree: https://github.com/TeamWin/android_device_motorola_lux
 ---
 
 {% include disclaimer.html %}

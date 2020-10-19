@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Motorola Moto G 2015"
-codename: osprey
-downloadfolder: osprey
+title:  "Motorola Moto G Turbo"
+codename: merlin
+downloadfolder: merlin
 supportstatus: Current
 maintainer: althafvly
 oem: Motorola
-devicetree: https://github.com/TeamWin/android_device_motorola_osprey
+devicetree: https://github.com/TeamWin/android_device_motorola_merlin
 ---
 
 {% include disclaimer.html %}

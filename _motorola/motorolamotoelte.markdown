@@ -4,7 +4,7 @@ title:  "Motorola Moto E LTE"
 codename: surnia
 downloadfolder: surnia
 supportstatus: Current
-maintainer: None
+maintainer: althafvly
 oem: Motorola
 devicetree: https://github.com/TeamWin/android_device_motorola_surnia
 ---

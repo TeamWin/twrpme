@@ -4,8 +4,9 @@ title:  "Motorola Moto G4 Play"
 codename: harpia
 downloadfolder: harpia
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: althafvly
 oem: Motorola
+devicetree: https://github.com/TeamWin/android_device_motorola_harpia
 ---
 
 {% include disclaimer.html %}
