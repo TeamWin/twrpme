@@ -5,7 +5,7 @@ codename: payton
 downloadfolder: payton
 devicetree: https://github.com/TeamWin/android_device_motorola_payton
 supportstatus: Current
-maintainer: kaneawk, erfanoabdi
+maintainer: kaneawk, erfanoabdi, ThEMarD
 oem: Motorola
 ---
 
