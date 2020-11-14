@@ -1,12 +1,12 @@
 ---
 layout: device
-title:  "Xiaomi Pocophone F1"
-codename: beryllium
-downloadfolder: beryllium
+title:  "Xiaomi Mi 8 EE"
+codename: ursa
+downloadfolder: ursa
 supportstatus: Current
 maintainer: althafvly
 oem: Xiaomi
-devicetree: "https://github.com/TeamWin/android_device_xiaomi_beryllium"
+devicetree: https://github.com/TeamWin/android_device_xiaomi_ursa
 ---
 
 {% include disclaimer.html %}
