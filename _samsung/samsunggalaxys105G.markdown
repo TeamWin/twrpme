@@ -1,7 +1,7 @@
 ---
 layout: device
 title: "Samsung Galaxy S10 5G (Exynos)"
-codename: beyond2lte
+codename: beyondx
 downloadfolder: beyondx
 supportstatus: Current
 maintainer: corsicanu
