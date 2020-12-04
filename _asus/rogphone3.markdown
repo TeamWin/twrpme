@@ -1,6 +1,6 @@
 ---
 layout: device
-title: "ASUS Rog Phone 3"
+title: "ASUS ROG Phone 3"
 codename: I003D
 oem: ASUS
 downloadfolder: I003D
@@ -38,9 +38,9 @@ xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recove
 <p class="text">You should now be in fastboot mode.</p>
 <p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device, use <a href="https://rog.asus.com/us/phones/rog-phone-3-model/helpdesk_download">the official ASUS app</a>.</p>
 <p class="text">Download the correct image file and copy the file into the same folder as your platform-tools. Rename the image to twrp.img and type:</p>
-<p class="code">{{ fastboot }} flash recovery_a twrp.img</p>
-<p class="code">{{ fastboot }} flash recovery_b twrp.img</p>
-<p class="code">{{ fastboot }} reboot</p>
+<p class="code">fastboot flash recovery\_a twrp.img</p>
+<p class="code">fastboot flash recovery\_b twrp.img</p>
+<p class="code">fastboot reboot</p>
 </html>
 
 
@@ -50,6 +50,6 @@ xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recove
 <hr />
 <p class="text">Download the latest image file (.img) from the download link above. Place it in the root of your /sdcard folder and rename it to twrp.img. Run the following commands via adb shell or a terminal emulator app:</p>
 <p class="code">su</p>
-<p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery_a</p>
-<p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery_b</p>
+<p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_a</p>
+<p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_b</p>
 </html>
