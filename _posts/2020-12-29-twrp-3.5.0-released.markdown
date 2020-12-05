@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "TWRP 3.5.0 Released"
+date:   2020-12-29 13:21:42
+categories: site update
+version: 3.5.0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+For this release we are breaking down new support for devices based on android trees and device compatibility.
+For Pie and earlier devies, they will be built out of the android-9.0 branch. For devices that
+are released with Android Version 10, they will be supported under the android-10 branch.
+
+The separation became apparent when a lot of functionality was dropped in the android-10 release last year. The
+devices that are supported in Android 10 are from the tireless support of the following individuals over this period:
+- CaptainThrowback
+- Mauronofrio
+- AndroidableDroid
+- Noah Jacobson
+
+And finally myself, bigbiff has put in a lot of work over the past year while Dees_Troy is able to get back to
+helping us again with the Android-11 release. I have started a bringup for an Android-11 merge, and will be working
+on the Pixel 5 bringup. I hope the progression is shorter in 2021.
+
+You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
+
+
+What's new in {{ page.version }}:
+# Android 9
+- Fix building in android-5.1 trees - CaptainThrowback
+- New QTI Haptics Support - AndroidableDroid
+- New TSPDriver Haptics Support - LameMonster82
+- Selinux restore issues - AndroidableDroid
+- OEM build fixes - Fighter19
+- More file extension support in Gui file selector - Mauronofrio
+- FBE Fixes - CaptainThrowback
+- Ozip Decryption - Mauronofrio
+- Don't use persist for recovery logs - bigbiff
+- Delay touch startup if necessary - bigbiff
+- Spanish translation Updates - R0rt1z2
+- Fix cache wiping on Slot A only devices - AndroidableDroid
+- Exclude dumpsys directory from backups - DarthJabba9
+- Gerrman translation Updates - 4ndyZ
+- HW Rotation during runtime (does not affect touch panel) - webgeek1234
+- API 24 fixes - AndroidableDroid
+- vold_decrypt error on unmount - CaptainThrowback
+- Multiuser - warn when users are not decrypted - noahajac
+- FDE encryption fixes - CaptainThrowback
+- Crypto state fixes - nebrassy
+- Chinese translation Updates - Whyle
+- Theme updates to match android-10 release: CaptainThrowback
+- Move TWRP App install to Advanced page - Dees\_Troy
+- Update Russian Translation - f2065
+
+# Android 10
+There have been so many changes to bring up Android-10. You can see the list of updates at [Github](https://github.com/TeamWin/android_bootable_recovery/commits/android-10.0)
+
+All the above Android-9 updates are included in these supported devices.
+
+Notable mentions:
+Omni 10 minimal support: CaptainThrowback
+General Bringup: Bigbiff, Mauronofrio, AndroidableDroid, CaptainThrowback, ianmacd, DarthJabba9
+Encryption support: Bigbiff, Mauronofrio, CaptainThrowback
+Fastbootd support: Bigbiff
+Install Support: Bigbiff, CaptainThrowback
+Magisk Support: Bigbiff
+Backuptool Support: Chaosmaster
+Apex support: Bigbiff
+Dynamic Partition Support: Bigbiff
+
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
