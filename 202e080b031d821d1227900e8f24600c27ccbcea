@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9205fa1_b339fedd",
+        "filename": "_samsung/samsunggalaxym30s.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-12-20T14:44:32Z",
+      "side": 1,
+      "message": "Please change this to m30s.",
+      "revId": "202e080b031d821d1227900e8f24600c27ccbcea",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833",
+      "unresolved": true
+    }
+  ]
+}
