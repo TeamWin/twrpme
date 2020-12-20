@@ -1,7 +1,7 @@
 ---
 layout: device
 title: "Samsung Galaxy M30s"
-codename: m30sdd
+codename: m30s
 downloadfolder: m30s
 supportstatus: Current
 maintainer: santhosh6194
