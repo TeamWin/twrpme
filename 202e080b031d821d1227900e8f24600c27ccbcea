@@ -16,6 +16,24 @@
       "revId": "202e080b031d821d1227900e8f24600c27ccbcea",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3793bf69_2203337e",
+        "filename": "_samsung/samsunggalaxym30s.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 541
+      },
+      "writtenOn": "2020-12-20T17:18:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9205fa1_b339fedd",
+      "revId": "202e080b031d821d1227900e8f24600c27ccbcea",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833",
+      "unresolved": false
     }
   ]
 }
