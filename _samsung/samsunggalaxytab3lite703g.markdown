@@ -6,7 +6,7 @@ downloadfolder: goyave
 supportstatus: Current
 maintainer: Dees_Troy
 oem: Samsung
-devicetree: "https://github.com/TeamWin/device_samsung_goyave"
+devicetree: "https://github.com/TeamWin/android_device_samsung_goyave"
 ddof: "/dev/block/platform/sprd-sdhci.3/by-name/RECOVERY"
 ---
 
