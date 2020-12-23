@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: Dees_Troy
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
-devicetree: "https://github.com/TeamWin/device_samsung_j2lte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_j2lte"
 ---
 
 {% include disclaimer.html %}
