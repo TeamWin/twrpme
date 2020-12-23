@@ -6,7 +6,7 @@ downloadfolder: nora
 supportstatus: Not supported
 maintainer: None
 oem: Motorola
-devicetree: https://github.com/TeamWin/android_device_moto_nora
+devicetree: https://github.com/TeamWin/android_device_motorola_nora
 ---
 
 {% include disclaimer.html %}
