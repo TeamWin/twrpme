@@ -9,7 +9,7 @@ maintainer: None
 oem: Samsung
 ddof: "/dev/block/mmcblk0p9"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1956939"
-devicetree: "https://github.com/TeamWin/twrp_device_samsung_l900"
+devicetree: "https://github.com/TeamWin/android_device_samsung_l900"
 ---
 
 {% include disclaimer.html %}
