@@ -8,7 +8,7 @@ supportstatus: Current
 maintainer: None
 oem: Samsung
 ddof: "/dev/block/mmcblk0p9"
-devicetree: "https://github.com/TeamWin/android_device_t0lte"
+devicetree: "https://github.com/TeamWin/android_device_samsung_t0lte"
 ---
 
 {% include disclaimer.html %}
