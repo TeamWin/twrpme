@@ -8,7 +8,7 @@ supportstatus: Current
 maintainer: None
 oem: Samsung
 ddof: "/dev/block/mmcblk0p18"
-devicetree: "https://github.com/TeamWin/device_samsung_d2tmo"
+devicetree: "https://github.com/TeamWin/android_device_samsung_d2tmo"
 xdathread: "http://forum.xda-developers.com/showthread.php?t=1809313"
 ---
 
