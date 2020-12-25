@@ -1,8 +1,8 @@
 ---
 layout: device
 title: "Samsung Galaxy J4"
-codename: j4ltejx
-downloadfolder: j4ltejx
+codename: j4lte
+downloadfolder: j4lte
 supportstatus: Current
 maintainer: NamaSayaHendra
 oem: Samsung
