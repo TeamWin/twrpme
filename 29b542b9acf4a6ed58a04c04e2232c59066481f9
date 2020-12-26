@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1549bbf_98bc7bb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2020-12-26T22:41:09Z",
+      "side": 1,
+      "message": "Please fix typo",
+      "revId": "29b542b9acf4a6ed58a04c04e2232c59066481f9",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6b16fb3_c266132e",
+        "filename": "_posts/2020-12-29-twrp-3.5.0-released.markdown",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2020-12-26T22:41:09Z",
+      "side": 1,
+      "message": "devices",
+      "range": {
+        "startLine": 12,
+        "startChar": 20,
+        "endLine": 12,
+        "endChar": 26
+      },
+      "revId": "29b542b9acf4a6ed58a04c04e2232c59066481f9",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
