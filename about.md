@@ -10,4 +10,4 @@ Team Win was originally formed to work on porting WiMAX to CM7 for the HTC EVO 4
 
 A custom recovery is used for installing custom software on your device. This custom software can include smaller modifications like rooting your device or even replacing the firmware of the device with a completely custom "ROM" like [OmniROM](http://omnirom.org/)
 
-You can find the source code for TWRP at [github.com/omnirom/android\_bootable\_recovery/](https://github.com/omnirom/android_bootable_recovery/)
+You can find the source code for TWRP at [github.com/teamwin/android\_bootable\_recovery/](https://github.com/Teamwin/android_bootable_recovery/)
