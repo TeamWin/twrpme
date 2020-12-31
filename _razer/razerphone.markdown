@@ -4,7 +4,7 @@ title:  "Razer Phone (cheryl)"
 codename: cheryl
 downloadfolder: cheryl
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: baolong24
 oem: Razer
 devicetree: https://github.com/TeamWin/android_device_razer_cheryl
 ---
@@ -48,5 +48,3 @@ Your device should now boot into TWRP. From here, decrypt your device if needed 
 `adb push twrp-installer-3.2.1-0-cheryl.zip /sdcard`
 
 In TWRP, tap on Install and browse to the zip and install it. TWRP will now be installed to both slots. TWRP is now installed and you can reboot and use your device as normal, though with TWRP installed, you won't be able to take OTA updates without restoring the stock boot image.
-
-MTP is disabled because it causes a kernel panic sometimes with the stock kernel. ADB also does not work with the stock kernel which makes transferring files between your PC and the device when using the stock kernel a bit of a challenge. The TWRP bootable image does have working ADB though and you can copy files to a SD card or USB stick if needed.
