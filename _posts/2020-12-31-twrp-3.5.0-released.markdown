@@ -19,6 +19,10 @@ devices that are supported in Android 10 are from the tireless support of the fo
 - AndroidableDroid
 - Noah Jacobson
 
+You will notice a new version scheme. Devices that are built in the android-9 tree will be suffixed with 3.5.0_9.
+Devices built in the android-10 tree will be suffixed with 10 like 3.5.0_10. Each device tree update will have a
+final suffix for any updates made for the device like 3.5.0_10-1.
+
 And finally myself, bigbiff has put in a lot of work over the past year while Dees_Troy is able to get back to
 helping us again with the Android-11 release. I have started a bringup for an Android-11 merge, and will be working
 on the Pixel 5 bringup. I hope the progression is shorter in 2021.
