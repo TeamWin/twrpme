@@ -59,15 +59,15 @@ There have been so many changes to bring up Android-10. You can see the list of 
 All the above Android-9 updates are included in these supported devices.
 
 Notable mentions:
-Omni 10 minimal support: CaptainThrowback
-General Bringup: Bigbiff, Mauronofrio, AndroidableDroid, CaptainThrowback, ianmacd, DarthJabba9
-Encryption support: Bigbiff, Mauronofrio, CaptainThrowback
-Fastbootd support: Bigbiff
-Install Support: Bigbiff, CaptainThrowback
-Magisk Support: Bigbiff
-Backuptool Support: Chaosmaster
-Apex support: Bigbiff
-Dynamic Partition Support: Bigbiff
+- Omni 10 minimal support: CaptainThrowback
+- General Bringup: Bigbiff, Mauronofrio, AndroidableDroid, CaptainThrowback, ianmacd, DarthJabba9
+- Encryption support: Bigbiff, Mauronofrio, CaptainThrowback
+- Fastbootd support: Bigbiff
+- Install Support: Bigbiff, CaptainThrowback
+- Magisk Support: Bigbiff
+- Backuptool Support: Chaosmaster
+- Apex support: Bigbiff
+- Dynamic Partition Support: Bigbiff
 
 
 Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
