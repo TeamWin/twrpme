@@ -62,7 +62,7 @@ There have been so many changes to bring up Android-10. You can see the list of 
 
 All the above Android-9 updates are included in these supported devices.
 
-# Notable mentions:
+## Notable mentions:
 - Omni 10 minimal support: CaptainThrowback
 - General Bringup: Bigbiff, Mauronofrio, AndroidableDroid, CaptainThrowback, ianmacd, DarthJabba9
 - Encryption support: Bigbiff, Mauronofrio, CaptainThrowback
