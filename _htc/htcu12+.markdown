@@ -29,7 +29,7 @@ xdathread: "https://forum.xda-developers.com/u12-plus/development/recovery-unoff
   <li>Release 3.3.0-0 supports HTC´s firmware 1.62.xxx.y with security patch state of 1st February 2019</li>
   <li>Release 3.3.0-1 supports HTC´s firmware 1.68.xxx.y with security patch state of 1st April 2019</li>
   <li>Stock ROM Decryption on Pie updates is unsupported in TWRP</li>
-  <li>GSI Decryption is fully supported with release 3.5.0_10-0</li>
+  <li>GSI Decryption is fully supported with release 3.5.0\_9-0</li>
 </ul>
 
 {% include download.html %}
