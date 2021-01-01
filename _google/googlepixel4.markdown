@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: bigbiff
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_coral
+xdathread: https://forum.xda-developers.com/t/twrp-flame-official.4110641/
 ---
 
 {% include disclaimer.html %}
@@ -21,6 +22,7 @@ If you already have TWRP installed:
 Download the latest img and install the image using TWRP.
 
 If you do not already have TWRP installed:
+You need to install a LZMA ramdisk kernel before installing TWRP. Use XDA to find the proper instructions in the thread.
 Download the img. You will need to have fastboot binaries and the correct drivers installed. Power off your device completely. Hold volume down and turn on the device. Your device should now be in the bootloader. Connect the device to your PC. Open a command window and run the following command from the proper location:
 
 fastboot boot path/to/twrp.img
