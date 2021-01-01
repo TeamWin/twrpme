@@ -29,12 +29,13 @@ xdathread: "https://forum.xda-developers.com/u12-plus/development/recovery-unoff
   <li>Release 3.3.0-0 supports HTC´s firmware 1.62.xxx.y with security patch state of 1st February 2019</li>
   <li>Release 3.3.0-1 supports HTC´s firmware 1.68.xxx.y with security patch state of 1st April 2019</li>
   <li>Stock ROM Decryption on Pie updates is unsupported in TWRP</li>
-  <li>GSI Decryption is fully supported with release 3.5.0_10-0</li>
+  <li>GSI Decryption is fully supported with release 3.5.0\_9-0</li>
 </ul>
 
 {% include download.html %}
 
 <div class='page-heading'>Installation:</div>
+<hr />
 <p class="text">If you already have TWRP installed:
 <p class="text">Download the latest image or zip and install the file using TWRP. Directly afterwards flash Magisk zip.</p>
 
@@ -60,5 +61,5 @@ xdathread: "https://forum.xda-developers.com/u12-plus/development/recovery-unoff
 <p class="text">This will temporarily boot TWRP on your device. You may use adb to push the zip onto your device:</p>
 <p class="code">adb push path/to/twrp.zip /</p>
 <p class="text">Go to install, browse to the zip and install the zip. The zip will install TWRP to both boot slots.</p>
-<p class="text">As of TWRP 3.3.0-0 TWRP can also be flashed permanently via the "Install Recovery Ramdisk" option inside a temporarily booted TWRP, which can be choosen when selecting an .img file!</p>
+<p class="text">As of TWRP 3.3.0-0, TWRP can also be flashed permanently via the "Install Recovery Ramdisk" option inside a temporarily booted TWRP, which can be choosen when selecting an .img file!</p>
 <p class="text">Please note: If you were previously rooted and want to keep your device rooted or want to root, you now have to flash the root.zip.</p>
