@@ -16,7 +16,7 @@ The separation became apparent when a lot of functionality was dropped in the an
 devices that are supported in Android 10 are from the tireless support of the following individuals over this period:
 - CaptainThrowback
 - Mauronofrio
-- AndroidableDroid
+- AndroiableDroid
 - Noah Jacobson
 
 You will notice a new version scheme. Devices that are built in the android-9 tree will be suffixed with 3.5.0\_9.
@@ -33,9 +33,9 @@ You can see the device builds under their respective Jenkins view at https://jen
 What's new in {{ page.version }}:
 # Android 9
 - Fix building in android-5.1 trees - CaptainThrowback
-- New QTI Haptics Support - AndroidableDroid
+- New QTI Haptics Support - AndroiableDroid
 - New TSPDriver Haptics Support - LameMonster82
-- Selinux restore issues - AndroidableDroid
+- Selinux restore issues - AndroiableDroid
 - OEM build fixes - Fighter19
 - More file extension support in Gui file selector - Mauronofrio
 - FBE Fixes - CaptainThrowback
@@ -43,11 +43,11 @@ What's new in {{ page.version }}:
 - Don't use persist for recovery logs - bigbiff
 - Delay touch startup if necessary - bigbiff
 - Spanish translation Updates - R0rt1z2
-- Fix cache wiping on Slot A only devices - AndroidableDroid
+- Fix cache wiping on Slot A only devices - AndroiableDroid
 - Exclude dumpsys directory from backups - DarthJabba9
 - Gerrman translation Updates - 4ndyZ
 - HW Rotation during runtime (does not affect touch panel) - webgeek1234
-- API 24 fixes - AndroidableDroid
+- API 24 fixes - AndroiableDroid
 - vold_decrypt error on unmount - CaptainThrowback
 - Multiuser - warn when users are not decrypted - noahajac
 - FDE encryption fixes - CaptainThrowback
@@ -64,7 +64,7 @@ All the above Android-9 updates are included in these supported devices.
 
 ## Notable mentions:
 - Omni 10 minimal support: CaptainThrowback
-- General Bringup: Bigbiff, Mauronofrio, AndroidableDroid, CaptainThrowback, ianmacd, DarthJabba9
+- General Bringup: Bigbiff, Mauronofrio, AndroiableDroid, CaptainThrowback, ianmacd, DarthJabba9
 - Encryption support: Bigbiff, Mauronofrio, CaptainThrowback
 - Fastbootd support: Bigbiff
 - Install Support: Bigbiff, CaptainThrowback
