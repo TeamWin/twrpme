@@ -39,11 +39,14 @@ title: "TWRP Commandline Guide"
 <div class="desc">	install <b>FILENAME</b> zip file.</div>
 
 <b>wipe</b> PARTITION :
-<div class="desc">	format <b>PARTITON</b>, one by line:
+<div class="desc">	format <b>PARTITION</b>, one by line:
 		cache,
 		system,
 		dalvik,
 		data.</div>
+
+<b>format</b> data :
+<div class="desc">	format <b>data</b></div>
 
 <b>backup</b> PARTITIONS-TO-BACKUP [BACKUP-NAME] :
 <div class="desc"> 	backup partition <b>PARTITIONS-TO-BACKUP</b> to [<b>BACKUP-NAME</b>]
