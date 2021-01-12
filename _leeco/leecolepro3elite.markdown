@@ -4,7 +4,7 @@ title:  "LeEco Le Pro3 Elite"
 codename: zl0
 downloadfolder: zl0
 supportstatus: Current
-maintainer: codeworkx
+maintainer: mosimchah
 oem: LeEco
 devicetree: https://github.com/TeamWin/android_device_leeco_zl0
 ---
