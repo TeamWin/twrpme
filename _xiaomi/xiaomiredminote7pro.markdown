@@ -4,7 +4,7 @@ title:  "Xiaomi Redmi Note 7 Pro"
 codename: violet
 downloadfolder: violet
 supportstatus: Current
-maintainer: Rohan Hasabe (Hasaber8)
+maintainer: Aftab Ashrafi (Aftab-111)
 devicetree: https://github.com/TeamWin/android_device_xiaomi_violet.git
 oem: Xiaomi
 ddof: "/dev/block/bootdevice/by-name/recovery"
