@@ -4,7 +4,7 @@ title:  "Samsung Galaxy J5 3G (SM-J500H)"
 codename: j53gxx
 downloadfolder: j53gxx
 supportstatus: Current
-maintainer: David McLeod
+maintainer: palmbeach05
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_samsung_j53gxx.git

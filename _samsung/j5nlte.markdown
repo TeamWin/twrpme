@@ -4,7 +4,7 @@ title:  "Samsung Galaxy J5N LTE (SM-J500FN)"
 codename: j5nlte
 downloadfolder: j5nlte
 supportstatus: Current
-maintainer: David McLeod
+maintainer: palmbeach05
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_samsung_j5nlte.git

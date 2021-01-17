@@ -1,10 +1,10 @@
 ---
 layout: device
-title:  "Samsung Galaxy J5 LTE (2016)"
+title:  "Samsung Galaxy J5 LTE (2016) (SM-J500F/FN/MN/GN)"
 codename: j5xnlte
 downloadfolder: j5xnlte
 supportstatus: Current
-maintainer: David McLeod
+maintainer: palmbeach05
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: https://github.com/TeamWin/android_device_samsung_j5xnlte.git
