@@ -1,4 +1,3 @@
-
 ---
 layout: device
 title:  "Alcatel Tetra"
@@ -9,10 +8,15 @@ supportstatus: Current
 maintainer: lehmancurtis147
 oem: Alcatel
 ---
+
 {% include disclaimer.html %}
+
 {% include supportstatus.html %}
+
 {% include dynamicpartitions.html %}
+
 {% include download.html %}
+
 <div class='page-heading'>Installation:</div>
 To install TWRP on Alcatel Tetra, you first need to unlock the bootloader.
 The process is a bit more involved for this device than it is on most others.

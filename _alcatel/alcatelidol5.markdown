@@ -1,4 +1,3 @@
-
 ---
 layout: device
 title:  "Alcatel Idol 5"
@@ -7,12 +6,17 @@ downloadfolder: simba6_cricket
 devicetree: https://github.com/TeamWin/android_device_tcl_simba6_cricket
 supportstatus: Current
 maintainer: lehmancurtis147
-oem: TCL
+oem: Alcatel
 ---
+
 {% include disclaimer.html %}
+
 {% include supportstatus.html %}
+
 {% include dynamicpartitions.html %}
+
 {% include download.html %}
+
 <div class='page-heading'>Installation:</div>
 To install TWRP on Alcatel Idol 5, you first need to unlock the bootloader.
 The process is a bit more involved for this device than it is on most others.
