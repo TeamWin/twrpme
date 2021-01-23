@@ -14,8 +14,6 @@ xdathread: http://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-u5
 
 {% include supportstatus.html %}
 
-{% include dynamicpartitions.html %}
-
 {% include download.html %}
 
 <div class='page-heading'>Installation:</div>
