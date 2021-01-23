@@ -5,9 +5,13 @@ codename: simba6_cricket
 downloadfolder: simba6_cricket
 supportstatus: Current
 maintainer: lehmancurtis147
+<<<<<<< HEAD:_tcl/alcatelidol5.markdown
 oem: TCL
 devicetree: https://github.com/TeamWin/android_device_tcl_simba6_cricket
 xdathread: http://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-simba6_cricket-alcatel-idol-5-recovery.4222617/
+=======
+oem: Alcatel
+>>>>>>> f1edfe42c6884c865d1a6c47fed545686e286198:_alcatel/alcatelidol5.markdown
 ---
 
 {% include disclaimer.html %}
