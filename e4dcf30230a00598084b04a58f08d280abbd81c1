@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa9aad07_40a099b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 413
+      },
+      "writtenOn": "2021-01-23T23:51:58Z",
+      "side": 1,
+      "message": "Removed the dynamic fs tag since neither device uses them.",
+      "revId": "e4dcf30230a00598084b04a58f08d280abbd81c1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
