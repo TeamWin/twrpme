@@ -3,8 +3,8 @@ layout: device
 title:  "Google Pixel 2 XL"
 codename: taimen
 downloadfolder: taimen
-supportstatus: Beta
-maintainer: Dees_Troy
+supportstatus: Current
+maintainer: Dees_Troy, Bigbiff
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_wahoo
 ---
