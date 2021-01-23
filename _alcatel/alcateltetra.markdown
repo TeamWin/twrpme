@@ -13,8 +13,6 @@ oem: Alcatel
 
 {% include supportstatus.html %}
 
-{% include dynamicpartitions.html %}
-
 {% include download.html %}
 
 <div class='page-heading'>Installation:</div>

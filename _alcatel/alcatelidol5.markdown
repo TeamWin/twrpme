@@ -7,13 +7,12 @@ devicetree: https://github.com/TeamWin/android_device_tcl_simba6_cricket
 supportstatus: Current
 maintainer: lehmancurtis147
 oem: Alcatel
+xdathread: http://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-simba6_cricket-alcatel-idol-5-recovery.4222617/
 ---
 
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-
-{% include dynamicpartitions.html %}
 
 {% include download.html %}
 
