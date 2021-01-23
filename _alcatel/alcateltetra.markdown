@@ -1,18 +1,23 @@
-
 ---
 layout: device
 title:  "Alcatel Tetra"
 codename: U50A_ATT
 downloadfolder: U50A_ATT
-devicetree: https://github.com/TeamWin/android_device_alcatel_U50A_ATT
 supportstatus: Current
 maintainer: lehmancurtis147
 oem: Alcatel
+devicetree: https://github.com/TeamWin/android_device_alcatel_U50A_ATT
+xdathread: http://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-u50a_att-alcatel-tetra-recovery.4222611/
 ---
+
 {% include disclaimer.html %}
+
 {% include supportstatus.html %}
+
 {% include dynamicpartitions.html %}
+
 {% include download.html %}
+
 <div class='page-heading'>Installation:</div>
 To install TWRP on Alcatel Tetra, you first need to unlock the bootloader.
 The process is a bit more involved for this device than it is on most others.
