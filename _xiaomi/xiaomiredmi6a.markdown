@@ -20,3 +20,5 @@ devicetree: https://github.com/TeamWin/android_device_xiaomi_cactus
 {% include twrpinstall.html %}
 
 {% include mtkinstall.html %}
+
+{% include fastbootinstall.html %}
