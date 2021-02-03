@@ -13,9 +13,10 @@ xdathread: https://forum.xda-developers.com/t/twrp-coral-official.4111017/
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
-MTP does not work at this time, but you can use adb to transfer files.
 
 {% include download.html %}
+
+{% include dynamicpartitions.html %}
 
 <div class='page-heading'>Installation:</div>
 If you already have TWRP installed:
