@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Google Pixel 4"
+title:  "Google Pixel 4 XL"
 codename: coral
 downloadfolder: coral
 supportstatus: Current
