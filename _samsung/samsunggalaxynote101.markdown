@@ -19,7 +19,7 @@ ddof: "/dev/block/bootdevice/by-name/recovery"
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">n8000:</p>
+<p class="text">n8000, n8005:</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
@@ -29,7 +29,7 @@ ddof: "/dev/block/bootdevice/by-name/recovery"
   </li>
 {% endfor %}
 </ul>
-<p class="text">n8010:</p>
+<p class="text">n8010, n8013:</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
