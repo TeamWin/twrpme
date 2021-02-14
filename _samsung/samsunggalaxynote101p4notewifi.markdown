@@ -1,13 +1,13 @@
 ---
 layout: device
 title:  "Samsung Galaxy Note 10.1"
-codename: p4noterf
-downloadfolder: p4noterf
-oldurl: http://teamw.in/project/twrp2/110
+codename: p4notewifi
+downloadfolder: p4notewifi
 supportstatus: Current
-maintainer: None
+maintainer: html6405
 oem: Samsung
 ddof: "/dev/block/mmcblk0p6"
+devicetree: "https://github.com/TeamWin/android_device_samsung_n8010"
 ---
 
 {% include disclaimer.html %}
