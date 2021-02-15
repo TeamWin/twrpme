@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83ab9e63_a43eece8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 628
+      },
+      "writtenOn": "2021-02-15T18:10:50Z",
+      "side": 1,
+      "message": "It would be great to write also these two device names, because they are technically completely equal and some people will google for n8013 (codename also p4notewifi) or n8005 (codename also p4noterf) TWRP instead.\n",
+      "revId": "17bf8c3475a9048d207d7db7cd059cbd3de7202a",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
