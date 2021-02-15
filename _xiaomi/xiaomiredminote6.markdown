@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Xiaomi Redmi Note 6"
+title:  "Xiaomi Redmi Note 6 Pro"
 codename: tulip
 downloadfolder: tulip
 supportstatus: Current
