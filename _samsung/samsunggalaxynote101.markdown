@@ -8,7 +8,7 @@ maintainer: html6405
 oem: Samsung
 devicetree: "https://github.com/TeamWin/android_device_samsung_n8000"
 xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-n8000-n8010-n8020.4233725/"
-ddof: "/dev/block/bootdevice/by-name/recovery"
+ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
 ---
 
 {% include disclaimer.html %}
