@@ -1,13 +1,12 @@
 ---
 layout: device
 title:  "Samsung Galaxy Note 8.0"
-codename: n5100
-downloadfolder: "n5100|n5100|n5110|n5110"
+codename: kona3g
+downloadfolder: "n5100|n5100|n5110|n5110|n5120|n5120"
 supportstatus: Current
-maintainer: RGIB
+maintainer: html6405
 oem: Samsung
-devicetree: "https://github.com/omnirom/android_device_samsung_n5100"
-ddof: "/dev/block/mmcblk0p6"
+devicetree: "https://github.com/TeamWin/android_device_samsung_n5100"ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
 ---
 
 {% include disclaimer.html %}
@@ -33,6 +32,15 @@ ddof: "/dev/block/mmcblk0p6"
 {% for mirror in site.data.mirrors %}
   <li>
     <a href="{{ mirror.baseurl }}n5110">
+      {{ mirror.description }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+<ul>
+{% for mirror in site.data.mirrors %}
+  <li>
+    <a href="{{ mirror.baseurl }}n5120">
       {{ mirror.description }}
     </a>
   </li>
