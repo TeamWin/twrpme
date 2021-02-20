@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1d42bd0_304cfb73",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 628
+      },
+      "writtenOn": "2021-02-20T08:18:12Z",
+      "side": 1,
+      "message": "Here the overworked markdown for the kona devices.",
+      "revId": "b8b1acad7058a8fcabc1f2ef839d985d572249ba",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
