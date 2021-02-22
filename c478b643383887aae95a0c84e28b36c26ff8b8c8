@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b4f8244_05a9c649",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 628
+      },
+      "writtenOn": "2021-02-22T06:25:49Z",
+      "side": 1,
+      "message": "I\u0027ve forgot to close the xda thread string.",
+      "revId": "c478b643383887aae95a0c84e28b36c26ff8b8c8",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
