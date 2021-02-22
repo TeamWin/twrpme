@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: html6405
 oem: Samsung
 devicetree: "https://github.com/TeamWin/android_device_samsung_n5100"
-xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-n5100-n5110-n5120.4236863/
+xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-0_9-0-n5100-n5110-n5120.4236863/"
 ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
 ---
 
