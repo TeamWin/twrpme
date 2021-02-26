@@ -3,8 +3,8 @@ layout: device
 title:  "Samsung Galaxy S III (International Exynos)"
 codename: i9300
 downloadfolder: i9300
-supportstatus: Current
-maintainer: ripee
+supportstatus: Not Current
+maintainer: None
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_i9300"
