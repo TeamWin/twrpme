@@ -3,8 +3,8 @@ layout: device
 title:  "Samsung Galaxy S III (International LTE)"
 codename: i9305
 downloadfolder: i9305
-supportstatus: Current
-maintainer: ripee
+supportstatus: Not Current
+maintainer: None
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_i9305"
