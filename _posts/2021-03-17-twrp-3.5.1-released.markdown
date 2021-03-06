@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "TWRP 3.5.1 Released"
+date:   2021-03-17 18:24:42
+categories: site update
+version: 3.5.1
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+TeamWin has prepared a mini release before Android-11 support. The following features listed are
+common to both android-9.0 android-10.0 supported devices. Many thanks to all the listed
+contributors.
+
+You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
+
+
+What's new in {{ page.version }}:
+Android 9 Branch:
+- Fixes
+  - Build compilation in 7.1 tree - CaptainThrowback
+  - SAR: Don't follow symbolic links for block devices - bigbiff
+  - SAR Update script name for clarity - CaptainThrowback
+
+Android 9 and Android 10 Branches:
+- Wrappedkey support running only on FBE devices - CaptainThrowback
+- TWRP App log information reduced - epicX67
+- Refresh details after system wipe and adb sideload - AdrianDC
+- Chinese translation updates - betaxb
+- Support keymaster 2 - PeterCxy
+- add tzdata to TWRP for timezones - CaptainThrowback
+- ParitionManager: support delayed adopted storage mount - PeterCxy
+- Support to start terminal from file manager directory - AndroiableDroid
+- Nano support - nebrassy
+- Add nano support to open files from file manager - CaptainThrowback
+- Include new magisk apk support to be installed by TWRP - ianmacd
+- Add support to change directory name where TWRP stores backups - epicX67
+- Add bash support - not the default shell - DarthJabba9
+- ORS support to format data - AdrianDC
+- Add support to flash both slots when flashing an image - epicX67
+- NL translation updates - ianmacd
+- Cleanup
+  - Installation cleanup - remove dupe PackageExtractFn - klabit87
+  - Remove logd-reinit service - CaptainThrowback
+- Fixes
+  - Restore system root context - bigbiff
+  - Only include keymaster 2 if tree supports it - CaptainThrowback
+  - Strip lines containing '--' in language_helper.py - ianmacd
+  - Unlocalized string fix - ianmacd
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
