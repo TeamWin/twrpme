@@ -16,6 +16,24 @@
       "message": "Do i need to remove any images?",
       "revId": "60ff78b79854c15b3dac75c46d9dd9f17733aba5",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7ccfacd_66547de8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 508
+      },
+      "writtenOn": "2021-03-12T16:28:21Z",
+      "side": 1,
+      "message": "Would be great if you could just remove all of them.",
+      "parentUuid": "cb37e5e4_5db5dd02",
+      "revId": "60ff78b79854c15b3dac75c46d9dd9f17733aba5",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
