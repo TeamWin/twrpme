@@ -51,6 +51,24 @@
       "message": "Do they work with stock firmware on these devices?",
       "revId": "60ff78b79854c15b3dac75c46d9dd9f17733aba5",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eea259c8_1c4d7d57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 508
+      },
+      "writtenOn": "2021-03-12T19:43:33Z",
+      "side": 1,
+      "message": "Not 100%,\nHowever without TWRP working with Lineage I\u0027m not interested in maintaining them myself anymore, it\u0027s basically useless anyways as it isn\u0027t currently possible to get decryption working on these.",
+      "parentUuid": "863ed9b6_15bba2ee",
+      "revId": "60ff78b79854c15b3dac75c46d9dd9f17733aba5",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
