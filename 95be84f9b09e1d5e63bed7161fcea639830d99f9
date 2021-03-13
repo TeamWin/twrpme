@@ -16,6 +16,24 @@
       "message": "I deleted the markdowns and removed the images from dl.twrp.me.",
       "revId": "95be84f9b09e1d5e63bed7161fcea639830d99f9",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90c4e11e_fa1ee58f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 508
+      },
+      "writtenOn": "2021-03-13T06:37:25Z",
+      "side": 1,
+      "message": "Thanks",
+      "parentUuid": "0b9a1eac_8e45099b",
+      "revId": "95be84f9b09e1d5e63bed7161fcea639830d99f9",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
