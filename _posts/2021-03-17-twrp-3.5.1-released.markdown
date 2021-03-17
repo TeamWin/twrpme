@@ -16,13 +16,13 @@ You can see the device builds under their respective Jenkins view at https://jen
 
 
 What's new in {{ page.version }}:
-Android 9 Branch:
+#Android 9 Branch:
 - Fixes
   - Build compilation in 7.1 tree - CaptainThrowback
   - SAR: Don't follow symbolic links for block devices - bigbiff
   - SAR Update script name for clarity - CaptainThrowback
 
-Android 9 and Android 10 Branches:
+#Android 9 and Android 10 Branches:
 - Wrappedkey support running only on FBE devices - CaptainThrowback
 - TWRP App log information reduced - epicX67
 - Refresh details after system wipe and adb sideload - AdrianDC
