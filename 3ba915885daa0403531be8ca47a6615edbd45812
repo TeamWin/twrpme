@@ -1,6 +1,57 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6497c155_740c1264",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-03-17T17:33:32Z",
+      "side": 1,
+      "message": "Just a few more notes since your initial paragraph indicates these patches are common to both trees when in fact a few are not.",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9616f1d1_13bd180b",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-03-17T17:33:32Z",
+      "side": 1,
+      "message": "would only affect Android 9 tree",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4ae0934_01858ee2",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-03-17T17:33:32Z",
+      "side": 1,
+      "message": "SAR patch - would only affect Android 9 tree",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b92eb952_af66e114",
@@ -14,6 +65,24 @@
       "writtenOn": "2021-03-17T17:31:16Z",
       "side": 1,
       "message": "Fix typo",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9f079a8_38de2dda",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-03-17T17:33:32Z",
+      "side": 1,
+      "message": "SAR patch - would only affect Android 9 tree",
+      "parentUuid": "b92eb952_af66e114",
       "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
