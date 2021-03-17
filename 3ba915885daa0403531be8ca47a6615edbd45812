@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b92eb952_af66e114",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-03-17T17:31:16Z",
+      "side": 1,
+      "message": "Fix typo",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
