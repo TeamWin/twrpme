@@ -35,6 +35,24 @@
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "20478e61_dd6f2727",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-03-17T22:34:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9616f1d1_13bd180b",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e4ae0934_01858ee2",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-03-17T17:33:32Z",
       "side": 1,
       "message": "SAR patch - would only affect Android 9 tree",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d67d97db_8033d76b",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-03-17T22:34:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e4ae0934_01858ee2",
       "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     },
@@ -83,6 +119,24 @@
       "side": 1,
       "message": "SAR patch - would only affect Android 9 tree",
       "parentUuid": "b92eb952_af66e114",
+      "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94b517ad_0c71d2b6",
+        "filename": "_posts/2021-03-09-twrp-3.5.1-released.markdown",
+        "patchSetId": 3
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-03-17T22:34:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e9f079a8_38de2dda",
       "revId": "3ba915885daa0403531be8ca47a6615edbd45812",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
