@@ -14,6 +14,10 @@ xdathread: http://forum.xda-developers.com/shield-tv/development/recovery-twrp-s
 
 {% include supportstatus.html %}
 
+<div class='page-heading'>Notes:</div>
+<hr />
+<p class="text">Releases 3.2.3-0 and before are for the SHIELD Experience 7.1.x and earlier bootloaders only. Releases 3.5.1-0 and later only work on the SHIELD Experience 7.2.0 and later bootloaders.</p>
+
 {% include appinstall.html %}
 
 {% include download.html %}
