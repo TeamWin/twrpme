@@ -7,6 +7,7 @@ supportstatus: Current
 maintainer: hraj9258
 devicetree: https://github.com/TeamWin/android_device_xiaomi_phoenix
 oem: Xiaomi
+xdathread: https://forum.xda-developers.com/t/recovery-official-twrp-3-5-1_10-0-twrp-for-poco-x2-k30.4223889/
 ---
 
 {% include disclaimer.html %}
