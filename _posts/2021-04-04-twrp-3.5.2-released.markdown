@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "TWRP 3.5.2 Released"
+date:   2021-04-04 18:24:42
+categories: site update
+version: 3.5.2
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+This release is to fix a regression error for digest checking. Thanks to epicX for his
+hard work fixing this issue.
+
+Also thanks to megafont29 for updating Russian translations.
+
+You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
