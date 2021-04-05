@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy J5 LTE (2016) (SM-J500F/FN/MN/GN)"
+title:  "Samsung Galaxy J5 LTE (2016) (SM-J510F/FN/MN/GN)"
 codename: j5xnlte
 downloadfolder: j5xnlte
 supportstatus: Current
