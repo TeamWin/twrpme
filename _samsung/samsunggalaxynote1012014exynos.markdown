@@ -4,7 +4,7 @@ title:  "Samsung Galaxy Note 10.1 (2014) Exynos Wi-Fi"
 codename: lt03wifiue
 downloadfolder: lt03wifiue
 oldurl: http://teamw.in/project/twrp2/206
-supportstatus: Current
+supportstatus: None
 maintainer: None
 oem: Samsung
 devicetree: https://github.com/TeamWin/android_device_samsung_lt03wifiue
