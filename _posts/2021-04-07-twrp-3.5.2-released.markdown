@@ -11,7 +11,7 @@ TWRP {{ page.version }} is out now for most currently supported devices.
 This release is to fix a regression error for digest checking. Thanks to epicX for his
 hard work fixing this issue.
 
-Also thanks to megafont29 for updating Russian translations.
+Also thanks to MegaFon929 for updating Russian translations.
 
 You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
 
