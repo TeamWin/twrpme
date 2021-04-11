@@ -17,4 +17,4 @@ oem: Sony
 
 {% include twrpinstall.html %}
 
-{% fastbootinstall.html %}
+{% include fastbootinstall.html %}
