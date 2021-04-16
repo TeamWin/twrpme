@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy A10 (SM-A105F)"
+title:  "Samsung Galaxy A10"
 codename: a10
 downloadfolder: a10
 supportstatus: Current
