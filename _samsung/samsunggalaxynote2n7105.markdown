@@ -3,12 +3,13 @@ layout: device
 title:  "Samsung Galaxy Note 2 N7105"
 codename: t0lte
 downloadfolder: t0lte
-oldurl: http://teamw.in/project/twrp2/125
 supportstatus: Current
-maintainer: None
+maintainer: html6405
 oem: Samsung
-ddof: "/dev/block/mmcblk0p9"
 devicetree: "https://github.com/TeamWin/android_device_samsung_t0lte"
+xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-2_9-0-t0lte-n7105.4263819/post-84858941"
+ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
+
 ---
 
 {% include disclaimer.html %}
