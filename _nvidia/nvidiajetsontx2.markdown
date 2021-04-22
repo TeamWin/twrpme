@@ -13,6 +13,10 @@ devicetree: https://github.com/LineageOS/android_device_nvidia_quill
 
 {% include supportstatus.html %}
 
+<div class='page-heading'>Notes:</div>
+<hr />
+<p class="text">This supports the TX2 and TX2 NX devkits</p>
+
 {% include appinstall.html %}
 
 {% include download.html %}
