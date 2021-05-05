@@ -1,11 +1,11 @@
 ---
 layout: device
 title: "Samsung Galaxy A20"
-codename: a20dd
-downloadfolder: a20dd
+codename: a20
+downloadfolder: a20
 supportstatus: Current
 maintainer: topser9
-devicetree: "https://github.com/TeamWin/android_device_samsung_a20dd"
+devicetree: "https://github.com/TeamWin/android_device_samsung_a20"
 oem: Samsung
 ddof: "/dev/block/platform/13500000.dwmmc0/by-name/recovery"
 ---
