@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ae3aecc_96678174",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 691
+      },
+      "writtenOn": "2021-05-27T11:35:23Z",
+      "side": 1,
+      "message": "Here\u0027s the device markdown you asked for.",
+      "revId": "b30227922558bff21bd5c7e5df460c16412f919e",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
