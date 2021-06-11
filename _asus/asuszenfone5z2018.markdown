@@ -5,7 +5,7 @@ codename: Z01RD
 oem: Asus
 downloadfolder: Z01RD
 supportstatus: Current
-maintainer: Jackeagle
+maintainer: Jackeagle, ThEMarD
 devicetree: https://github.com/TeamWin/android_device_asus_Z01RD
 xdathread: "https://forum.xda-developers.com/zenfone-5z/development/recovery-twrp-3-2-3-x-t3849245"
 ---
