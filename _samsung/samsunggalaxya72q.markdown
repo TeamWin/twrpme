@@ -8,6 +8,7 @@ maintainer: Velosh
 devicetree: "https://github.com/TeamWin/android_device_samsung_a72q"
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
+xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-2-for-galaxy-a72-4g.4278031/"
 ---
 
 {% include disclaimer.html %}
