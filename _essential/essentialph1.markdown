@@ -4,8 +4,8 @@ title:  "Essential PH-1"
 codename: mata
 downloadfolder: mata
 oldurl:
-supportstatus: Current
-maintainer: Dees_Troy
+supportstatus: Not Current
+maintainer: None
 devicetree: https://github.com/TeamWin/android_device_essential_mata.git
 oem: Essential
 ---
