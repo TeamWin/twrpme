@@ -4,7 +4,7 @@ title:  "Xiaomi Redmi note 8/8T"
 codename: ginkgo/willow
 downloadfolder: ginkgo
 supportstatus: Current
-maintainer: Mauronofrio
+maintainer: erwinabs
 devicetree: https://github.com/TeamWin/android_device_xiaomi_ginkgo
 oem: Xiaomi
 xdathread: "https://forum.xda-developers.com/redmi-note-8/development/recovery-unofficial-twrp-xiaomi-redmi-t3997267"
