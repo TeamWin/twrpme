@@ -4,7 +4,7 @@
   "description": "twrpme website",
   "main": "gulpfile.js",
   "dependencies": {
-    "node-notifier": "^4.6.1",
+    "node-notifier": "^8.0.1",
     "vinyl-fs": "^2.4.4"
   },
   "devDependencies": {},
