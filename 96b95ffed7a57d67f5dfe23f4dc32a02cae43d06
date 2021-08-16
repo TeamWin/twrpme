@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ec63333_158f9af3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2021-08-16T22:14:54Z",
+      "side": 1,
+      "message": "I\u0027m happy with this for zippo. I had to make my own installation instructions due to Lenovo\u0027s unlock website and unlock procedure, but I followed the regular TWRP instructions as closely as I could.",
+      "revId": "96b95ffed7a57d67f5dfe23f4dc32a02cae43d06",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
