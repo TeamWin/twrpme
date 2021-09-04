@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 9A65CD26718A4E9F 1630794644 -0400\npushee ssh://gerrit.twrp.me:29418/twrpme\nnonce 1630794653-BE79A3A0AAA5375D57870CC2A8A5485553478817\n\n0000000000000000000000000000000000000000 57b1ffec8cdd50894d0da1accea2521fc1b5f285 refs/for/master\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEqRr5EFtQo04uAf5smmXNJnGKTp8FAmEz85QACgkQmmXNJnGK\nTp/znA//a+RvuzbWZMXnWd7Cx4pk1NsqFESWM8+l9mznjaqWZKfSCAt5K+mb4VXl\nFD4w9SqNw06KE8/Q2HLwpR7PeTjBf8fQJte7H+SfDTk+t8TxXnRhnvmmiwUNYBAM\nn4mc0A5YOrNofWDn0TnFSCl+kymolpumd5ChpLfQfz7xt5xWi+ZOYj1WxT2b4DbT\njfgB8hZPnud8aJBPArBxlqq9yxZ18r3UCj4kN2mcKGOj4QjZudeScDulPSd1/CuE\nVIuR4uOouKCVQ92mLiPqKygmAdNe4IPZzxwY0vgmyryDWmHVklGpeoTRwWxsq5kS\naYqDuwYrQR5DSqVpLdnT86zlcIQw+HqyBkjDjBri+Z6keYleEquF87PUxQsaKnZ7\neZSvNfAUNtomr2MRFA7+PLPF51NM1xd9l6GnVudl245myw0EPxj1IbibAoLxOvOs\nBkjvD3SHGQ451Sxu0gPiLV3VdrWqNwUX/ZOWoPi4CJIVO/HIFbWbKTh3ECUOxSmW\nyya5B9xUZp5vojb82N+oBAkhLHQ0KmjoiRTAClmCURVLTsWkiye0WJw4M1LBX16j\n94taGI6H470U4Dn42m1wjLsXlld7VLak6ECE9VWhA9ATNo7iTWOcsgmVf0DHnmjH\nhQQoJ7BdcfieoL6FYjuX37UL38GK6DL1akwbwSc2gRKGfn3c/ho\u003d\n\u003dyk94\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38d65976_c40a265d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-09-04T22:32:51Z",
+      "side": 1,
+      "message": "I\u0027ll wait for the libmodprobe patch to be available before I +1 this for merging. It probably should just be merged when the next release is ready.",
+      "revId": "57b1ffec8cdd50894d0da1accea2521fc1b5f285",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
 }
