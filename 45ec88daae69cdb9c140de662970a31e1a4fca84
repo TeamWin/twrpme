@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9a4dba8_7bc8a406",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2021-09-12T11:14:46Z",
+      "side": 1,
+      "message": "heart is ready for official builds now and the latest test build by Jenkins works properly",
+      "revId": "45ec88daae69cdb9c140de662970a31e1a4fca84",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
