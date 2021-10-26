@@ -8,6 +8,7 @@ supportstatus: Current
 maintainer: Captain_Throwback
 devicetree: https://github.com/TeamWin/android_device_asus_I003D
 xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recovery-twrp-asus-rog-phone-3-t4158949"
+<p class="text"><a href="https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ROG.20Phone.203">Support topic on Zulip</a></p>
 ---
 
 
@@ -24,7 +25,7 @@ xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recove
 
 
 {% include twrpinstall.html %}
-<b>NOTE:</b> This will only install TWRP to the current slot!!
+<b>NOTE:</b> By default, only the current slot will be flashed. Checking the \"Flash to both slots\" box will flash to both the active and inactive slots.
 
 
 <html>
