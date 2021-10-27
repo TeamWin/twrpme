@@ -68,6 +68,9 @@ collections:
   fairphone:
     output: true
 
+  gigaset:
+    output: true
+
   google:
     output: true
 
