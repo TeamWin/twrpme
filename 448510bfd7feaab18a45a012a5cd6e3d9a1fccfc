@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37a2b5d4_5420bfb8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 693
+      },
+      "writtenOn": "2021-10-28T16:05:33Z",
+      "side": 1,
+      "message": "I think the path was the problem beeing the only oem with uppercase Directory so i changed it to lowercase. I compared all the other files with files from other oems and they seem similar. (at least uppercase-lowercase wise)",
+      "revId": "448510bfd7feaab18a45a012a5cd6e3d9a1fccfc",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
