@@ -144,5 +144,18 @@ title: "TWRP Commandline Guide"
   <tr><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td></tr>
  </tbody>
 </table>
+<table border="1" class="inline-table">
+ <colgroup>
+  <col width="16%" /><col width="16%" /><col width="16%" /><col width="16%" /><col width="16%" /><col width="16%" />
+ </colgroup>
+ <tbody valign="top">
+  <tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td><td>:</td><td>;</td><td>&lt;</td></tr>
+  <tr><td>=</td><td>&gt;</td><td>?</td><td>&#64;</td><td>A</td><td>B</td></tr>
+  <tr><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td></tr>
+  <tr><td>I</td><td>J</td><td>K</td><td>L</td><td>M</td><td>N</td></tr>
+  <tr><td>O</td><td>P</td><td>Q</td><td>R</td><td>S</td><td>T</td></tr>
+ </tbody>
+</table>
 <div class="desc" >Example: if your pattern is a &quot;U&quot; shape in the middle of the 5x5, enter <tt class="literal">twrp decrypt '7&lt;ABC&gt;9'</tt> in the terminal or ADB shell. Note that characters <tt class="literal"><span class="pre">;&lt;&gt;?</span></tt> are special to the shell and require backslash escaping or single quotes around the string.
 <a href='https://blog.alxu.ca/unlocking-large-pattern-encryption-in-twrp.html'>Source</a></div>
