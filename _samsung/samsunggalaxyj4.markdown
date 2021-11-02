@@ -3,8 +3,8 @@ layout: device
 title: "Samsung Galaxy J4"
 codename: j4lte
 downloadfolder: j4lte
-supportstatus: None
-maintainer: None
+supportstatus: Current
+maintainer: mndth
 oem: Samsung
 ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 devicetree: "https://github.com/TeamWin/android_device_samsung_j4lte"
@@ -13,6 +13,8 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_j4lte"
 {% include disclaimer.html %}
 
 {% include supportstatus.html %}
+
+{% include dmverity.html %}
 
 {% include download.html %}
 
