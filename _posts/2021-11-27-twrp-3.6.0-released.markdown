@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "TWRP 3.6.0 Released"
+date:   2021-11-27 18:24:42
+categories: site update
+version: 3.6.0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+First of all, thanks to all the maintainers and your continued support. Without you guys
+TWRP would not exist as it does now. We would like to apologize for the length of
+time it took for the Android 11 release. It took us over a year to support all the new
+features.
+
+This release has feature updates for Android 9 based devices compiled for TWRP and up to
+date support for Android 11. Devices compiled under the android-10 branch now have been
+moved to the android-11 branch for up to date support. We have also deprecated devices
+built under omni-5.1 and cm-12.1. These trees do not support newer C++ features. If anyone
+has the ability, they may be able to be ported to omni-6.0 for continued TWRP support.
+
+We hope the feature updates for Android 11 will quicken the release process for Android 12.
+You can follow our status on Zulip: https://rebrand.ly/teamwin-recovery-zulip-community
+
+You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
+
+
+What's new in {{ page.version }}:
+# Android 9 Branch:
+- Fixes
+  - SAR Update script name for clarity - CaptainThrowback
+  - Fix building toolbox in android-7.1 - CaptainThrowback
+  - Fix bash - Jarl-Penguin
+
+# Android 11 Branch:
+- Add support for installation realme/OPPO OTA - Ctapchuk
+- update custom makefiles to golang modules - bigbiff
+- sepolicy updates - nebrassy, bigbiff, CaptainThrowback
+- encryption updates for a11 - bigbiff, micky387, CaptainThrowback
+- vendor kernel module loader - bigbiff
+- virtual A/B updates - bigbiff
+- snapshot merges - bigbiff
+- repacker warnings - CaptainThrowback
+- f2fs formatting fixes - systemad
+- symlink dynamic partitions in bootdevice - Mohd Faraz
+- Fixes
+  - Fix parsing get_args for wiping cache
+  - vendor hal fixes - Mohd Faraz
+  - fix samsung haptics - soulr344
+  - digest check fixes - epicX
+  - ozip decrypt fixes - Ctapchuk
+  - Change how blank screen works - Sean hoyt
+
+# Android 9 and Android 11 Branches:
+- add num template for PIN input - CaptainThrowback
+- Ignore A12 XML files binary format - zhenyolka
+- Add support of A12 keymaster_key_blob files structure - zhenyolka
+- keymaster restore: warn when pin, password or pattern is enabled - bigbiff
+- New flashing method for recovery as boot devices:
+    Advanced > flash current twrp - nebrassy
+- factory wipe and mtp fixes - CaptainThrowback
+- add indonesian language - Xdisk
+- update Russian language - Ctapchuk
+- add canceldecrypt page - CaptainThrowback
+- copy logcat when copying logs in TWRP - CaptainThrowback
+- Fixes
+  - FBE Encryption fixes - CaptainThrowback
+  - repacker fixes for compression - nebrassy
+  - exclusion criteria for Fix Recovery Bootloop - CaptainThrowback
+  - unmount vendor if not available - LinkBoi00
+  - theme updates - LinkBoi00
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
