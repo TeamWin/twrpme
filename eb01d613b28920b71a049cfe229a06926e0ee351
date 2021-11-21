@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 9A65CD26718A4E9F 1637514728 -0500\npushee ssh://gerrit.twrp.me:29418/twrpme\nnonce 1637514728-6A04F1FCB691D72DA8E1217C8E5D895F87AFDFD0\n\n0000000000000000000000000000000000000000 eb01d613b28920b71a049cfe229a06926e0ee351 refs/for/master\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEqRr5EFtQo04uAf5smmXNJnGKTp8FAmGafegACgkQmmXNJnGK\nTp/jNBAAl+jJeuPoxdELNWJQRvBFn5jbZfYXa7YdErhQaXSqGnUChGOUgvZoZg4/\n4NEPd+82cf6kD5+r7yDv55DyWN69aMjwS0mZ0g8EbgyI93NmeiD0Ud+B7A8aXnmU\nqS+ecwitn3XytLXCKYlETkLZW4WIhwgIw6D33J1JPWFSnMiB0Kig7sO3xPR/6wXI\nV1G3FvcFqvlcAGX/ZVlhtad50h0zJ6qGfQXE5G5vMeSOR84lgF0vw3bOXZ+fdC1M\nQZUrDT9td6fuNm5NjKfi+RmHekD874RwY3t+3xdQkUgMTE/1KagXQG2HfKVG+P81\n1DN/qCB8uJB1YfdUmJRvSlaUJ7cFzdabngqeg9yUlFmCfbTPZa5Mzejjbr9C0TgX\njRJwyDaf3x7ojMAZ/NgBOF6/0DA3b+OaLp8uvR7dlP2gbx4AlZHrlD9XB3JbnsDo\nKOhgbOS6/HHSKucYw9A0R9AItNfo/9q3ijSdVyS6/Ad5Sfs4ebxwsUKKXAFUz0VD\nu/5h9ZeYAYTZH1fIMjYHzKvMD5aZ4ot8QK33vc4A5FZ7+RDnCpFLFg2SNTLCg4xg\n2431M7j9IFKQOZIEKMSDBV1ggDVvij5Omugp26BGXeRfWa2I0I+6K1SFunzvJ/me\nVEacrNGRvJAyIvsTiOJgu2as39mVowSVd3kuGJpWICdzhrxawoA\u003d\n\u003dWjNi\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df0719d4_d802afd2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2021-11-21T17:13:19Z",
+      "side": 1,
+      "message": "This seems fine to me, but the wording can be adjusted if desired.",
+      "revId": "eb01d613b28920b71a049cfe229a06926e0ee351",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
 }
