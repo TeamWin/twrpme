@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96e330b6_65c0b714",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 566
+      },
+      "writtenOn": "2021-11-25T22:55:17Z",
+      "side": 1,
+      "message": "hello, as I wasnt able to get access on the old Gerrit Account back I will just use this one. Please also delete ALL BUILDS. Thanks.",
+      "revId": "7067a53015506362409231962d4c96ace12128e9",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
