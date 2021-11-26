@@ -51,6 +51,24 @@
       "parentUuid": "934c1c89_329fd15e",
       "revId": "7067a53015506362409231962d4c96ace12128e9",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd980d73_36d334b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 566
+      },
+      "writtenOn": "2021-11-26T06:18:47Z",
+      "side": 1,
+      "message": "Wdym? The TWRP worked but I wanna drop it cuz I\u0027m no longer recommending to use it as it\u0027s old.",
+      "parentUuid": "7236c78f_eec690bb",
+      "revId": "7067a53015506362409231962d4c96ace12128e9",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
