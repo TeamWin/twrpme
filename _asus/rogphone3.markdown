@@ -7,8 +7,8 @@ downloadfolder: I003D
 supportstatus: Current
 maintainer: Captain_Throwback
 devicetree: https://github.com/TeamWin/android_device_asus_I003D
-xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recovery-twrp-asus-rog-phone-3-t4158949"
-<p class="text"><a href="https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ROG.20Phone.203">Support topic on Zulip</a></p>
+xdathread: https://forum.xda-developers.com/asus-rog-phone-3/development/recovery-twrp-asus-rog-phone-3-t4158949
+zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ROG.20Phone.203
 ---
 
 
@@ -54,3 +54,4 @@ xdathread: "https://forum.xda-developers.com/asus-rog-phone-3/development/recove
 <p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_a</p>
 <p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_b</p>
 </html>
+

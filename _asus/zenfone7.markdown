@@ -7,8 +7,8 @@ downloadfolder: I002D
 supportstatus: Current
 maintainer: Captain_Throwback
 devicetree: https://github.com/TeamWin/android_device_asus_I002D
-xdathread: "https://forum.xda-developers.com/asus-zenfone-7/development/recovery-twrp-asus-zenfone-7-series-t4161719"
-<p class="text"><a href="https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ZenFone.207">Support topic on Zulip</a></p>
+xdathread: https://forum.xda-developers.com/asus-zenfone-7/development/recovery-twrp-asus-zenfone-7-series-t4161719
+zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ZenFone.207
 ---
 
 
@@ -54,3 +54,4 @@ xdathread: "https://forum.xda-developers.com/asus-zenfone-7/development/recovery
 <p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_a</p>
 <p class="code">dd if=/sdcard/twrp.img of=/dev/block/by-name/recovery\_b</p>
 </html>
+
