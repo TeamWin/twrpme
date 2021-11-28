@@ -18,7 +18,7 @@ date support for Android 11. Devices compiled under the android-10 branch now ha
 moved to the android-11 branch for up to date support.
 
 We hope the feature updates for Android 11 will quicken the release process for Android 12.
-You can follow our status on Zulip: https://rebrand.ly/teamwin-recovery-zulip-community
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
 
 You can see the device builds under their respective Jenkins view at https://jenkins.twrp.me.
 
