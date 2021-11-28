@@ -25,7 +25,7 @@ zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topi
 
 
 {% include twrpinstall.html %}
-<b>NOTE:</b> By default, only the current slot will be flashed. Checking the \"Flash to both slots\" box will flash to both the active and inactive slots.
+<b>NOTE:</b> By default, only the current slot will be flashed. Checking the "Flash to both slots" box will flash to both the active and inactive slots.
 
 
 <html>
