@@ -15,9 +15,7 @@ features.
 
 This release has feature updates for Android 9 based devices compiled for TWRP and up to
 date support for Android 11. Devices compiled under the android-10 branch now have been
-moved to the android-11 branch for up to date support. We have also deprecated devices
-built under omni-5.1 and cm-12.1. These trees do not support newer C++ features. If anyone
-has the ability, they may be able to be ported to omni-6.0 for continued TWRP support.
+moved to the android-11 branch for up to date support.
 
 We hope the feature updates for Android 11 will quicken the release process for Android 12.
 You can follow our status on Zulip: https://rebrand.ly/teamwin-recovery-zulip-community
