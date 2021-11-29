@@ -18,8 +18,6 @@ xdathread: https://forum.xda-developers.com/t/recovery-11-alpha-teamwin-recovery
 
 {% include download.html %}
 
-{% include fastbootabinstall.html %}
-
 <div class='page-heading'>Installation:</div>
 If you already have TWRP installed:
 Download the latest img/installer and flash the image using TWRP to both slots, or simply flash the installer.
