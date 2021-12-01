@@ -27,7 +27,9 @@ Download the img. You will need to have fastboot binaries and the correct driver
 
 fastboot boot path/to/twrp.img
 
-This will temporarily boot TWRP on your device. Now, either copy the TWRP installer zip to the phone and flash it, or go into adb sideload option from the booted twrp and execute the following command:
+This will temporarily boot TWRP on your device.
+At this point - if OOS is installed - it's recommended to take a backup of the current recovery as it will need to be restored for incremental OTAs to install successfully.
+Now, either copy the TWRP installer zip to the phone and flash it, or go into adb sideload option from the booted twrp and execute the following command:
 
 adb sideload path/to/twrp-installer.zip
 
