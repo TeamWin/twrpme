@@ -3,7 +3,7 @@ layout: device
 title:  "Lenovo Vibe K5/K5 Plus"
 codename: A6020
 downloadfolder: A6020
-supportstatus: Current
+supportstatus: Not Current
 maintainer: Shr3ps
 oem: Lenovo
 devicetree: https://github.com/teamwin/android_device_lenovo_A6020
