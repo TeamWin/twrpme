@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a0ac9bb_a962d4dc",
+        "filename": "_oneplus/oneplus7t.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-12-06T23:09:52Z",
+      "side": 1,
+      "message": "Can you change this to hotdogv2 like the codename?",
+      "revId": "7aac6b96568c348ae42645971b1d79ab54977cc3",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
