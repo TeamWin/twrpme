@@ -16,6 +16,24 @@
       "message": "Can you change this to hotdogv2 like the codename?",
       "revId": "7aac6b96568c348ae42645971b1d79ab54977cc3",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "322c6d00_22a76ea3",
+        "filename": "_oneplus/oneplus7t.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2021-12-11T22:26:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a0ac9bb_a962d4dc",
+      "revId": "7aac6b96568c348ae42645971b1d79ab54977cc3",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
