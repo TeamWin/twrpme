@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Note 2 3G (N7100) & Samsung Galaxy Note 2 LTE (N7105)"
+title:  "Samsung Galaxy Note 2"
 codename: t03g & t0lte
 downloadfolder: "t03g|t03g|t0lte|t0lte"
 supportstatus: Current
