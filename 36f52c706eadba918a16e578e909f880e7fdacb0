@@ -16,6 +16,24 @@
       "message": "I think these need to be pipe delimited. See https://github.com/TeamWin/twrpme/blob/ac3fd07d124c9221aa0992c19beaef0342cb4b48/_samsung/samsunggalaxynote2international.markdown",
       "revId": "36f52c706eadba918a16e578e909f880e7fdacb0",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c29a4fda_0bc107c7",
+        "filename": "_oneplus/oneplus8p.markdown",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 739
+      },
+      "writtenOn": "2021-12-22T16:22:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92ffea04_b7ddc5c3",
+      "revId": "36f52c706eadba918a16e578e909f880e7fdacb0",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
