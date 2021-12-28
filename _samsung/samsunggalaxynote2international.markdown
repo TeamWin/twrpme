@@ -23,7 +23,7 @@ ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
-    <a href="{{ mirror.baseurl }}t03g">
+    <a href="{{ mirror.baseurl }}n7100">
       {{ mirror.description }}
     </a>
   </li>
