@@ -2,7 +2,7 @@
 layout: device
 title:  "Samsung Galaxy Note 2"
 codename: t03g & t0lte
-downloadfolder: "t03g|t03g|t0lte|t0lte"
+downloadfolder: "n7100|n7100|t0lte|t0lte"
 supportstatus: Current
 maintainer: html6405
 oem: Samsung
