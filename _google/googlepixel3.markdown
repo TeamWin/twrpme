@@ -4,7 +4,7 @@ title:  "Google Pixel 3"
 codename: blueline
 downloadfolder: blueline
 supportstatus: Current
-maintainer: Dees_Troy
+maintainer: bigbiff
 oem: Google
 devicetree: https://github.com/TeamWin/android_device_google_crosshatch
 ---
