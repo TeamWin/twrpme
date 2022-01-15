@@ -13,7 +13,7 @@ devicetree: https://github.com/TeamWin/android_device_nokia_WSP_sprout
 {% include download.html %}
 <div class='page-heading'>Installation:</div>
 Download both the img and the zip.You will need to have fastboot binaries and the correct drivers installed.
-You can grab latest platform-tools (fastboot binaries) from [here]https://developer.android.com/studio/releases/platform-tools
+You can grab latest platform-tools (fastboot binaries) from [here](https://developer.android.com/studio/releases/platform-tools)
 Also you need to grab a vbmeta image from [here](https://dl.google.com/developers/android/qt/images/gsi/vbmeta.img?hl=tr)
 Now go in the directory where your adb/fastboot binaries exists.Connect the device to your PC.Enable USB debugging in developer options & then open a command window and run the following command from the proper location:
 adb reboot bootloader
