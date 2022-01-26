@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29132c64_1104f6bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 737
+      },
+      "writtenOn": "2022-01-26T12:53:47Z",
+      "side": 1,
+      "message": "https://github.com/RazaDroidProject/recovery_device_motorola_guamp/tree/android-11",
+      "revId": "c8274dcba1916598674ab7dd0e016e6baffc0df0",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
