@@ -2,7 +2,7 @@
 layout: device
 title:  "OnePlus 8 and 8 Pro"
 codename: instantnoodle & instantnoodlep
-downloadfolder: instantnoodle|instantnoodlep
+downloadfolder: instantnoodle
 supportstatus: Current
 maintainer: infected_
 oem: OnePlus
