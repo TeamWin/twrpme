@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab 3 Lite 7.0 (Marvell PXA986 Edition)"
+title:  "Samsung Galaxy Tab 3 Lite 7.0"
 codename: goya
 downloadfolder: goya
 supportstatus: Current

@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab 3 Lite 7.0 3G"
+title:  "Samsung Galaxy Tab 3 Lite 7.0 3G Value Edition"
 codename: goyave
 downloadfolder: goyave
 supportstatus: Current
