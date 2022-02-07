@@ -21,21 +21,11 @@ ddof: "/dev/block/platform/155a0000.ufs/by-name/RECOVERY"
 
 <div class='page-heading'>Download Links:</div>
 <hr />
-<p class="text">International &amp; Canada (SM-G935F, SM-G935FD, SM-G935X, SM-G935W8):</p>
+<p class="text">International &amp; Canada (SM-G935F, SM-G935FD, SM-G935X, SM-G935W8) &amp; Korea (SM-G935K, SM-G935L, SM-G935S):</p>
 <ul>
 {% for mirror in site.data.mirrors %}
   <li>
     <a href="{{ mirror.baseurl }}hero2lte">
-      {{ mirror.description }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-<p class="text">Korea (SM-G935K, SM-G935L, SM-G935S):</p>
-<ul>
-{% for mirror in site.data.mirrors %}
-  <li>
-    <a href="{{ mirror.baseurl }}hero2ltekor">
       {{ mirror.description }}
     </a>
   </li>
