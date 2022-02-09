@@ -1,0 +1,85 @@
+---
+layout: post
+title:  "TWRP 3.6.1 Released"
+date:   2022-02-22 12:56:00
+categories: site update
+version: 3.6.1
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+I continue my thanks to all the maintainers and your support.
+
+This release is a bugfix release. Please see the list below for details.
+
+We are continuing work on Android 12. There is no ETA currently.
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
+
+You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
+
+
+What's new in {{ page.version }}:
+# Android 9 and Android 11 Branches:
+- Remove TWRP app from reboot menu - LinkBoi00
+- Switch to larger buttons in reboot menu - LinkBoi00
+- Manual offset for time with TW\_QCOM\_ATS\_OFFSET - CaptainThrowback
+- Allow specifying multiple property file paths - CaptainThrowback
+- Adopted storage support - authored by nkk71 - RIP
+- Update magiskboot in ramdisk for hdr\_v4 support - CaptainThrowback & topjohnwu
+- Installer zip updates for full .img flashing and magiskboot for hdr\_v4 support - osm0sis & topjohnwu
+- Fixes
+  - TW\_THEME\_VERSION cleanup - CaptainThrowback
+  - Vold decrypt - CaptainThrowback
+  - Update partition details after switching slot - Nebrassy
+  - Use more compatible term for nano display in TWRP Terminal - osm0sis & theincognito
+
+# Android 9 Branch:
+- Update Russian language - Ctapchuck/kirillsvc
+- Fixes
+  - TZData cleanup - CaptainThrowback
+  - Nano/Bash cleanup - LinkBoi00
+  - Unmount vendor after switching slots - CaptainThrowback
+  - Only unmount vendor if device has vendor mountpoint - LinkBoi00
+  - Copy event-log-tags to recovery build directory - CaptainThrowback
+  - Only include ext4crypt when TARGET\_USERIMAGES\_USE\_EXT4 is set - CaptainThrowback
+  - Building in omni-5.1 - CaptainThrowback
+  - Slot switching - nebrassy
+  - Logcat when building - CaptainThrowback
+
+# Android 11 Branch:
+- Add support for installation realme/OPPO OTA - Ctapchuk
+- Add lptools to ramdisk - CaptainThrowback & phhusson
+- Add EROFS support - pomelohan
+- Fastbootd - check for and run startup script - RazaDroid
+- Add TARGET\_OTA\_ASSERT\_DEVICE for custom device asserts - DarthJabba9
+- Updated Chinese Simplified translations - sekaiacg
+- Fixes
+  - Only unmount vendor if device has vendor mountpoint - LinkBoi00
+  - Update partition details after switching slot - Nebrassy
+  - Unmounting dynamic devices - do not remove mountpoints - bigbiff
+  - Installing zips - remove unecessary CloseArchive calls - sekaicg
+  - /sdcard mounting - bigbiff
+  - Installing zips - support 64 bit zips - sekaiacg
+  - Fuse issues with OTA > 4 GiB - luoqiangwei1
+  - Installing zips - StartIteration crash - sekaiacg
+  - Kernel module loader log cleanup - Megendanz
+  - Startup script cleanup - CaptainThrowback
+  - Update Boot HIDL for switching slots - MoetaYuko
+  - Sepolicy for ueventd - ghostrider-reborn
+  - Change TWRP folder cleanup - nebrassy
+  - Support fscryptv1 - bigbiff
+  - libresetprop cleanup - bigbiff
+  - Restore with PIN enabled - sekaiacg & CaptainThrowback
+  - Install custom theme - sekaiacg
+  - Set prop after kernel module loading is done - ghostrider-reborn
+  - Add gki directory for kernel module loading - sekaiacg
+  - Exclude com.android.art apex from backup - nijel8
+  - twrpRepacker code duplication - DarthJabba9
+  - fstab flag cleanup - CaptainThrowback
+
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
