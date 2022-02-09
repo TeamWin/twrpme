@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "TWRP 3.6.1 Released"
+date:   2022-02-22 12:56:00
+categories: site update
+version: 3.6.1
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+I continue my thanks to all the maintainers and your support.
+
+This release is a bugfix release. Please see the list below for details.
+
+We are continuing work on Android 12. There is no ETA currently.
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
+
+You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
+
+
+What's new in {{ page.version }}:
+# Android 9 and Android 11 Branches:
+- Remove TWRP app from reboot menu - LinkBoi00
+- Switch to larger buttons in reboot menu - LinkBoi00
+- Manual offset for time with TW\_QCOM\_ATS\_OFFSET - CaptainThrowback
+- Allow specifying multiple property file paths - CaptainThrowback
+- Adopted storage support - authored by nkk71 - RIP
+- Magisk Updates for hdr\_v4 support - topjohnwu & osm0sis
+- Fixes
+  - TW\_THEME\_VERSION cleanup - CaptainThrowback
+  - vold decrypt fixes - CaptainThrowback
+  - Update partition details after switching slot - Nebrassy
+  - Change compatibile term for nano - osm0sis
+
+# Android 9 Branch:
+- Update Russian language - Ctapchuck/kirillsvc
+- Fixes
+  - TZData cleanup - CaptainThrowback
+  - Nano/Bash cleanup - LinkBoi00
+  - Unmount vendor after switching slots - CaptainThrowback
+  - Only unmount vendor if device has vendor mountpoint - LinkBoi00
+  - copy event-log-tags to recovery build directory - CaptainThrowback
+  - only include ext4crypt when TARGET\_USERIMAGES\_USE\_EXT4 is set - CaptainThrowback
+  - Fix build in omni-5.1 - CaptainThrowback
+  - Fix slot switching - nebrassy
+  - Fix logcat when building - CaptainThrowback
+
+# Android 11 Branch:
+- Add support for installation realme/OPPO OTA - Ctapchuk
+- lptools in ramdisk - CaptainThrowback & phhusson
+- add EROFS support - pomelohan
+- fastbootd - check for and run startup script - RazaDroid
+- Add TARGET\_OTA\_ASSERT\_DEVICE for custom device asserts - DarthJabba9
+- Updated Chinese Simplified translations - sekaiacg
+- Fixes
+  - Only unmount vendor if device has vendor mountpoint - LinkBoi00
+  - Update partition details after switching slot - Nebrassy
+  - Unmounting dynamic devices - do not remove mountpoints - bigbiff
+  - installing zips - remove unecessary CloseArchive calls - sekaicg
+  - /sdcard mounting - bigbiff
+  - installing zips - support 64 bit zips - sekaiacg
+  - Fuse issues with OTA > 4 GiB - luoqiangwei1
+  - installing zips - StartIteration crash fix - sekaiacg
+  - kernel module loader log cleanup - Megendanz
+  - startup script cleanup - CaptainThrowback
+  - Update Boot HIDL for switching slots - MoetaYuko
+  - sepolicy for ueventd - ghostrider-reborn
+  - Change TWRP folder cleanup - nebrassy
+  - support fscryptv1 - bigbiff
+  - libresetprop cleanup - bigbiff
+  - restore with pin enabled fixes - sekaiacg, CaptainThrowback
+  - fix install custom theme - sekaiacg
+  - set prop after kernel module loading is done - ghostrider-reborn
+  - add gki directory for kernel module loading - sekaiacg
+  - exclude com.android.art apex from backup - nijel8
+  - twrpRepacker code duplication - DarthJabba9
+  - fstab flag cleanup - CaptainThrowback
+
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
