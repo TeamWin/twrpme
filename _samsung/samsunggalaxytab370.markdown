@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab 3 Lite 7.0"
+title:  "Samsung Galaxy Tab 3 7.0"
 codename: lt02
 downloadfolder: lt02
 supportstatus: Current
