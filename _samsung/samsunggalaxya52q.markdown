@@ -4,7 +4,7 @@ title: "Samsung Galaxy A52 4G"
 codename: a52q
 downloadfolder: a52q
 supportstatus: Current
-maintainer: Velosh
+maintainer: Velosh, Simon1511
 devicetree: "https://github.com/TeamWin/android_device_samsung_a52q"
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"

@@ -4,7 +4,7 @@ title: "Samsung Galaxy A72 4G"
 codename: a72q
 downloadfolder: a72q
 supportstatus: Current
-maintainer: Velosh
+maintainer: Velosh, Simon1511
 devicetree: "https://github.com/TeamWin/android_device_samsung_a72q"
 oem: Samsung
 ddof: "/dev/block/bootdevice/by-name/recovery"
