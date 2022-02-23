@@ -1,7 +1,7 @@
 ---
 layout: device
 title:  "Realme 8 5G / Narzo 30 5G"
-codename: RMX3241
+codename: RMX3241/RMX3242
 downloadfolder: RMX3241
 supportstatus: Current
 maintainer: crazo7924
