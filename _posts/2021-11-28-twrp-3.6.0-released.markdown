@@ -24,13 +24,16 @@ You can see the device builds under their respective [Jenkins view](https://jenk
 
 
 What's new in {{ page.version }}:
+
 # Android 9 Branch:
+
 - Fixes
   - SAR Update script name for clarity - CaptainThrowback
   - Fix building toolbox in android-7.1 - CaptainThrowback
   - Fix bash - Jarl-Penguin
 
 # Android 11 Branch:
+
 - Add support for installation realme/OPPO OTA - Ctapchuk
 - update custom makefiles to golang modules - bigbiff
 - sepolicy updates - nebrassy, bigbiff, CaptainThrowback
@@ -50,6 +53,7 @@ What's new in {{ page.version }}:
   - Change how blank screen works - Sean hoyt
 
 # Android 9 and Android 11 Branches:
+
 - add num template for PIN input - CaptainThrowback
 - Ignore A12 XML files binary format - zhenyolka
 - Add support of A12 keymaster_key_blob files structure - zhenyolka
