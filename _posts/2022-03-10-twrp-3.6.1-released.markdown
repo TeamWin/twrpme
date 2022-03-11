@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TWRP 3.6.1 Released"
-date:   2022-03-22 17:46:00
+date:   2022-03-10 17:46:00
 categories: site update
 version: 3.6.1
 ---
