@@ -17,10 +17,9 @@ You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-c
 
 You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
 
-
 What's new in {{ page.version }}:
 
-# Android 9 and Android 11 Branches:
+# Android 9 and Android 11 Branches
 
 - Remove TWRP app from reboot menu - LinkBoi00
 - Switch to larger buttons in reboot menu - LinkBoi00
@@ -37,7 +36,7 @@ What's new in {{ page.version }}:
   - Only unmount vendor if device has vendor mountpoint - LinkBoi00
   - Preparing user storage - if EnsurePolicy fails do not bail decryption - DarthJabba9
 
-# Android 9 Branch:
+# Android 9 Branch
 
 - Update Russian language - Ctapchuk/kirillsvc
 - Fixes
@@ -50,7 +49,7 @@ What's new in {{ page.version }}:
   - Slot switching - Nebrassy
   - Logcat when building - CaptainThrowback
 
-# Android 11 Branch:
+# Android 11 Branch
 
 - Add support for installation realme/OPPO OTA - Ctapchuk
 - Add lptools to ramdisk - CaptainThrowback & phhusson
@@ -80,7 +79,6 @@ What's new in {{ page.version }}:
   - Exclude com.android.art apex from backup - nijel8
   - twrpRepacker code duplication - DarthJabba9
   - fstab flag cleanup - CaptainThrowback
-
 
 Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
 
