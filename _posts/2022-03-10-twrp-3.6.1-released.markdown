@@ -19,7 +19,9 @@ You can see the device builds under their respective [Jenkins view](https://jenk
 
 
 What's new in {{ page.version }}:
+
 # Android 9 and Android 11 Branches:
+
 - Remove TWRP app from reboot menu - LinkBoi00
 - Switch to larger buttons in reboot menu - LinkBoi00
 - Manual offset for time with TW\_QCOM\_ATS\_OFFSET - CaptainThrowback
@@ -36,6 +38,7 @@ What's new in {{ page.version }}:
   - Preparing user storage - if EnsurePolicy fails do not bail decryption - DarthJabba9
 
 # Android 9 Branch:
+
 - Update Russian language - Ctapchuk/kirillsvc
 - Fixes
   - TZData cleanup - CaptainThrowback
@@ -48,6 +51,7 @@ What's new in {{ page.version }}:
   - Logcat when building - CaptainThrowback
 
 # Android 11 Branch:
+
 - Add support for installation realme/OPPO OTA - Ctapchuk
 - Add lptools to ramdisk - CaptainThrowback & phhusson
 - Add EROFS support - pomelohan
