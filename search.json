@@ -21,7 +21,7 @@ layout: none
 		 "title"    : "{{ device.title | escape }} ({{ device.codename }})",
 		 "desc"     : "TWRP for {{ device.title | escape }}",
 		 "url"      : "{{ device.url }}"
-   		}{% unless lastouterloop == "true" and lastinnerloop == "true" and forloop.rindex == 1 %}, {% endunless %}
+		}{% unless lastouterloop == "true" and lastinnerloop == "true" and forloop.rindex == 1 %}, {% endunless %}
 		{% if forloop.rindex == 1 %}
 			{% assign lastinnerloop = "true" %}
 		{% endif %}
