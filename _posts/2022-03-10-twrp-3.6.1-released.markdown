@@ -27,7 +27,7 @@ What's new in {{ page.version }}:
 - Allow specifying multiple property file paths - CaptainThrowback
 - Adopted storage support - authored by nkk71 - RIP
 - Update magiskboot in ramdisk for hdr\_v4 support + format fixes - CaptainThrowback & topjohnwu
-- Installer zip updates for full .img flashing and magiskboot for hdr\_v4 support - osm0sis & topjohnwu
+- Installer zip updates for full .img flashing and magiskboot for hdr\_v4 support + format fixes - osm0sis & topjohnwu
 - Fixes
   - TW\_THEME\_VERSION cleanup - CaptainThrowback
   - Vold decrypt - CaptainThrowback
