@@ -7,7 +7,7 @@ supportstatus: Current
 maintainer: erwinabs
 devicetree: https://github.com/TeamWin/android_device_xiaomi_ginkgo
 oem: Xiaomi
-xdathread: "https://forum.xda-developers.com/redmi-note-8/development/recovery-unofficial-twrp-xiaomi-redmi-t3997267"
+xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-5-2-for-xiaomi-redmi-note-8-8t-ginkgo-willow.4301393/"
 ---
 
 {% include disclaimer.html %}
