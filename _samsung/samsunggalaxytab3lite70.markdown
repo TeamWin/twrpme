@@ -3,8 +3,7 @@ layout: device
 title:  "Samsung Galaxy Tab 3 Lite 7.0"
 codename: goya
 downloadfolder: goya
-supportstatus: Current
-maintainer: T11x-TWRP
+supportstatus: Abandoned
 oem: Samsung
 devicetree: https://github.com/TeamWin/android_device_samsung_goya
 xdathread: https://forum.xda-developers.com/t/recovery-twrp-for-goya-sm-t110-sm-t111.4388461/
