@@ -3,7 +3,7 @@ layout: device
 title:  "Samsung Galaxy Tab 3 Lite 7.0"
 codename: goya
 downloadfolder: goya
-supportstatus: Current
+supportstatus: Abandoned
 maintainer: T11x-TWRP
 oem: Samsung
 devicetree: https://github.com/TeamWin/android_device_samsung_goya
