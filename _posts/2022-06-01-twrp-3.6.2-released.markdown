@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "TWRP 3.6.2 Released"
+date:   2022-06-01 17:46:00
+categories: site update
+version: 3.6.2
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+I continue my thanks to all the maintainers and your support.
+
+This release is a bugfix release. Please see the list below for details.
+
+We are continuing work on Android 12. There is no ETA currently.
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
+
+You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
+
+What's new in {{ page.version }}:
+
+# Android 9 and Android 11 Branches
+
+- A12 keymaster keyblob structure file update (for no pin encryption) - zhenyolka & Quallenauge
+- Fixes
+  - Override bootctrl for flashing images - CaptainThrowback
+
+# Android 9 Branch
+
+- Keymaster 3 dump functions - koron393
+
+# Android 11 Branch
+
+- Mtp ffs handle recreated when usb is unplugged - nijel8
+- Fixes
+  - Only compile vendor kernel module loading support when requested - CaptainThrowback
+  - Add missing selinux contexts - CaptainThrowback
+  - Fix sepolicy comparison on vendor - webgeek1234
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
