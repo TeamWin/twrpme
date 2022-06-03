@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13008717_c0c68b66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 228
+      },
+      "writtenOn": "2022-06-03T08:44:48Z",
+      "side": 1,
+      "message": "unofficially all set. Iam looking forward for the test build from twrp jenkins server.\n\nThank you !",
+      "revId": "c5bdcdba92e9e6eb30c63aa5472bd56253d16b71",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
