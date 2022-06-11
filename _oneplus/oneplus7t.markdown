@@ -3,8 +3,8 @@ layout: device
 title:  "OnePlus 7T (hotdogb)"
 codename: hotdogb
 downloadfolder: hotdog
-supportstatus: Current
-maintainer: lossyx@xda
+supportstatus: Unmaintained
+maintainer: Unmaintained
 oem: OnePlus
 devicetree: https://github.com/TeamWin/android_device_oneplus_hotdog
 xdathread: https://forum.xda-developers.com/t/recovery-11-unofficial-teamwin-recovery-project-7t-7t-pro.4299171/
