@@ -1,15 +1,15 @@
 ---
 layout: device
 title:  "Samsung Galaxy Note 3 Neo"
-codename: hlltexx
-downloadfolder: hlltexx
+codename: hllte
+downloadfolder: hllte
 oldurl: http://teamw.in/project/twrp2/202
 supportstatus: Current
-maintainer: None
+maintainer: Rainbow_Dash
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_hllte"
-xdathread: "http://forum.xda-developers.com/showthread.php?t=2719163"
+xdathread: "https://forum.xda-developers.com/t/team-win-recovery-project-3-6-x-for-note-3-neo-hllte-hl3g.4465381/"
 ---
 
 {% include disclaimer.html %}
