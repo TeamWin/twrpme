@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "TWRP 3.7.0 Released"
+date:   2022-09-27 17:46:00
+categories: site update
+version: 3.7.0
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+I continue my thanks to all the maintainers and your support.
+
+This release is a major release for Android 12. Android 13 development has now started.
+Please see the list below for details.
+
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
+
+You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
+
+What's new in {{ page.version }}:
+
+# Android 12.1 and Android 11 Branches
+- MTP error handling for FFS devices - nijel8
+- module loading opt-in - CaptainThrowback
+- SELINUX missing contexts - CaptainThrowback
+- Remove more deprecated code with encrypted backups - CaptainThrowback
+- Theme versioning ported to golang - AndroiableDroid
+- Python support in TWRP - CaptainThrowback
+- Chinese Language updates - bluehomewu
+- Exclude /data/extm - sekaicg
+- MTP fixes for copying files > 4G - sekaicg
+- Configure HW binaries in vendor - bigbiff
+- Do not force super volumes RO - me-cafebabe
+- Unlock all block partitions in setup - me-cafebabe
+- RapidXML bail on binary xml - me-cafebabe
+- symlink for logical partition created only when it exists - me-cafebabe
+- Theme variables for status bar icons - Yilliee
+- Board defined exclusions for backup directories - DarthJabba9
+- Polish language updates - kacskrz
+- include fastbootd with board variable - me-cafebae
+- unlock block devices during zip install - bigbiff
+- Mount partitions as RO when updating size - me-cafebabe
+- Allow unmap super devices on A only devices - me-cafebabe
+- Unlock block partitions before reflashing TWRP
+
+
+# Android 12.1 Branch
+
+- BASH and nano fixes during build - CaptainThrowback
+- zip install enhancements - DarthJabba9
+- Android 12 Encryption Support - bigbiff
+- Dependency fixes for A12 - me-cafebabe
+- cryptfs-hw fixes - me-cafebabe
+- FDE compatibility - me-cafebabe
+- boot-hal 1.2 support - tnakamur
+- boot-hal library fixes - CaptainThrowback
+- Do not include fastbootd for all devices - me-cafebabe
+- kernel module loading - wait for battery sysfs to initialize - sekaicg
+- Fix installing a custom theme - sekaicg
+- Update handling of XML binary files in android 12 - me-cafebabe
+- Skip decryption fix - sekaicg
+- Integrated code for ABX xml files - \_that and DarthJabba9
+
+# Android 11 Branch
+
+- Fix copying sepolicy on devices with no vendor partition - webgeek1234
+- set defaults for system_ext partition - me-cafebabe
+
+# Android 9 Branch
+
+- Chinese Language updates - bluehomewu
+- Polish language updates - kacskrz
+- Python support in TWRP for Oreo and above - CaptainThrowback
+- keymaster API V1 fixes - bigbiff
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
