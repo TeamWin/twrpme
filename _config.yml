@@ -7,9 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://twrp.me" # the base hostname & protocol for your site
 github_username: TeamWin
-plugins: ['git', 'redcarpet']
+plugins: ['git']
 # Build settings
-markdown: redcarpet
 keep_files: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf favicon.ico]
 exclude: [project, twrp_view_all_devices, officialota, datamedia, twrpfaq, whattobackup, whattowipe, securetwrp, removetwrp, noos, contactus/submit.php app/privacypolicy.pdf README.md]
 
