@@ -1,6 +1,6 @@
 ---
 layout: device
-title: "ASUS ZenFone Max M1"
+title: "ASUS ZenFone Max Pro M1"
 codename: X00T, X00TD
 oem: ASUS
 downloadfolder: X00T
