@@ -3,8 +3,8 @@ layout: device
 title:  "Xiaomi Mi 9"
 codename: cepheus
 downloadfolder: cepheus
-supportstatus: Current
-maintainer: Mauronofrio
+supportstatus: Unsupported
+maintainer: None
 devicetree: https://github.com/TeamWin/android_device_xiaomi_cepheus
 oem: Xiaomi
 xdathread: "https://forum.xda-developers.com/Mi-9/development/recovery-unofficial-twrp-xiaomi-mi-9-t3905825"
