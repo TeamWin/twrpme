@@ -4,8 +4,8 @@ title:  "Motorola Moto X4"
 codename: payton
 downloadfolder: payton
 devicetree: https://github.com/TeamWin/android_device_motorola_payton
-supportstatus: Current
-maintainer: kaneawk, erfanoabdi, ThEMarD
+supportstatus: Unsupported
+maintainer: None
 oem: Motorola
 ---
 
