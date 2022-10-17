@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2b0c3c3_204480d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2022-10-17T00:47:51Z",
+      "side": 1,
+      "message": "Confirmed payton 3.7.0_12 test image and installable zip work fine on payton. Please reinstate payton official builds on android-12.1 branch",
+      "revId": "bdca9bb750be7144d28892cd3e78bdc7f98933d8",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
