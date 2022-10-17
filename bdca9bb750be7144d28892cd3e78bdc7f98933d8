@@ -16,6 +16,29 @@
       "message": "Confirmed payton 3.7.0_12 test image and installable zip work fine on payton. Please reinstate payton official builds on android-12.1 branch",
       "revId": "bdca9bb750be7144d28892cd3e78bdc7f98933d8",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1025ad01_d8286052",
+        "filename": "_motorola/motorolamotox4.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2022-10-17T00:49:28Z",
+      "side": 1,
+      "message": "Optionally though, we can remove these two as TWRP maintainers for payton as they haven\u0027t been active for it on here for years tbh",
+      "range": {
+        "startLine": 8,
+        "startChar": 12,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "bdca9bb750be7144d28892cd3e78bdc7f98933d8",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
