@@ -39,6 +39,30 @@
       },
       "revId": "bdca9bb750be7144d28892cd3e78bdc7f98933d8",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76707df6_cf0454ee",
+        "filename": "_motorola/motorolamotox4.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2022-10-17T23:07:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1025ad01_d8286052",
+      "range": {
+        "startLine": 8,
+        "startChar": 12,
+        "endLine": 8,
+        "endChar": 33
+      },
+      "revId": "bdca9bb750be7144d28892cd3e78bdc7f98933d8",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
