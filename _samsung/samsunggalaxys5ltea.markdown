@@ -3,8 +3,8 @@ layout: device
 title: "Samsung Galaxy S5 LTE-A"
 codename: lentislte
 downloadfolder: lentislte
-supportstatus: Current
-maintainer: cvxda
+supportstatus: Not Supported
+maintainer: None
 oem: Samsung
 ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 devicetree: "https://github.com/TeamWin/android_device_samsung_lentislte"
