@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80661282_0f615112",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2022-10-27T15:03:35Z",
+      "side": 1,
+      "message": "The test build here for caprip works correctly\nhttps://jenkins.twrp.me/job/caprip-test/2/\n\ncaprip is ready for official TWRP builds",
+      "revId": "c9d68e669cc8af1ad9a091f5ba79c9cb1d012634",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
