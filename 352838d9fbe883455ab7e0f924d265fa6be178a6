@@ -16,6 +16,23 @@
       "message": "This is a copy/paste of the LineageOS Wiki bootloader unlock instructions and will work fine for us on TWRP as well",
       "revId": "352838d9fbe883455ab7e0f924d265fa6be178a6",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "919a0593_af70d68d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2022-10-27T15:04:29Z",
+      "side": 1,
+      "message": "adding bigbiff to review this",
+      "revId": "352838d9fbe883455ab7e0f924d265fa6be178a6",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
