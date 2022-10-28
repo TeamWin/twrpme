@@ -50,6 +50,24 @@
       "message": "Should I run the prod build and merge this now?",
       "revId": "c9d68e669cc8af1ad9a091f5ba79c9cb1d012634",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04137266_c9be5cfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28
+      },
+      "writtenOn": "2022-10-28T00:24:34Z",
+      "side": 1,
+      "message": "Yes please. I\u0027m happy with how well TWRP works on caprip",
+      "parentUuid": "c6745f7a_98fe2c79",
+      "revId": "c9d68e669cc8af1ad9a091f5ba79c9cb1d012634",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
