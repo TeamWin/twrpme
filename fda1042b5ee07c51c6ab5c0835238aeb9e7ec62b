@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 1F5A13F735F72322 1668298826 -0500\npushee ssh://gerrit.twrp.me:29418/twrpme\nnonce 1668298826-E1C4EB95C1F232559EE3FD93E4A5FB95503BEA6C\n\n0000000000000000000000000000000000000000 fda1042b5ee07c51c6ab5c0835238aeb9e7ec62b refs/for/master\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEE8Y8VaNp/zKXnXxPsH1oT9zX3IyIFAmNwOEoACgkQH1oT9zX3\nIyLnLQ/+KG/Ymlsc+UpVFjq7Q+LeuqCFV9PnKaEykmfEtp3kBoFDEj9FGh33rDMz\nbnGrEuW9Y79vTwwEDdHlfUCqy65ldyD3Jnj96jPsZe0mLDBxigGbF0tWXG8+ssqa\nbxMjpQtFhrblmiAZEe1RPQcUXbDgAKcwKzDIFM/bqPeoueDggND4q8vurg5KiE+D\n14lv872sx2T3yHhLKJwnHG6QsDq9fKk/SBvOHBU5JmQuUXF2uZwMTOTejNmCEppd\n89CnlP397qg4WyBN+VNJGV5p0vkbLcu/nzxgCpH22Q3CLsJXPdW4W4KMxco0xBl3\nBo2oQwku9xFq9s4CQnIl3p9akImhAT3f5Pg5DpPkHdsFljw8RaEDxpb8R7yGuJIu\nqJ0bFuSV2TG/VQeDE3nqUmbjXZU2j200oh7a93uvNeoMnUeKpl3oTz6F2p4TDRiq\nEdfSLdzQsSFdmyHfHr5+zZ7yKjwh6z+Yv7L3YUpEqn4rk6zRrDVIrQx80AoPSJp1\nHWiKTjIewPxqMM8jJv0LYsZVbJK6GEzpRbtgDdlnrRtaMETFdvHNYtznzh82p3dr\nAgGGpbysWtXF3ymEvf6HKqeptI8Tt9CnPDRDo3W0D81rJuNG0rDnyJiTwW3j7cLv\nNQTvPTHMGpdhTl0Cu1zvD1eLz1MlBkL1Sbt/knjzEWss4NiqDkE\u003d\n\u003d5p6G\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3203c37_5ac7f40c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2022-11-13T00:21:36Z",
+      "side": 1,
+      "message": "Fixed some oops",
+      "revId": "fda1042b5ee07c51c6ab5c0835238aeb9e7ec62b",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
 }
