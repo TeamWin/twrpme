@@ -24,11 +24,11 @@ zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topi
 <html>
 <div class='page-heading'>Known Issues:</div>
 <hr />
-  <li>
-    <p class="text">No vibration/haptics</p>
-    <p class="text">No battery percentage</p>
-    <p class="text">No USB-OTG support</p>
-  </li>
+<ul>
+  <li><p class="text">No vibration/haptics</p></li>
+  <li><p class="text">No battery percentage</p></li>
+  <li><p class="text">No USB-OTG support</p></li>
+</ul>
 </html>
 
 
