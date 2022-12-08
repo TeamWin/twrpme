@@ -1,12 +1,12 @@
 ---
 layout: device
-title: "Samsung Galaxy Tab E 9.6 3G/Wi-Fi (SM-T561/60)"
-codename: gtel3g
-downloadfolder: gtel3g
+title: "Samsung Galaxy Grand Neo VE/Plus 3G (GT-I9060I)"
+codename: grandneove3g
+downloadfolder: grandneove3g
 supportstatus: Current
-maintainer: KrutosX
+maintainer: "KrutosX & aymanrgab"
 commontree: "https://github.com/TeamWin/android_device_samsung_sc8830-common"
-devicetree: "https://github.com/TeamWin/android_device_samsung_gtel3g"
+devicetree: "https://github.com/TeamWin/android_device_samsung_grandneove3g"
 oem: Samsung
 ddof: "/dev/block/mmcblk0p21"
 ---
