@@ -1,13 +1,14 @@
 ---
 layout: device
-title:  "Samsung Galaxy Tab 3 Lite 7.0 Value Edition"
+title: "Samsung Galaxy Tab 3 Lite 7.0 Value Edition"
 codename: goyave
 downloadfolder: goyave
 supportstatus: Current
-maintainer: Dees_Troy
-oem: Samsung
+maintainer: "KrutosX & Ahnet"
+commontree: "https://github.com/TeamWin/android_device_samsung_sc8830-common"
 devicetree: "https://github.com/TeamWin/android_device_samsung_goyave"
-ddof: "/dev/block/platform/sprd-sdhci.3/by-name/RECOVERY"
+oem: Samsung
+ddof: "/dev/block/mmcblk0p21"
 ---
 
 {% include disclaimer.html %}
