@@ -9,6 +9,7 @@ maintainer: Captain_Throwback
 commontree: https://github.com/TeamWin/android_device_asus_sm84xx-common
 devicetree: https://github.com/TeamWin/android_device_asus_AI2202
 zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topic/ASUS.20ZenFone.209
+xdathread: https://forum.xda-developers.com/t/recovery-official-twrp-for-asus-zenfone-9.4518025
 ---
 
 
@@ -50,9 +51,9 @@ zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topi
 <p class="text">You should now be in fastboot mode.</p>
 <p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device, use <a href="https://www.asus.com/us/supportonly/zenfone%209/helpdesk_download/">the official ASUS app</a>.</p>
 <p class="text">Download the correct image file and copy the file into the same folder as your platform-tools. Rename the image to twrp.img and type:</p>
-<p class="code">fastboot flash recovery_a twrp.img</p>
-<p class="code">fastboot flash recovery_b twrp.img</p>
+<p class="code">fastboot flash recovery twrp.img</p>
 <p class="code">fastboot reboot</p>
+<b>NOTE:</b> Only the current slot will be flashed!
 </html>
 
 
