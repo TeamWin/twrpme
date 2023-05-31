@@ -47,4 +47,4 @@ Minor checks
 - [ ] screenshot
 - [ ] partition SD card
 </pre>
-<li>Use our <a href="https://twrp.me/contactus/">Contact Us</a> page to send your repository to use for official inclusion at twrp.me.</li>
+<li>Use our <a href="https://twrp.me/faq/howtocompiletwrp.html">Zulip</a> to send your repository to use for official inclusion at twrp.me. Ping in support for details.</li>
