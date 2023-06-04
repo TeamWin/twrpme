@@ -18,4 +18,4 @@ oem: Xiaomi
 
 {% include download.html %}
 
-{% include fastbootabinstall.html %}
+{% include fastbootxiaomiabmtk.html %}
