@@ -1,7 +1,7 @@
 ---
 layout: device
 title:  "Xiaomi Redmi Note 11s / Poco M4 Pro"
-codename: fleur, miel
+codename: fleur
 downloadfolder: fleur
 supportstatus: Current
 maintainer: "ShazuxD"
@@ -18,4 +18,4 @@ oem: Xiaomi
 
 {% include download.html %}
 
-{% include fastbootabinstall.html %}
+{% include fastbootxiaomiabmtk.html %}
