@@ -34,6 +34,24 @@
       "parentUuid": "5384d19e_2c81e3cc",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5d749c6_eac13e95",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108
+      },
+      "writtenOn": "2023-06-06T08:57:24Z",
+      "side": 1,
+      "message": "after flashing stock boot image , making recovery permanent method is same , flash current twrp",
+      "parentUuid": "65bfd0d7_1609fc72",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
