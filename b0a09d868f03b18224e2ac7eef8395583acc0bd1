@@ -16,6 +16,24 @@
       "message": "Is this for only Xiaomi devices?",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65bfd0d7_1609fc72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108
+      },
+      "writtenOn": "2023-06-06T08:55:15Z",
+      "side": 1,
+      "message": "This should work on other A/B device (don\u0027t know about Samsung) . Also I have seen in other xiaomi mtk A/B device , fast boot boot doesn\u0027t work for ex redmi note 11s rosemary (mt6785) and xiaomi other (mt6833) devices also use this method. Hers we flash twrp in boot slot instead of temporary booting it and then flashed stock boot image for installing twrp in its ramdisk.",
+      "parentUuid": "5384d19e_2c81e3cc",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
