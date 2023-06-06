@@ -87,6 +87,24 @@
       "message": "Issue with fastboot boot is often that the bootloader will add \"skip_initramfs\" to the cmdline.\nUsing a patched kernel (Like magisk does) will often fix that.",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0a64f92_2f6c641f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108
+      },
+      "writtenOn": "2023-06-06T17:12:38Z",
+      "side": 1,
+      "message": "patched kernel of recovery or ROM?",
+      "parentUuid": "77f3550c_90669cc8",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
