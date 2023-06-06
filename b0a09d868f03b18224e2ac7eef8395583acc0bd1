@@ -123,6 +123,24 @@
       "parentUuid": "c0a64f92_2f6c641f",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39905369_f0f1d16b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108
+      },
+      "writtenOn": "2023-06-06T19:12:23Z",
+      "side": 1,
+      "message": "did not worked ;\npatched kernel by unpacking recovery with AIK (didn\u0027t worked)\nused your patch +/6486 (didn\u0027t worked)\nIt always boots to system.",
+      "parentUuid": "3247d5d2_8f6a5c4e",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
