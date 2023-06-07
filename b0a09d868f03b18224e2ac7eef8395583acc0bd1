@@ -141,6 +141,24 @@
       "parentUuid": "3247d5d2_8f6a5c4e",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87e9029a_d8e5ea5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 487
+      },
+      "writtenOn": "2023-06-07T21:25:04Z",
+      "side": 1,
+      "message": "If you have the kernel sources, commenting out these lines in initramfs.c should be able to do the job: https://github.com/SuperiorOS-Devices/kernel_xiaomi_violet/blob/twelve/init/initramfs.c#L626-L630",
+      "parentUuid": "39905369_f0f1d16b",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
