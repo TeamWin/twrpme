@@ -159,6 +159,24 @@
       "parentUuid": "39905369_f0f1d16b",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "645f94bd_b57aa2cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108
+      },
+      "writtenOn": "2023-06-08T04:57:38Z",
+      "side": 1,
+      "message": "no kernel source is available. also terminal gives any error in these devices\nSending \u0027boot.img\u0027 (65536 KB)                      OKAY [  2.043s]\nBooting                                            FAILED (Status read failed (Too many links))\nfastboot: error: Command failed",
+      "parentUuid": "87e9029a_d8e5ea5d",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
