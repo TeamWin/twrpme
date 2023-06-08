@@ -177,6 +177,24 @@
       "parentUuid": "87e9029a_d8e5ea5d",
       "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "affac5b0_44e4aafb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 487
+      },
+      "writtenOn": "2023-06-08T09:37:14Z",
+      "side": 1,
+      "message": "Fair enough. In any case, commenting out those lines doesn\u0027t solve the problem in my Mtk device. So there is clearly something very different about Mtk.",
+      "parentUuid": "645f94bd_b57aa2cb",
+      "revId": "b0a09d868f03b18224e2ac7eef8395583acc0bd1",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
