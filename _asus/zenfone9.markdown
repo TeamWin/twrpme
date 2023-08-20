@@ -22,17 +22,6 @@ xdathread: https://forum.xda-developers.com/t/recovery-official-twrp-for-asus-ze
 {% include dynamicpartitions.html %}
 
 
-<html>
-<div class='page-heading'>Known Issues:</div>
-<hr />
-<ul>
-  <li><p class="text">No vibration/haptics</p></li>
-  <li><p class="text">No battery percentage</p></li>
-  <li><p class="text">No USB-OTG support</p></li>
-</ul>
-</html>
-
-
 {% include download.html %}
 
 
