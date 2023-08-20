@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 1F5A13F735F72322 1692501157 -0400\npushee ssh://gerrit.twrp.me:29418/twrpme\nnonce 1692501157-999F362A5BED528869B7678148B3F98E7D9BC22B\n\n0000000000000000000000000000000000000000 3486925dd66da3ce80804e1cced33916e10989ec refs/for/master\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEE8Y8VaNp/zKXnXxPsH1oT9zX3IyIFAmThhKUACgkQH1oT9zX3\nIyJGSQ//bGWe61MLHU6G0jGi940bo01tWBslCygGP2RM3v8MTkmPn1/ZiXixLzTz\n9qJoZZIaZzYbdZZxHFZxwdGahfZGk+XIOitAqppAY2BJHMJ0919MtPDx4PfITFdI\nmfWikgW8XCtRRa/jsmUNGAbAXidbtK3wSxbYh84l96ap7xt/zN60qCacGkjmQj9C\nzH29JaPn6lONIaskR9mWHusCCYCa5YhmDCIg3PUpojTt9djGIfgDW6qUiioVSzaS\n9mANrDbPMnspbh1f2LKmYq1Znq6au+Mp3E3tzb4lVXRVZ9OuiVBLA8qpCOheBxxF\nEYwszdXxuiOIl474grQInbzOGhSKmFYd0UlKFwfYsXbqLT8Cdezo+EKjpjaPRtFT\nm+k4a/nAuZ5DVN4e79YRWNOOPXXZ7RWtVmHy8RvBWCTApRfK1z7OdZ6LqJrXzGvX\npnTGi8JGLElEvwYvXwRNz5QGtrxUiJq5DoaZu2B5FO3pYEJwfIM8Zg2eGLuiAemK\nKDi5f8DiE8HhuW+ZxZ+YQFgotPc2RIfoUNqZ4Ct3EqbQodi7whemrs3P/7deoUcT\nanxP095YounOQu/MKslobRxTnLboSUM2A/pubKK1pd+HQ8hWHHQyzJYaQMct2nIj\nQ+0sjNqTc+3HgybxRXpB1003sIAw28MKFSCpfQyzqbY6ICO2X6s\u003d\n\u003dCm5s\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95788f97_b40e3ffe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2023-08-20T14:47:35Z",
+      "side": 1,
+      "message": "Should be merged after the next release once all pending changes have been merged",
+      "revId": "3486925dd66da3ce80804e1cced33916e10989ec",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
 }
