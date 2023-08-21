@@ -21,6 +21,15 @@ xdathread: "https://forum.xda-developers.com/t/recovery-twrp-for-infinix-hot-12-
 
 {% include download.html %}
 
+<html>
+<div class='page-heading' id='twrp-install'>TWRP Install (Requires TWRP 2.8.4 or higher already installed):</div>
+<a id='twrp' ></a>
+<hr />
+<p class="text">Download the latest TWRP image file (.img) from the download link and boot TWRP. Go to install and find and select the Images... button. Browse to the image that you downloaded and select it. Choose recovery ramdisk and swipe to flash.</p>
+</html>
+
+{% include fastbootxiaomiabmtk.html %}
+
 {% include twrpinstall.html %}
 
 {% include fastbootinstall.html %}
