@@ -30,10 +30,4 @@ xdathread: "https://forum.xda-developers.com/t/recovery-twrp-for-infinix-hot-12-
 
 {% include fastbootxiaomiabmtk.html %}
 
-{% include twrpinstall.html %}
-
-{% include fastbootinstall.html %}
-
-{% include mtkinstall.html %}
-
 {% include ddinstall.html %}
