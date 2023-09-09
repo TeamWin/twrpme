@@ -14,8 +14,6 @@ xdathread: "https://forum.xda-developers.com/t/unofficial-twrp-3-6-2-11-0-team-w
 
 {% include supportstatus.html %}
 
-{% include xiaomiunlock.html %}
-
 {% include dynamicpartitions.html %}
 
 {% include download.html %}
