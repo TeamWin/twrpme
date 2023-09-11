@@ -1,6 +1,6 @@
 ---
 layout: device
-title:  "Samsung Galaxy M23"
+title:  "Samsung Galaxy M23/F23"
 codename: m23xq
 downloadfolder: m23xq
 supportstatus: Current
@@ -14,14 +14,20 @@ ddof: "/dev/block/platform/1d84000.ufshc/by-name/RECOVERY"
 
 {% include supportstatus.html %}
 
+{% include samsungsystemasroot.html %}
+
+{% include dynamicpartitions.html %}
+
 {% include dmverity.html %}
+
+{% include avb.html %}
 
 {% include appinstall.html %}
 
 {% include download.html %}
 
-{% include twrpinstall.html %}
-
 {% include odininstall.html %}
+
+{% include twrpinstall.html %}
 
 {% include ddinstall.html %}
