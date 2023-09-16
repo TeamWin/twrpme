@@ -16,6 +16,24 @@
       "message": "Can you make this say Not Current instead of Abandoned? Also do any of the current builds need to be removed from twrp.me?",
       "revId": "497d8fa886c1c8cbe076408052beb88624bebc65",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94c050da_a36b9a6e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 709
+      },
+      "writtenOn": "2023-09-16T09:26:53Z",
+      "side": 1,
+      "message": "You may discard all of them as only android-11 was Officially published",
+      "parentUuid": "e48cbaf5_ee11d843",
+      "revId": "497d8fa886c1c8cbe076408052beb88624bebc65",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
