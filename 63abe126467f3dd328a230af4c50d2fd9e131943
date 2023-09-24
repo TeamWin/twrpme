@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37a1bfc3_af94f2f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2023-09-24T16:53:21Z",
+      "side": 1,
+      "message": "Are you offering to maintain this device? We don\u0027t have any prior trees for this device.",
+      "revId": "63abe126467f3dd328a230af4c50d2fd9e131943",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
