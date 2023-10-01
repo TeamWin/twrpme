@@ -31,7 +31,7 @@ zuliptopic: https://twrp.zulipchat.com/#narrow/stream/290973-support-device/topi
 <p class="text">On your device, go into Settings -> About and find the Build Number and tap on it 7 times to enable developer settings. Press back and go into Developer Options and enable USB debugging. From your computer, open a command prompt and type:</p>
 <p class="code">adb reboot bootloader</p>
 <p class="text">You should now be in fastboot mode.</p>
-<p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device, use <a href="https://www.asus.com/Mobile/Phones/ZenFone/ZenFone-7/HelpDesk_Download">the official ASUS app</a>.</p>
+<p class="text">Your device needs to be unlocked before it can flash custom images. To unlock your device, you can follow <a href="https://wiki.postmarketos.org/wiki/Lenovo_Xiaoxin_Pad_Pro_2021_(lenovo-j716f)#Unlocking_the_bootloader">this guide</a>.</p>
 <p class="text">Download the correct image file and copy the file into the same folder as your platform-tools. Rename the image to twrp.img and type:</p>
 <p class="code">fastboot flash recovery\_a twrp.img</p>
 <p class="code">fastboot flash recovery\_b twrp.img</p>
