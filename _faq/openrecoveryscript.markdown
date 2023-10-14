@@ -110,7 +110,7 @@ title: "TWRP Commandline Guide"
 
 
 <ul class="page-heading">Specific pattern decrypt note</ul>
-<div class="desc" >Use the table bellow to determine what your password will be: </div>
+<div class="desc" >Use the table below to determine what your password will be: </div>
 <table border="1" class="inline-table">
  <colgroup>
   <col width="33%" /><col width="33%" /><col width="33%" />
