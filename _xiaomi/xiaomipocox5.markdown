@@ -1,7 +1,7 @@
 ---
 layout: device
-title:  "Xiaomi Poco X5 5G"
-codename: moonstone
+title:  "Xiaomi Poco X5 5G & Redmi Note 12 5G"
+codename: moonstone/sunstone
 oem: Xiaomi
 downloadfolder: moonstone
 supportstatus: Current
