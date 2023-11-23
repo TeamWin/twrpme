@@ -181,6 +181,9 @@ collections:
   sony:
     output: true
 
+  tecno:
+    output: true
+
   twrp:
     output: true
 
