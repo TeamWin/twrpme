@@ -163,6 +163,9 @@ collections:
   planet:
     output: true
 
+  qcom:
+    output: true
+
   quanta:
     output: true
 
