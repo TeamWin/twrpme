@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "TWRP 3.7.1 Released"
+date:   2024-01-15 19:00:00
+categories: site update
+version: 3.7.1
+---
+
+TWRP {{ page.version }} is out now for most currently supported devices.
+
+I continue my thanks to all the maintainers and your support.
+
+This release is a major release for Android 12.
+Please see the list below for details.
+
+You can follow our status on [Zulip](https://rebrand.ly/teamwin-recovery-zulip-community)
+
+You can see the device builds under their respective [Jenkins view](https://jenkins.twrp.me).
+
+What's new in {{ page.version }}:
+
+# Android 12.1 Devices (A12.1 and up)
+- Add lpdump library - bigbiff
+- Update Czech translation - kacskrz
+- Support QTI Vibrator updates - sekaiacg
+- Support boot-hal-1.2 - CaptainThrowback
+- Allow device disablement of Flash Current TWRP - CaptainThrowback
+- Fix custom theme placement when changing TWRP backups folder - faoliveira78
+- Use /data/recovery for settings - AndroiableDroid
+- Ignore non-existing logical partitions from fstab - AndroiableDroid
+- Fix custom theme after changing TWRP backups folder on unencrypted devices - faoliveira78 
+- libtar tagging for logging - AndroiableDroid
+- dynamically choose fscrypt policy without setting Board - AndroiableDroid
+- Set property after super partitions are created - CaptainThrowback
+- Remove deprecated vold code - CaptainThrowback
+- Prepare data/media early for devices who need it before decryption - DarthJabba9
+- Exclude package restrictions from backup - DarthJabba9
+- Support F2FS Compression - DarthJabba9
+- Fix default LUN for USB Storage - DarthJabba9
+- Fix default context for TWRP storage - nilz3000
+- Remove htcdumlock - DarthJabba9
+- Add POSIXAsyncIO to MTP Server - sekaiacg
+- MTP Security Fix - James Wei
+- Fix POSIX return values in MTP - chih-hung
+- Cancel events in MTP correctly - Ray Chi
+- Load kernel modules before GUI loads - AndroiableDroid
+- Add AIDL v2 Vibrator interface - Woomymy
+- Mount vendor_dlkm dynamic partition - micky387
+- Exclude gsi from backup - me-cafebabe
+- Update default values for partition info - me-cafebabe
+- Fix recovery settings for custom themes - faoliveira78
+- Ignore files without a fscrypt policy when backing up - bigbiff
+- Fix fastboot mode processing - micky387
+- Don't setup vendor_dlkm unless device has partition - micky387
+- Update TWRP property for fastboot to not override android - CaptainThrowback
+- Allow configuration of framerate - dereference23
+- Exclude GKI kernel modules from loading on init - CaptainThrowback
+- Fix ABGR minui graphics - KrutosVIP
+- Add flag to exclude libxml2 - CaptainThrowback
+- Opt in to lptools - CaptainThrowback
+- Fix Gui init process - AndroiableDroid
+- Don't wake up when screen is touched - micky387
+- Setup UTC properties to prevent timestamp errors - nilz3000
+- Use health services for battery capacity - Mohd Faraz
+- Include health services by default - AndroiableDroid
+- BLKDISCARD on partition before flashing image - me-cafebabe
+- Unmount oem and vendor partitions after being used to prevent errors - AndroiableDroid
+- Load kernel modules before decryption - AndroiableDroid
+- skip additional fstab processing from android - AndroiableDroid
+- Fix rapidxml build errors - CaptainThrowback
+- Move TWRP Board variables to vendor/soong - nebrassy
+- multiple arguments for STRINGIFY macro - nebrassy
+- enable legacy method for battery services - CaptainThrowback
+- Move Sinhala language to extra languages - CaptainThrowback
+- Add ability to load vendor kernel modules - nilz300
+- Fix recovery settings when crypto is broken on a device - faoliveira78
+- Fix timezone in terminal - sekaiacg 
+
+Want to get notifications when we release new versions of TWRP? [Install the TWRP app and select your device!](https://twrp.me/app)
+
+We need your help! The bulk of TWRP work is done by a handful of people on a volunteer basis. We have pushed most of our device files to [our github](http://github.com/TeamWin/) and we have [a gerrit instance](http://gerrit.twrp.me). If you have the ability, please help us maintain our official devices and/or add your device to our official device list. Thanks in advance!
+
+Head over to the [devices page](http://twrp.me/Devices) to find install instructions and download links.
