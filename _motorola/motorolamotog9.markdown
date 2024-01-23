@@ -5,7 +5,7 @@ codename: guamp
 oem: motorola
 downloadfolder: guamp
 supportstatus: Current
-maintainer: MD Raza (RazaDroid)
+maintainer: MD Raza (DelightReza)
 ddof: "/dev/block/bootdevice/by-name/recovery_a"
 devicetree: https://github.com/TeamWin/android_device_motorola_guamp
 xdathread: "https://forum.xda-developers.com/t/recovery-teamwin-recovery-project-3-6-0-for-motorola-g9-play-guamp.4364415/"
