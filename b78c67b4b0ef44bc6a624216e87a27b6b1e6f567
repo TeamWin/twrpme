@@ -16,6 +16,24 @@
       "message": "It should be 3.7.1, right?",
       "revId": "b78c67b4b0ef44bc6a624216e87a27b6b1e6f567",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccbd9c07_4df67d16",
+        "filename": "_posts/2023-01-12-3.7.1-released.markdown",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 751
+      },
+      "writtenOn": "2024-02-01T13:51:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "024c6a12_e4bcb76e",
+      "revId": "b78c67b4b0ef44bc6a624216e87a27b6b1e6f567",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
