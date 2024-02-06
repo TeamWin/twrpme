@@ -5,9 +5,9 @@ codename: lemonade
 oem: OnePlus
 downloadfolder: lemonadep
 supportstatus: Current
-maintainer: Nebrassy
+maintainer: der_akinator
 devicetree: "https://github.com/TeamWin/android_device_oneplus_lemonadep"
-xdathread: "https://forum.xda-developers.com/t/recovery-11-unofficial-teamwin-recovery-project.4294289/"
+xdathread: "https://xdaforums.com/t/recovery-3-7-0_12-10-unofficial-unified-twrp-with-a12-a14-encryption-support.4523857/"
 ---
 
 {% include disclaimer.html %}
