@@ -7,7 +7,7 @@ downloadfolder: chopin
 supportstatus: Current
 maintainer: Anta1014
 devicetree: "https://github.com/TeamWin/android_device_xiaomi_chopin"
-xdathread: ""
+xdathread: "https://xdaforums.com/t/recovery-11-chopin-teamwin-recovery-project-for-poco-x3-gt-redmi-note-10-pro-5g.4669665/"
 ---
 
 {% include disclaimer.html %}
