@@ -16,6 +16,23 @@
       "message": "Samsung Galaxy S23 Ultra",
       "revId": "5c5acba92884c5a18a86f9691d960c1b7c8e4e22",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6bbb9da_36c56818",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1283
+      },
+      "writtenOn": "2024-06-15T08:03:35Z",
+      "side": 1,
+      "message": "🙏🏻",
+      "revId": "5c5acba92884c5a18a86f9691d960c1b7c8e4e22",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
