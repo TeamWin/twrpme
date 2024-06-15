@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7daf4400_18bffed5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2024-06-15T16:58:02Z",
+      "side": 1,
+      "message": "Amend this commit: https://gerrit.twrp.me/c/twrpme/+/7443 with the delete.",
+      "revId": "63633f38cd7ac5d181e76adc08a437dfdf327316",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
