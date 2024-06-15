@@ -35,6 +35,23 @@
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2b8726c_3417311e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 894
+      },
+      "writtenOn": "2024-06-15T15:47:30Z",
+      "side": 1,
+      "message": "It\u0027s done",
+      "revId": "5c5acba92884c5a18a86f9691d960c1b7c8e4e22",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1be99e15_910f70d1",
@@ -48,6 +65,24 @@
       "writtenOn": "2024-06-15T15:06:54Z",
       "side": 1,
       "message": "Please remove this file",
+      "revId": "5c5acba92884c5a18a86f9691d960c1b7c8e4e22",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f1361a4_c86ddfe9",
+        "filename": "_samsung/samsunggalaxydm3q.markdown:Zone.Identifier",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 894
+      },
+      "writtenOn": "2024-06-15T15:47:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1be99e15_910f70d1",
       "revId": "5c5acba92884c5a18a86f9691d960c1b7c8e4e22",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
