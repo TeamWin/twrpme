@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0ca4aa6_99f4b10a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 894
+      },
+      "writtenOn": "2024-06-20T18:17:43Z",
+      "side": 1,
+      "message": "Please add Samsung S21 FE 5G qcom",
+      "revId": "fe24e6a1188d5307a4d056f02332b719bc41cb9f",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
