@@ -16,6 +16,23 @@
       "message": "Adding dm1q and dm2q",
       "revId": "570e362f1d522c3838c059f4a3b2659c17142fa7",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2a342b5_7ae10494",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1283
+      },
+      "writtenOn": "2024-06-22T11:27:36Z",
+      "side": 1,
+      "message": "Please add Samsung dm1q and dm2q 🥹",
+      "revId": "570e362f1d522c3838c059f4a3b2659c17142fa7",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
