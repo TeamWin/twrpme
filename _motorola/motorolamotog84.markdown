@@ -5,7 +5,7 @@ codename: bangkk
 downloadfolder: bangkk
 devicetree: https://github.com/TeamWin/android_device_motorola_bangkk
 supportstatus: Current
-maintainer: @Samw662
+maintainer: Samw662
 oem: Motorola
 ---
 
