@@ -1,11 +1,11 @@
 ---
 layout: device
-title: "Samsung Galaxy A51 4G"
-codename: a51
-downloadfolder: a51
+title: "Samsung Galaxy M31s"
+codename: m31s
+downloadfolder: m31s
 supportstatus: Current
 maintainer: Galaxieo
-devicetree: "https://github.com/TeamWin/android_device_samsung_a51"
+devicetree: "https://github.com/TeamWin/android_device_samsung_m31s"
 oem: Samsung
 ddof: "/dev/block/platform/13520000.ufs/by-name/recovery"
 ---
