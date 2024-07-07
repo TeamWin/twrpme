@@ -6,6 +6,7 @@ downloadfolder: m21
 supportstatus: Current
 maintainer: Galaxieo
 devicetree: "https://github.com/TeamWin/android_device_samsung_m21"
+xdathread: "https://xdaforums.com/t/recovery-official-3-7-1-twrp-for-galaxy-m21.4680099/"
 oem: Samsung
 ddof: "/dev/block/platform/13520000.ufs/by-name/recovery"
 ---
