@@ -6,6 +6,7 @@ downloadfolder: a51
 supportstatus: Current
 maintainer: Galaxieo
 devicetree: "https://github.com/TeamWin/android_device_samsung_a51"
+xdathread: "https://xdaforums.com/t/recovery-official-3-7-1-twrp-for-galaxy-a51.4680101/"
 oem: Samsung
 ddof: "/dev/block/platform/13520000.ufs/by-name/recovery"
 ---
