@@ -4,7 +4,7 @@ title: "Samsung Galaxy A51 4G"
 codename: a51
 downloadfolder: a51
 supportstatus: Current
-maintainer: Galaxieo
+maintainer: Galax1eo
 devicetree: "https://github.com/TeamWin/android_device_samsung_a51"
 xdathread: "https://xdaforums.com/t/recovery-official-3-7-1-twrp-for-galaxy-a51.4680101/"
 oem: Samsung

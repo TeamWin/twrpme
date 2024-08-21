@@ -4,7 +4,7 @@ title: "Samsung Galaxy M31"
 codename: m31
 downloadfolder: m31
 supportstatus: Current
-maintainer: Galaxieo
+maintainer: Galax1eo
 devicetree: "https://github.com/TeamWin/android_device_samsung_m31"
 xdathread: "https://xdaforums.com/t/recovery-official-3-7-1-twrp-for-galaxy-m31.4680098/"
 oem: Samsung
