@@ -22,4 +22,6 @@ oem: Samsung
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

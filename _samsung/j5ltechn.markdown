@@ -23,4 +23,6 @@ xdathread: https://forum.xda-developers.com/galaxy-j5/development/unofficial-twr
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

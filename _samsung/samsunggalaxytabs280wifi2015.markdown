@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/tab-s2/orig-development/recovery-tw
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -27,4 +27,6 @@ xdathread: https://forum.xda-developers.com/t/recovery-a33x-teamwin-recovery-pro
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

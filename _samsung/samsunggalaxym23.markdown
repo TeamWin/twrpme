@@ -28,6 +28,8 @@ ddof: "/dev/block/platform/1d84000.ufshc/by-name/RECOVERY"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include twrpinstall.html %}
 
 {% include ddinstall.html %}

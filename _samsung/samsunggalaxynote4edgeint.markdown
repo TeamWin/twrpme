@@ -23,4 +23,6 @@ xdathread: "http://forum.xda-developers.com/note-edge/development/twrp-915fy-915
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

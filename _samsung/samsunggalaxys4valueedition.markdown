@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/galaxy-s4/general/recovery-twrp-3-2
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}
