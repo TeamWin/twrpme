@@ -20,6 +20,8 @@ ddof: "/dev/block/bootdevice/by-name/recovery"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include twrpinstall.html %}
 
 {% include appinstall.html %}

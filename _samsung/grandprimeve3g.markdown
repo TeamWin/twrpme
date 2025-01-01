@@ -23,4 +23,6 @@ xdathread: https://forum.xda-developers.com/grand-prime/orig-development/recover
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

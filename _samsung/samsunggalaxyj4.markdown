@@ -22,4 +22,6 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_j4lte"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

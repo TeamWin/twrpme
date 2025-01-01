@@ -16,4 +16,5 @@ xdathread: https://forum.xda-developers.com/t/aosp-11-unofficial-samsung-sm-a125
 {% include appinstall.html %}
 {% include twrpinstall.html %}
 {% include odininstall.html %}
+{% include heimdallinstall.html %}
 {% include ddinstall.html %}

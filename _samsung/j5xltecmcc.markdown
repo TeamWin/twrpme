@@ -23,4 +23,6 @@ xdathread: https://forum.xda-developers.com/galaxy-j5/samsung-galaxy-j5-2016-rom
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

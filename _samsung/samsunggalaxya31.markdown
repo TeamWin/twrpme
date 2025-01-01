@@ -30,4 +30,6 @@ It is recommended that you root your device using Magisk by HuskyDG before you f
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

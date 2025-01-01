@@ -25,4 +25,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-tab-a/development/recovery-of
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

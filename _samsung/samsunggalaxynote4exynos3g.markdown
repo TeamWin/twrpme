@@ -23,4 +23,6 @@ xdathread: "http://forum.xda-developers.com/note-4/orig-development/tool-utility
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

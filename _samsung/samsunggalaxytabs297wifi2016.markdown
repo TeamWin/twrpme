@@ -23,4 +23,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=3543921"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

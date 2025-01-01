@@ -24,4 +24,6 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_gts4lv"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

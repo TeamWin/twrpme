@@ -22,4 +22,6 @@ ddof: "/dev/block/mmcblk0p6"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

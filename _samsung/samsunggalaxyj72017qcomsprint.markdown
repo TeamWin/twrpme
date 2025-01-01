@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/galaxy-j7/development/recovery-twrp
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

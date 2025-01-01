@@ -21,4 +21,6 @@ ddof: "/dev/block/platform/soc.0/by-name/recovery"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

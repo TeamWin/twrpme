@@ -25,4 +25,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-tab-s/orig-development/recove
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

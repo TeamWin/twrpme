@@ -22,4 +22,6 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_ks01lte"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

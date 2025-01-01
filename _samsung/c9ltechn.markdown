@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/c9-pro/development/twrp-c9ltechn-t3
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

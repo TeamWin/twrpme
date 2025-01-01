@@ -27,4 +27,6 @@ xdathread: https://xdaforums.com/t/recovery-unofficial-twrp-3-7-1-12-for-galaxy-
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -18,3 +18,5 @@ devicetree: "https://github.com/TeamWin/android_device_samsung_a60q"
 {% include twrpinstall.html %}
 
 {% include odininstall.html %}
+
+{% include heimdallinstall.html %}

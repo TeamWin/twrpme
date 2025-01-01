@@ -32,4 +32,6 @@ xdathread: "https://forum.xda-developers.com/galaxy-s4/i9505-orig-develop/recove
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

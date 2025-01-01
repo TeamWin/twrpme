@@ -21,4 +21,6 @@ ddof: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}
