@@ -54,4 +54,6 @@ xdathread: "https://forum.xda-developers.com/note-4/snapdragon-dev/recovery-twrp
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -23,4 +23,6 @@ xdathread: http://forum.xda-developers.com/grand-prime/development/twrp-twrp-3-0
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

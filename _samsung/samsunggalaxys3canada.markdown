@@ -23,4 +23,6 @@ devicetree: "https://github.com/TeamWin/device_samsung_d2can"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

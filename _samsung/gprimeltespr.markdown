@@ -23,4 +23,6 @@ xdathread: https://forum.xda-developers.com/grand-prime/development/official-twr
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

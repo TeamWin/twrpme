@@ -25,4 +25,6 @@ ddof: "/dev/block/platform/11120000.ufs/by-name/RECOVERY"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -24,4 +24,6 @@ xdathread: "https://forum.xda-developers.com/t/team-win-recovery-project-3-6-x-f
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

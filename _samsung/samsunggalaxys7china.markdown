@@ -25,4 +25,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-s7/development/recovery-offic
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

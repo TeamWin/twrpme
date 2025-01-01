@@ -22,4 +22,6 @@ ddof: /dev/block/platform/sdhci-pxav3.2/by-name/RECOVERY
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

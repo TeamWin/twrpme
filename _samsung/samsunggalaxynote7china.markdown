@@ -25,4 +25,6 @@ xdathread: "http://forum.xda-developers.com/note-7/development/recovery-official
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -25,4 +25,6 @@ xdathread: https://forum.xda-developers.com/t/recovery-twrp-3-5-1-for-galaxy-a10
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

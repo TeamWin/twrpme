@@ -66,4 +66,6 @@ xdathread: "https://forum.xda-developers.com/galaxy-note-3/development/recovery-
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

@@ -23,4 +23,6 @@ ddof: "/dev/block/platform/sdhci.1/by-name/RECOVERY"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

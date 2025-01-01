@@ -75,4 +75,6 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=2727406"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

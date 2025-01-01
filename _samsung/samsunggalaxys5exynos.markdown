@@ -24,4 +24,6 @@ xdathread: "https://forum.xda-developers.com/t/recovery-official-twrp-3-6-0_9-re
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

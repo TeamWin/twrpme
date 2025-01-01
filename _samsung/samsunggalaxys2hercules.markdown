@@ -22,3 +22,5 @@ xdathread: "http://forum.xda-developers.com/showthread.php?t=1768742"
 {% include twrpinstall.html %}
 
 {% include odininstall.html %}
+
+{% include heimdallinstall.html %}

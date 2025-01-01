@@ -25,4 +25,6 @@ xdathread: "http://forum.xda-developers.com/s7-edge/development/recovery-officia
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

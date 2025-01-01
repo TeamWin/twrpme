@@ -22,5 +22,7 @@ ddof: /dev/block/platform/sprd-sdhci.3/by-name/RECOVERY
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}
 

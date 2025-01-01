@@ -23,4 +23,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-j7/development/recovery-offic
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}
