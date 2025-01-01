@@ -96,4 +96,6 @@ xdathread: "http://forum.xda-developers.com/note5/orig-development/twrp-2-8-7-0-
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

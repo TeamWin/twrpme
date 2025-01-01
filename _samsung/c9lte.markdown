@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/c9-pro/development/twrp-sm-c900f-sm
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

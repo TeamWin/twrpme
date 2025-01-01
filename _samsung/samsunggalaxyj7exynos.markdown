@@ -22,4 +22,6 @@ ddof: "/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

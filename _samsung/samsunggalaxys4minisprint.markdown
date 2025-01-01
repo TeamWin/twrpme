@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/galaxy-s4-mini/orig-development/rec
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

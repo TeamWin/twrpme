@@ -23,4 +23,6 @@ xdathread: "https://forum.xda-developers.com/note-4/development/recovery-twrp-3-
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

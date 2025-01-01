@@ -96,4 +96,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-s6/orig-development/twrp-t308
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

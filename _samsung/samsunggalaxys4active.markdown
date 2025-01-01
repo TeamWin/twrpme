@@ -22,4 +22,6 @@ Note: This TWRP build will almost certainly NOT work on the USA AT&T model as th
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

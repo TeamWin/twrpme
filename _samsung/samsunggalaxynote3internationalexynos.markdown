@@ -26,4 +26,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-note-3/galaxy-note-3-exynos-a
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

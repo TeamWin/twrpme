@@ -96,4 +96,6 @@ xdathread: "http://forum.xda-developers.com/galaxy-s6-edge/orig-development/reco
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

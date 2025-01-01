@@ -25,4 +25,6 @@ ddof: "/dev/block/platform/soc/1da4000.ufshc/by-name/recovery"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

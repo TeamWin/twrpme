@@ -96,4 +96,6 @@ xdathread: "http://forum.xda-developers.com/s6-edge-plus/orig-development/recove
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}

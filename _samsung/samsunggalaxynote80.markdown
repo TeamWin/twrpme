@@ -54,4 +54,6 @@ ddof: "/dev/block/platform/dw_mmc/by-name/RECOVERY"
 
 {% include odininstall.html %}
 
+{% include heimdallinstall.html %}
+
 {% include ddinstall.html %}
