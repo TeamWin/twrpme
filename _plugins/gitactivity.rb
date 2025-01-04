@@ -11,7 +11,7 @@ module Jekyll
 	repo = devicetree.split("/")[4]
 	puts repo
 	url = "https://api.github.com/repos/TeamWin/" + repo + "/commits"
-	token = File.read("/home/jenkins/token").chomp
+	token = File.read("/builds/jenkins/token").chomp
 	user = "Teamwin-Gerrit"
 	auth = {:username=>user, :password=>token}
 	resp = HTTParty.get(url, :basic_auth=>auth, :headers=>{"User-Agent"=>"twrpme"})
