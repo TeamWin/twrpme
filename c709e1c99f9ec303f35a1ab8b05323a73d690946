@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcfa70cc_5059ed3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2025-01-11T17:54:57Z",
+      "side": 1,
+      "message": "Why link to codeur.com for heimdall?\n\nCodeur.com is a French freelance marketplace and web collaboration platform",
+      "revId": "c709e1c99f9ec303f35a1ab8b05323a73d690946",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
