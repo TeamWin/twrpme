@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "057ccc86_d211b346",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1409
+      },
+      "writtenOn": "2025-01-20T15:29:06Z",
+      "side": 1,
+      "message": "git push origin HEAD:refs/for/android-14-r67",
+      "revId": "475069d1704c0b6534259ef7cc805549b96223d8",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
