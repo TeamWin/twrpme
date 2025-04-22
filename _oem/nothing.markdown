@@ -1,0 +1,4 @@
+---
+layout: device
+oem: Nothing
+---

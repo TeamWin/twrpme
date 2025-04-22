@@ -139,6 +139,9 @@ collections:
   nokia:
     output: true
 
+  nothing:
+    output: true
+
   nubia:
     output: true
 
