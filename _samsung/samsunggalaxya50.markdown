@@ -1,14 +1,14 @@
 ---
 layout: device
-title: "Samsung Galaxy A505F"
-codename: a505f
-downloadfolder: a505f
+title: "Samsung Galaxy A50"
+codename: a50
+downloadfolder: a50
 supportstatus: Current
-maintainer: GiovanYCringe
-devicetree: "https://github.com/TeamWin/android_device_samsung_a505f"
+maintainer: PeterKnecht93
+devicetree: "https://github.com/TeamWin/android_device_samsung_a50"
 oem: Samsung
 ddof: "/dev/block/platform/13520000.ufs/by-name/recovery"
-xdathread: "https://forum.xda-developers.com/t/recovery-unofficial-twrp-3-7-0_11-for-galaxy-a50.4581017/"
+xdathread: "https://xdaforums.com/t/recovery-official-twrp-3-7-1-0-for-the-galaxy-a50.4735158"
 ---
 
 {% include disclaimer.html %}
