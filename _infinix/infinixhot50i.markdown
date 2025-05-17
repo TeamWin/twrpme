@@ -20,6 +20,6 @@ devicetree: "https://github.com/TeamWin/android_device_infinix_X6531"
 
 {% include download.html %}
 
-{% include fastbootxiaomiabmtk.html %}
+{% include fastbootvendorbootxiaomiabmtk.html %}
 
 {% include ddinstall.html %}
