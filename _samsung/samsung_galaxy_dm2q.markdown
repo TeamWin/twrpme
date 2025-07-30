@@ -1,12 +1,12 @@
 ---
 layout: device
 oem: Samsung
-title: "Samsung Galaxy S23"
-codename: dm1q
-downloadfolder: dm1q
-maintainer: Archer3770
+title: "Samsung Galaxy S23+ 5G"
+codename: dm2q
+downloadfolder: dm2q
+maintainer: ඞrcher
 supportstatus: Current
-devicetree: "https://github.com/TeamWin/android_device_samsung_dm1q.git"
+devicetree: "https://github.com/TeamWin/android_device_samsung_dm2q.git"
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
 
