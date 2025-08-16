@@ -1,12 +1,12 @@
 ---
 layout: device
 oem: Samsung
-title: "Samsung Galaxy S24 Ultra"
-codename: e3q
-downloadfolder: e3q
-maintainer: Archer3770
+title: "Samsung Galaxy M55 5G (Snapdragon)"
+codename: m55xq
+downloadfolder: m55xq
+maintainer: SavedByLight
 supportstatus: Current
-devicetree: "https://github.com/TeamWin/android_device_samsung_e3q.git"
+devicetree: "https://github.com/TeamWin/android_device_samsung_m55xq.git"
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
 
