@@ -1,7 +1,7 @@
 ---
 layout: device
 oem: Samsung
-title: "Samsung Galaxy M55 5G (Snapdragon)"
+title: "Samsung Galaxy M55/F55/C55 5G (Snapdragon)"
 codename: m55xq
 downloadfolder: m55xq
 maintainer: SavedByLight
