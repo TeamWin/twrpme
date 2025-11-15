@@ -4,7 +4,7 @@ oem: Samsung
 title: "Samsung Galaxy A34 5G"
 codename: a34x
 downloadfolder: a34x
-maintainer: SavedByLight & mrx7014
+maintainer: SavedByLight & Fede2782
 supportstatus: Current
 devicetree: "https://github.com/TeamWin/android_device_samsung_a34x.git"
 ddof: "/dev/block/by-name/recovery"
