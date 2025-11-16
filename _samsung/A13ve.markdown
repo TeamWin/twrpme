@@ -6,6 +6,7 @@ codename: a13ve
 downloadfolder: a13ve
 maintainer: SavedByLight
 supportstatus: Current
+requirement: vbmeta.tar (BL Slot)
 devicetree: "https://github.com/TeamWin/android_device_samsung_a13ve.git"
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
