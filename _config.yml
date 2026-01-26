@@ -97,6 +97,9 @@ collections:
   kazam:
     output: true
 
+  kyocera:
+    output: true
+
   leeco:
     output: true
 
