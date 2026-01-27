@@ -1,4 +1,3 @@
-
 ---
 layout: device
 title:  "Kyocera KY41C"
