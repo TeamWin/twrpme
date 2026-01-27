@@ -1,4 +1,3 @@
-
 ---
 layout: device
 title:  "Kyocera KY41C"
@@ -10,6 +9,7 @@ devicetree: https://github.com/TeamWin/android_device_kyocera_KY41C.git
 oem: Kyocera
 ddof: "/dev/block/bootdevice/by-name/recovery"
 ---
+
 {% include disclaimer.html %}
 {% include supportstatus.html %}
 {% include appinstall.html %}
