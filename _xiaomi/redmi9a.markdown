@@ -3,8 +3,8 @@ layout: device
 title: "Redmi 9A unified"
 codename: blossom
 downloadfolder: blossom
-supportstatus: Current
-maintainer: Kurama9-Tails
+supportstatus: Current 
+maintainer: Kurama_9-Tails
 oem: Xiaomi
 devicetree: https://github.com/TeamWin/android_device_xiaomi_blossom
 xdathread: "https://xdaforums.com/t/unofficial-recovery-a11-a16-twrp-for-redmi-9a-poco-c3-blossom-family.4778220/"
