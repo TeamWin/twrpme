@@ -20,6 +20,6 @@ devicetree: "https://github.com/TeamWin/android_device_tecno_LH8n"
 
 {% include download.html %}
 
-{% include fastbootxiaomiabmtk.html %}
+{% include fastbootvendorbootxiaomiabmtk.html %}
 
 {% include ddinstall.html %}
