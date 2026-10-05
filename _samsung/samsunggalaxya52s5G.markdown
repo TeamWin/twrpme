@@ -4,7 +4,7 @@ oem: Samsung
 title: "Samsung Galaxy A52s 5G"
 codename: a52sxq
 downloadfolder: a52sxq
-maintainer: BlackMesa123
+maintainer: salvogiangri
 supportstatus: Current
 devicetree: "https://github.com/TeamWin/android_device_samsung_a52sxq"
 xdathread: "https://forum.xda-developers.com/t/recovery-unofficial-twrp-3-6-2-1-for-galaxy-a52s-5g.4488419/"
