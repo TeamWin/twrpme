@@ -18,7 +18,24 @@ xdathread: "https://xdaforums.com/t/recovery-unofficial-teamwin-recovery-project
 
 {% include download.html %}
 
-{% include twrpinstall.html %}
+#### Flashing Instructions
+
+1. Reboot to fastboot mode:
+   ```bash
+   adb reboot bootloader
+   ```
+
+2. Flash the recovery image to vendor_boot:
+   ```bash
+   fastboot flash vendor_boot twrp-tornado.img
+   ```
+
+3. Reboot directly into recovery:
+   ```bash
+   fastboot reboot recovery
+   ```
+
+---
 
 **build for tornado :**
 - Redmi 15C 5G
